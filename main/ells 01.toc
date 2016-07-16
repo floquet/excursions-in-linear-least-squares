@@ -1,0 +1,90 @@
+\contentsline {chapter}{Preface}{ix}
+\contentsline {section}{\numberline {0.1}Life is complex}{ix}
+\contentsline {section}{\numberline {0.2}Readings}{ix}
+\contentsline {section}{\numberline {0.3}Least Squares}{ix}
+\contentsline {section}{\numberline {0.4}Linear Algebra and Matrix Analysis}{x}
+\contentsline {section}{\numberline {0.5}Numerical Linear Algebra}{x}
+\contentsline {section}{\numberline {0.6}Discussions on Least Squares}{x}
+\contentsline {part}{\hbox to 20pt{I}Rudiments}{1}
+\contentsline {chapter}{\numberline {1}Least Squares Problems}{3}
+\contentsline {section}{\numberline {1.1}Linear Systems}{3}
+\contentsline {subsection}{\numberline {1.1.1}$ \left \delimiter 69645069 \A {}\tmspace +\thinmuskip {.1667em}x - b \right \delimiter 86422285 = 0$}{3}
+\contentsline {subsection}{\numberline {1.1.2}$ \left \delimiter 69645069 \A {}\tmspace +\thinmuskip {.1667em}x - b \right \delimiter 86422285 > 0$}{4}
+\contentsline {section}{\numberline {1.2}Least Squares Solutions}{4}
+\contentsline {subsection}{\numberline {1.2.1}Zonal Approximation}{5}
+\contentsline {subsubsection}{Zonal Problem}{5}
+\contentsline {subsubsection}{Zonal Solution}{6}
+\contentsline {subsection}{\numberline {1.2.2}Modal Approximation}{7}
+\contentsline {subsubsection}{Modal Problem}{7}
+\contentsline {subsubsection}{Modal Solution}{7}
+\contentsline {subsection}{\numberline {1.2.3}Errors}{8}
+\contentsline {section}{\numberline {1.3}Least Squares Problem}{8}
+\contentsline {chapter}{\numberline {2}Least Squares Solutions}{9}
+\contentsline {section}{\numberline {2.1}Fundamental Theorem of Linear Algebra}{9}
+\contentsline {section}{\numberline {2.2}Singular Value Decomposition\ - I}{12}
+\contentsline {subsection}{\numberline {2.2.1}SVD Theorem}{13}
+\contentsline {subsection}{\numberline {2.2.2}SVD and Least Squares}{14}
+\contentsline {subsubsection}{Unitary transformation}{14}
+\contentsline {subsubsection}{Pseudoinverse solution}{14}
+\contentsline {subsubsection}{In retrospect}{15}
+\contentsline {section}{\numberline {2.3}Singular Value Decomposition\ - II}{16}
+\contentsline {subsection}{\numberline {2.3.1}$ \Sigma ^{\mathrm {}} $ Gymnastics}{16}
+\contentsline {subsection}{\numberline {2.3.2}Fundamental Projectors}{18}
+\contentsline {section}{\numberline {2.4}Least Squares Solution - Again}{19}
+\contentsline {section}{\numberline {2.5}Reflection Invariance}{19}
+\contentsline {chapter}{\numberline {3}Modal Example I}{23}
+\contentsline {section}{\numberline {3.1}Modal Approximation}{23}
+\contentsline {section}{\numberline {3.2}Bevington Example}{24}
+\contentsline {subsection}{\numberline {3.2.1}Problem Statement}{24}
+\contentsline {subsection}{\numberline {3.2.2}Normal Equations via Calculus}{25}
+\contentsline {section}{\numberline {3.3}Numerical Results}{28}
+\contentsline {subsection}{\numberline {3.3.1}Exact Form}{28}
+\contentsline {subsection}{\numberline {3.3.2}Computed Form}{29}
+\contentsline {section}{\numberline {3.4}Visualization}{30}
+\contentsline {subsection}{\numberline {3.4.1}Seeing the Solution}{30}
+\contentsline {subsection}{\numberline {3.4.2}Seeing the Uncertainty}{32}
+\contentsline {subsection}{\numberline {3.4.3}Digging Deeper}{33}
+\contentsline {chapter}{\numberline {4}Modal Example II: Other Methods}{37}
+\contentsline {section}{\numberline {4.1}Normal Equations from Vectors}{37}
+\contentsline {subsection}{\numberline {4.1.1}Composing the normal equations}{38}
+\contentsline {section}{\numberline {4.2}Singular Value Decomposition}{39}
+\contentsline {subsection}{\numberline {4.2.1}Computing the SVD}{39}
+\contentsline {subsubsection}{Singular values}{40}
+\contentsline {subsubsection}{Domain matrix}{41}
+\contentsline {subsubsection}{Codomain matrix}{42}
+\contentsline {subsubsection}{Error terms}{42}
+\contentsline {subsubsection}{Visualization}{43}
+\contentsline {section}{\numberline {4.3}$ \textbf {Q}^{\mathrm { }} \textbf {R}^{\mathrm { }} $ Decomposition}{49}
+\contentsline {subsection}{\numberline {4.3.1}Computing the QR Decomposition}{49}
+\contentsline {chapter}{\numberline {5}Modal Example III: Observations}{51}
+\contentsline {section}{\numberline {5.1}Invariances}{51}
+\contentsline {subsection}{\numberline {5.1.1}Translation Invariance}{51}
+\contentsline {subsubsection}{Translation}{51}
+\contentsline {subsubsection}{Demonstrations}{52}
+\contentsline {subsubsection}{Computations}{52}
+\contentsline {subsubsection}{Visuals}{53}
+\contentsline {subsection}{\numberline {5.1.2}Reflection Invariance}{53}
+\contentsline {section}{\numberline {5.2}Fitting To Higher Orders}{53}
+\contentsline {part}{\hbox to 20pt{II}Applications:\\Nonlinear Problems}{57}
+\contentsline {chapter}{\numberline {6}Linearization}{59}
+\contentsline {section}{\numberline {6.1}Powers Laws and Exponentials}{59}
+\contentsline {section}{\numberline {6.2}Learning Curve}{59}
+\contentsline {subsection}{\numberline {6.2.1}Problem Statement}{60}
+\contentsline {subsection}{\numberline {6.2.2}Solution}{61}
+\contentsline {subsection}{\numberline {6.2.3}Results}{63}
+\contentsline {section}{\numberline {6.3}What Not To Do}{63}
+\contentsline {subsection}{\numberline {6.3.1}Logarithmic Transform}{63}
+\contentsline {subsection}{\numberline {6.3.2}Linear Transformation}{66}
+\contentsline {subsection}{\numberline {6.3.3}Reflection Test Fails}{68}
+\contentsline {section}{\numberline {6.4}Radioactive Decay}{68}
+\contentsline {subsection}{\numberline {6.4.1}Theory}{68}
+\contentsline {subsection}{\numberline {6.4.2}Problem Statement}{68}
+\contentsline {subsection}{\numberline {6.4.3}Results}{68}
+\contentsline {chapter}{\numberline {7}Population Growth}{73}
+\contentsline {section}{\numberline {7.1}Model}{73}
+\contentsline {section}{\numberline {7.2}Problem Statement}{74}
+\contentsline {section}{\numberline {7.3}Data}{74}
+\contentsline {section}{\numberline {7.4}Example}{74}
+\contentsline {section}{\numberline {7.5}Polynomials}{74}
+\contentsline {part}{\hbox to 20pt{III}\ \ Backmatter}{83}
+\contentsline {chapter}{Bibliography}{85}
