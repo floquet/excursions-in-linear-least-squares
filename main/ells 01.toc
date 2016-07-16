@@ -59,12 +59,12 @@
 \contentsline {chapter}{\numberline {5}Modal Example III: Observations}{51}
 \contentsline {section}{\numberline {5.1}Invariances}{51}
 \contentsline {subsection}{\numberline {5.1.1}Translation Invariance}{51}
-\contentsline {subsubsection}{Translation}{51}
+\contentsline {subsubsection}{Translation}{52}
 \contentsline {subsubsection}{Demonstrations}{52}
 \contentsline {subsubsection}{Computations}{52}
 \contentsline {subsubsection}{Visuals}{53}
 \contentsline {subsection}{\numberline {5.1.2}Reflection Invariance}{53}
-\contentsline {section}{\numberline {5.2}Fitting To Higher Orders}{53}
+\contentsline {section}{\numberline {5.2}Fitting To Higher Orders}{54}
 \contentsline {part}{\hbox to 20pt{II}Applications:\\Nonlinear Problems}{57}
 \contentsline {chapter}{\numberline {6}Linearization}{59}
 \contentsline {section}{\numberline {6.1}Powers Laws and Exponentials}{59}
@@ -86,5 +86,9 @@
 \contentsline {section}{\numberline {7.3}Data}{74}
 \contentsline {section}{\numberline {7.4}Example}{74}
 \contentsline {section}{\numberline {7.5}Polynomials}{74}
-\contentsline {part}{\hbox to 20pt{III}\ \ Backmatter}{83}
-\contentsline {chapter}{Bibliography}{85}
+\contentsline {part}{\hbox to 20pt{III}Appendices}{83}
+\contentsline {chapter}{\numberline {A}Exercises}{85}
+\contentsline {section}{\numberline {A.1}Linear systems}{85}
+\contentsline {subsection}{\numberline {A.1.1}}{85}
+\contentsline {part}{\hbox to 20pt{IV}\ \ Backmatter}{87}
+\contentsline {chapter}{Bibliography}{89}

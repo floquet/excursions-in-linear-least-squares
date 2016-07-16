@@ -26,7 +26,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Solution after translation along $x$ axis: the slope is invariant.}}{53}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Scatter plot of residual errors.}}{54}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The merit function after translation.}}{54}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The merit function after translation.}}{55}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces The merit function for the learning curve showing the minimum and the value.}}{55}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Merit function for the learning curve in solution space.}}{61}
@@ -45,3 +45,4 @@
 \contentsline {figure}{\numberline {7.5}{\ignorespaces The merit function showing least squares solution.}}{77}
 \contentsline {figure}{\numberline {7.6}{\ignorespaces The merit function showing least squares solution and the null cline.}}{78}
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Total error $r^{\mathrm {*}}r$ by order of fit.}}{81}
+\addvspace {10\p@ }

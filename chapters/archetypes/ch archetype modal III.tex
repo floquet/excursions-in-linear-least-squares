@@ -3,11 +3,10 @@
 A deeper look at the example.
 
 \section{Invariances}  %    S    S    S    S    S    S    S    S    S
-Separate methods, test solutions
+Invariance is a touchstone which allows for elegant discrimination of theoretical and numerical analysis. The critical insight is this: complicated problems have complicated solutions, but they retain simple invariances. Simple properties afford simple tools for checking complicated problems.
 
 \subsection{Translation Invariance}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
-For the example in figure \ref{fig:bar}, the temperature gradient was measured over the length of a 10 cm bar. For convenience, the end of the bar in contact with the ice bath was taken as the origin. But just as readily, that point could have been taken as $x$ = 5 cm. The end of the bar touching the boiling water bath is then 15 cm. This would not change the thermal profile shown in the figure.
-
+Intuitively, a translation of the coordinate system will not change the temperature measurements, which means the gradient of the temperature is invariant under translation of the coordinate system. For the example in figure \ref{fig:bar}, the temperature gradient was measured over the length of a 10 cm bar. For convenience, the end of the bar in contact with the ice bath was taken as the origin. But just as readily, that point could have been taken as $x$ = 5 cm; the end of the bar touching the boiling water bath is then 15 cm. The physics is unchanged. For an arbitrary shift of $x_{*}$ the gradient is invariant:
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
     \nabla T = \frac{T_{1} - T_{0}} { (x_{1} + x_{*}) - (x_{0} + x_{*}) }
@@ -16,76 +15,75 @@ For the example in figure \ref{fig:bar}, the temperature gradient was measured o
   %\end{split}
   \end{equation*}
 
+How should the solution change? We insist the slope (gradient) remain unchanged. The origin shifts from $x_{0}$ = 0 to $x_{0}$ = $-x_{*}$, the intercept shifts according to
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      y(-x_{0}) = a_{0} - a_{1} x,
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+that is, $a_{0} \to a_{0} - a_{1} x_{*}$.
+
 \subsubsection{Translation}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
-Intuitively, a translation of the coordinate system will not change the temperature measurements, which means the gradient of the temperature is invariant under translation of the coordinate system.
+Formally evaluate how the least squares solution in (??) transforms under the translation
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
     x_{k} \rightarrow x_{k} + x_{*}
     %\label{eq:}
   %\end{split}
   \end{equation*}
-
+The position vector $x$ can be written as the sum of the original vector plus the translation:
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
     \mat{c}{x_{1} \\ x_{2} \\ \vdots \\x_{m}} \rightarrow
     \mat{c}{x_{1} + x_{*} \\ x_{2} + x_{*} \\ \vdots \\x_{m} + x_{*}} =
     \mat{c}{x_{1} \\ x_{2} \\ \vdots \\x_{m}} +
-    \mat{c}{x_{*} \\ x_{*} \\ \vdots \\ x_{*}} 
+    \mat{c}{x_{*} \\ x_{*} \\ \vdots \\ x_{*}} .
     %\label{eq:}
   %\end{split}
   \end{equation*}
-
-  \begin{equation*}   %  =   =   =   =   =
+In vector notation this is
+  \begin{equation}   %  =   =   =   =   =
   %\begin{split}
-    x \rightarrow x + \mathbf{1}x_{*}
+    x \rightarrow x + \mathbf{1}x_{*} .
     %\label{eq:}
-  %\end{split}
-  \end{equation*}
+  \label{eq:translation}
+  \end{equation}
 
 \subsubsection{Demonstrations}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
-
-Basic inner products
-  \begin{equation*}   %  =   =   =   =   =
+First compute the transformation rules on the inner products using \eqref{eq:translation}:
+  \begin{equation}   %  =   =   =   =   =
     \begin{split}
       \oto &\rightarrow \oto, \\
       \otx &\rightarrow \otx + x_{*} \poto, \\
-      \xtx &\rightarrow \xtx + 2x_{*} \potx + x_{*}^{2} \potx, \\
+      \xtx &\rightarrow \xtx + 2x_{*} \potx + x_{*}^{2} \poto, \\
       \xtt &\rightarrow \xtt + x_{*} \pott.
      \label{eq:translation:dot products}
      \end{split}
-  \end{equation*}
-
-Invariance of determinant \eqref{eq:det again}:
+  \end{equation}
+Computation of the transformation of the intercept $a_{0}$ and slope $a_{1}$ requires computation of the transformation of the determinant in \eqref{eq:get}:
+  \eqref{eq:det again}:
   \begin{equation*}   %  =   =   =   =   =
     \begin{split}
       \Delta 
-        &= \poto \pxtx - \potx^{2} , \\
+        &= \mydet, \\
         &\rightarrow \poto \paren{\xtx + 2x_{*} \potx + x_{*}^{2} \potx} - \paren{\otx + x_{*} \poto}^{2} , \\
         &= \Delta + \poto \paren{2x_{*} \potx + x_{*}^{2} \potx} - \paren{2x_{*} \poto\potx} - \paren{x_{*}\poto}^{2} , \\
         &= \Delta.
     %\label{eq:}
     \end{split}
   \end{equation*}
-
+Thus the determinant is invariant under translation. Using the substitutions in \eqref{eq:translation:dot products} one can show (exercise ???) the solution parameters transform as expected:
   \begin{equation*}   %  =   =   =   =   =
-  %\begin{split}
-    y(0) \rightarrow y(-x_{*})
-    %\label{eq:}
-  %\end{split}
+   \begin{split}
+      a_{0} &\rightarrow a_{0} - a_{1} x_{*}, \\
+      a_{1} &\rightarrow a_{1} .
+   \end{split}
+   %\label{eq:}
   \end{equation*}
 
-Solutions in \eqref{eq:bevington:soln:vectors}.
-  \begin{equation*}   %  =   =   =   =   =
-    \begin{split}
-      a_{1} &= \Delta^{-1} \paren{\poto \pxtt -
-               \potx \pott}, \\
-            &\rightarrow \Delta^{-1} \paren{\poto \paren{\xtt + x_{*} \pott} -
-               \paren{\otx + x_{*} \poto} \pott}, \\
-            &= a_{1} + \Delta^{-1} \paren{x_{*} \poto \pott - x_{*}\poto\pott}, \\
-            &= a_{1} 
-    %\label{eq:}
-    \end{split}
-  \end{equation*}
+Homework: C to F, affine transform $T\rightarrow \alpha T + \beta$
+
 
 \subsubsection{Computations}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
 
