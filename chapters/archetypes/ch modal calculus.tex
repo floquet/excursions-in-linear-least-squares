@@ -1,7 +1,7 @@
-\chapter{Modal Example I}
+\chapter{Solution Via Calculus}
 
 \section{Modal Approximation}  %    S    S    S    S    S    S    S    S    S
-The following example represents a problem in linear regression. A sequence of $m$ data points $\paren{x_{k}, T_{k}}$,  $\kto{m}$  is are recorded. The goal is to find the best approximation to a straight line. The \emph{trial function} is
+The following example represents a problem in linear regression. A sequence of $m$ data points $\paren{x_{k}, T_{k}}$,  $\kto{m}$  is recorded. The goal is to find the best approximation to a straight line. The \emph{trial function} is
   \begin{equation*}   %  =   =   =   =   =
     T(x) = a_{0} + a_{1} x .
     \label{eq:lr trial}
@@ -10,7 +10,6 @@ The residual errors are the difference between the measurements and predictions:
   \begin{equation*}   %  =   =   =   =   =
       \text{residual error}_{k} = \underbrace{\text{measurement}_{k}}_{T_{k}} - \underbrace{\text{ prediction}_{k}}_{T(x_{k})}
   \end{equation*}
-
 Formally, the residual error is
   \begin{equation*}   %  =   =   =   =   =
     r_{k} = T_{k} - T(x_{k}), \quad \kto{m}.
@@ -30,6 +29,7 @@ The least squares solution $a_{LS}$ is defined as
   \begin{equation*}   %  =   =   =   =   =
     a_{LS} = \lst{a \in \cmplx{2} \colon \normts{T(x_{k}) - a_{0} - a_{1} x_{k}} \text{ is minimized} }.
   \end{equation*}
+Colloquially, the least squares solution is the set of $a$ of complex pairs such that the norm $\normts{T(x_{k}) - a_{0} - a_{1} x_{k}}$ is minimized.
 The solution satisfies
   \begin{equation}   %  =   =   =   =   =
     \nabla M( a )|_{a_{LS}} = 0 .
@@ -178,18 +178,18 @@ The solution to equation \eqref{eq:modal matrix eq} is the matrix product
     \bl{
     \mat{ll}{\ps \sum x_{k}^{2} & -\sum x_{k} \\ -\sum x_{k} & \ps \sum 1}
     \mat{l}{\sum T_{k} \\ \sum T_{k} x_{k}}
-    }
+    },
     \label{eqn:bevington solution product}
   \end{equation*}
   % = =
-Compare the final results to Bevington's equations 6--17:
-  \begin{equation*}
+  \begin{equation}
   \begin{split}
     a_{0} &= \Delta^{-1} \paren{\sum x_{k}^{2}\sum T_{k} - \sum x_{k}\sum T_{k} x_{k}}, \\
     a_{1} &= \Delta^{-1} \paren{m \sum T_{k} x_{k} - \sum x_{k}\sum T_{k}}.
-  \label{eqn:bevington soln}
+  \label{eqn:bevington soln sum}
   \end{split}
-  \end{equation*}
+  \end{equation}
+The final results agree with Bevington's equations 6--17:
 
 Bevington's \S 6--5 is a succinct explanation of error propagation. In short, measurements are inexact, therefore results will be inexact. The beauty of the method of least squares is that the error in the solution parameters can be expressed in terms of the error in the data. Measurements without uncertainties are incomplete measurements.
 
@@ -227,7 +227,7 @@ Error contributions for individual parameters are harvested from the diagonal el
         \bf{curvature matrix $\wxi{*}$} & $\frac{1}{180}\mat{rr}{95 & \mg{-15} \\ \mg{-15} & 3 }$\\[5pt]
         \bf{problem statement} & table \ref{tab:bevington inputs} \\
         \bf{input data}        & table \ref{tab:bevington data and results} \\
-        \bf{plots}          & figure \ref{fig:bevington soln v data}    & 1. data and solution \\
+        \bf{plots}          & figure \ref{fig:bevington soln v data}    & 1. data \& solution \\
                             & figure \ref{fig:bevington residuals}      & 2. residual errors \\
                             & figure \ref{fig:bevington merit function} & 3. merit function \\
         %
@@ -276,7 +276,7 @@ The uncertainties are then
   \end{equation*}
 
 \subsection{Computed Form}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
-The results in the previous section are a debugging tool. This section deals with formats appropriate for formal reporting.
+The results in the previous section are shown in integer form as debugging tool: readers can check answer to arbitrary precision. This section deals with formats appropriate for formal reporting.
 One way to quote numbers with uncertainties is using the $\pm$ (plus -- minus) notation:
 % = =  e q u a t i o n
   \begin{equation*}
@@ -297,13 +297,18 @@ An alternative presentation uses parentheses:
     %\label{eqn:}
   \end{equation*}
 % = =
-The total error is $\rtr{*} \approx 317.$
+Quote the total error as $\rtr{*} \approx 320.$
 
-The uncertainty determines the number of significant digits. Common practice quotes the first two digits in the uncertainty; the location of these two digits determines the number of digits in the solution. The double precision computations are
+The uncertainty determines the number of significant digits. Common practice quotes the first two digits in the uncertainty (blue); the location of these two digits determines the number of significant digits in the solution parameter. The double precision computations are
   \begin{equation*}   %  =   =   =   =   =
     \begin{array}{rll}
-      \eps_{1} &= 0.86\mg{83016476563611} & \text{rounded to 0.87}, \\
+       %
+      \eps_{0} &= \bl{4.8}\mg{86206312183354} & \text{rounded to 4.9}, \\
+       a_{0}   &= 4.8\mg{13888888888889}  & \text{rounded to 4.8}; \\[5pt]
+       %
+      \eps_{1} &= \bl{0.86}\mg{83016476563611} & \text{rounded to 0.87}, \\
        a_{1}   &= 9.40\mg{8333333333333}  & \text{rounded to 9.41}.
+       %
     %\label{eq:}
    \end{array}
   \end{equation*}
@@ -341,7 +346,7 @@ Numbers tell a story and plots bring a story to life. Besides a powerful and imm
 
 The first plot is the solution curve plotted against the measurements as shown in figure \ref{fig:bevington residuals}. The residual errors are shown as red segments which are the actual components of the residual error vector in $\cmplx{9}$. That is, the length of the red bars are given by the coordinates of $r$ in the null space $\rnlla{*}$. But what is the basis for which these coordinates correspond? That will be addressed in \S \ref{sssec:archetype viz}.
 
-An examination of this first plot is a first step, a crude tool which shows that the model was correctly applied. It reveals that there are no gross systematic errors; it says little about the quality of the fit. For that, more refinement is needed.
+Examination of this first plot is a first step, a crude tool which shows that the model was correctly applied. It reveals that there are no gross systematic errors; it says little about the quality of the fit. For that, more refinement is needed.
 
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
@@ -444,7 +449,7 @@ Each solution represents a line. All of the lines provide a qualitative feel for
 \end{figure}
   
 \subsection{Digging Deeper}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
-The whisker plot is a nice tool to quickly communicate the variation of the solution. This section describes the nuts and bolts of creating the representation. The primary tool is the assumed distribution of errors. In this exercise, it is the normal distribution:
+The whisker plot is a nice tool to quickly communicate the variation of the solution. This section describes the nuts and bolts of creating the representation. The primary tool is the assumed distribution of errors, here the normal distribution:
   \begin{equation*}   %  =   =   =   =   =
     f\paren{x;\mu,\sigma} = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}
   \end{equation*}
@@ -473,7 +478,7 @@ The mean value is $\mu$, and the standard deviation is $\sigma$. For the data an
 
 The numbers on the vertical axis are devoid of meaning and are included only to emphasize the point that the two distributions were plotted on a common scale. Knowing that, it is apparent that the slope measurement on the right is much more precise that the intercept measurement on the left.
 
-The arrowheads locate the ideal solution and the dotted lines demarcate the first three standard deviations. This provides a visual gauge of the accuracy and precision of the calculation.
+Arrowheads locate the ideal solution and dotted lines demarcate the first three standard deviations. This provides a visual gauge of the accuracy and precision of the calculation.
 
 Figure \ref{fig:bev scatter} shows the actual solutions used in the whisker plot as 250 points in the solution space $\brnga{*}$. The symbol ``+'' marks the ideal solution.
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
@@ -495,7 +500,7 @@ A crude, but useful tool, is the counting of the number of points within the err
     \begin{center}
       \begin{tabular}{crcr@{.}lr@{.}lr@{.}lr@{.}l}
         %
-        && rel. & \multicolumn{2}{c}{count} & \multicolumn{2}{c}{normalized} & \multicolumn{2}{c}{cumulative} \\
+        && rel. & \multicolumn{2}{c}{count} & \multicolumn{2}{c}{normalized} & \multicolumn{2}{c}{cumulative} & \multicolumn{2}{c}{continuum} \\
         %
         annulus & count & area &  \multicolumn{2}{c}{density} & \multicolumn{2}{c}{density} & \multicolumn{2}{c}{density} & \multicolumn{2}{c}{limit} \\\hline
         %
@@ -522,7 +527,7 @@ The first column identifies the annular region in which the points were counted,
    %\label{eq:}
   \end{equation*}
 The relative area removes the constant $\pi$; this does not affect the final answer and it simplifies the cross check.
-The count density divides the counts in a zone by the relative area of that zone, e.g. $115 / 3 = 38.3$. The normalized density is the ratio of the count density to the sum of the count densities, e.g. $38.3 / 135.7 = 28.24$. The cumulative density accumulates the normalized densities. The final column is the continuum limit
+The count density divides the counts in a zone by the relative area of that zone, e.g. $115 / 3 = 38.3$. The normalized density is the ratio of the count density to the sum of the count densities, e.g. $38.3 / 135.7 = 28.24$. The cumulative density accumulates the normalized densities. These normalized densities approximate the final column, the continuum limit given by
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
       \int\limits_{-k \sigma}^{k \sigma} f\paren{x;\mu = 1,\sigma = 1} dx .

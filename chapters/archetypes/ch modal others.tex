@@ -1,0 +1,184 @@
+\chapter{Solution Via Other Methods}
+
+For comparison, other solution methods are applied to the Bevington data. These methods will reinforce the geometry of least squares.
+
+\section{\label{sec:normal II}Normal Equations from Vectors}  %    S    S    S    S    S    S    S    S    S
+In \S \ref{sec:normal I}, the normal equations appeared from the linear system resulting from the two partial differential equations in \eqref{eq:bev pde}. Another approach starts with the linear equation $\axeb$ and uses column vectors. The data is posed in terms of the column vectors in table \ref{tab:bevington data and results}. These, plus a constant vector, are the elements of composition:
+  \begin{equation*}   %  =   =   =   =   =
+    {\bf{1}} = \mat{c}{1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1}, \quad
+    x        = \mat{c}{1 \\ 2 \\ 3 \\ 4 \\ 5 \\ 6 \\ 7 \\ 8 \\ 9}, \quad
+    T        = \frac{1}{10} \mat{c}{156 \\ 175 \\ 366 \\ 438 \\ 582 \\ 616 \\ 642 \\ 704 \\ 988}.
+    %\label{eq:}
+  \end{equation*}
+There are two column vectors in the system matrix $\A{}$:
+  \begin{equation*}   %  =   =   =   =   =
+    \A{} = 
+      \mat{c|c}{{\bf{1}} & x}
+    %\label{eq:}
+  \end{equation*}
+In the service of a crisp mental image, the linear system is written explicitly:
+  \begin{equation}   %  =   =   =   =   =
+  \begin{array}{cccc}
+      \A{} & a & = & T \\
+      \mat{cc}{
+         1 & 1 \\
+         1 & 2 \\
+         1 & 3 \\
+         1 & 4 \\
+         1 & 5 \\
+         1 & 6 \\
+         1 & 7 \\
+         1 & 8 \\
+         1 & 9 } &
+      \mat{c}{ a_{0} \\ a_{1} } & = &
+         \frac{1}{10} \mat{c}{156 \\ 175 \\ 366 \\ 438 \\ 582 \\ 616 \\ 642 \\ 704 \\ 988} .
+    \label{eq:bevington axeb}
+  \end{array}
+  \end{equation}
+
+\subsection{Composing the normal equations}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
+The system encodes nine linear problems:
+  \begin{equation*}   %  =   =   =   =   =
+   \begin{split}
+    a_{0} + a_{1} x_{1} & = T_{1}, \\
+     & \ \, \vdots \\
+    a_{0} + a_{1} x_{9} & = T_{9}.
+    %\label{eq:}
+    \end{split}
+  \end{equation*}
+But there are no parameters $a_{0}$ and $a_{1}$ which solve all nine equations. More formally, the data vector $T$ is not in the column space of $\A{}$. There are no parameters $a_{0}$ and $a_{1}$ such that
+  \begin{equation*}   %  =   =   =   =   =
+    a_{0} {\bf{1}} + a_{1} x = T.
+  \end{equation*}
+One strategy is to compose a solution does have a solution
+  \begin{equation*}   %  =   =   =   =   =
+    \wx{*} a = \A{*} T.
+  \end{equation*}
+Certainly the vector $\A{*} T$ is in the column space of $\A{*}$ -- the coordinates are $T$! The solution is
+  \begin{equation*}   %  =   =   =   =   =
+    \mat{c}{a_{0} \\ a_{1}} = \wxi{*} \A{*}T.
+  \end{equation*}
+For the Bevington data set the dot products are,
+  \begin{equation*}   %  =   =   =   =   =
+  \begin{split}
+    \oto &= m = 9, \\
+    \otx &= \xto = 45, \\
+    \xtx &= 285, \\
+    {\bf{1}}^{\mathrm{T}}T &= \frac{4667}{10}, \\
+    x^{\mathrm{T}}T        &= 2898.
+    %\label{eq:}
+  \end{split}
+  \end{equation*}
+Other intermediate products include the product matrix,
+  \begin{equation*}   %  =   =   =   =   =  
+     \wx{*} = \mat{cc}{\oto & \otx \\ \xto & \xtx} = \mat{cc}{9 & 45 \\ 45 & 285},
+  \end{equation*}
+its determinant,
+  \begin{equation}   %  =   =   =   =   =
+    \Delta = \paren{\oto} \paren{\xtx} - \paren{\otx}^{2},
+    \label{eq:det again}
+  %\end{split}
+  \end{equation}
+inverse,
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    \wxi{*} = \Delta^{-1} 
+      \mat{rr}{\xtx & -\oto \\ -\oto & \otx}
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+and the vector,
+  \begin{equation*}   %  =   =   =   =   =
+    \A{*}T = 
+      \mat{c}{{ \bf{1}}^{\mathrm{T}}T \\ x^{\mathrm{T}}T } =
+      \frac{1}{10} \mat{c}{4667 \\28\,980}.
+  \end{equation*}
+The solution is again
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    a = \Delta^{-1} 
+      \mat{rr}{\xtx & -\oto \\ -\oto & \otx} 
+      \mat{c}{{ \bf{1}}^{\mathrm{T}}T \\ x^{\mathrm{T}}T }
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+  \begin{equation}   %  =   =   =   =   =
+  %\begin{split}
+    \mat{c} {a_{0} \\ a_{1}} = \Delta^{-1}
+    \mat{c}{ \paren{\xtx} \paren{\mathbf{1}^{\mathrm{T}}T} -
+             \paren{\otx} \paren{x^{\mathrm{T}}T} \\
+             \paren{\oto} \paren{x^{\mathrm{T}}T} -
+             \paren{\otx} \paren{\mathbf{1}^{\mathrm{T}}T} }
+    \label{eq:bevington:soln:vectors}
+  %\end{split}
+  \end{equation}
+leading to the same solution presented in \S \ref{sec:exact form}.
+
+\section{$\Q{}\R{}$ Decomposition}  %    S    S    S    S    S    S    S    S    S
+Resolve the range space $\brnga{}$ into an orthonormal basis.
+  \begin{equation*}   %  =   =   =   =   =
+    \A{} = \Q{} \R{}
+  \end{equation*}
+  \begin{equation*}   %  =   =   =   =   =
+    a = \R{-1}\Q{*}T
+  \end{equation*}
+  
+\subsection{Computing the QR Decomposition}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
+$\R{}\in\real{\byy{\rho}}$
+  \begin{equation*}   %  =   =   =   =   =
+    \R{} = \mat{cc}{ r_{11} & r_{12} \\ 0 & r_{22} } = \mat{cc}{\nu_{1} & q_{1}^{2}a_{2} \\ 0 & \nu_{2}}
+  \end{equation*}
+The norm of the first column vector:
+  \begin{equation}
+        r_{11} = \normt{a_{1}} = 3
+    %\end{split}
+    %\label{eqn:}
+  \end{equation}
+Normalized column vector
+  \begin{equation}
+        q_{1} = \frac{a_{1}} {r_{11}} = \frac{1}{3}\mat{c}{1\\1\\1\\1\\1\\1\\1\\1\\1}
+    %\end{split}
+    %\label{eqn:}
+  \end{equation}
+Next scale factor in row 1:
+  \begin{equation}
+        r_{12} = q_{1}^{*}a_{2} = 15
+    %\end{split}
+    %\label{eqn:}
+  \end{equation}
+% = =
+% = =  e q u a t i o n
+  \begin{equation}
+        q_{2} = a_{2} - r_{12} q_{1}
+    %\end{split}
+    %\label{eqn:}
+  \end{equation}
+% = =
+  \begin{equation*}   %  =   =   =   =   =
+    \Q{} = 
+       \mat{cc}{ \frac{1}{3} 
+       \mat{c}{1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1} &  \frac{1}{2\sqrt{15}}
+       \mat{r}{ -4 \\ -3 \\ -2 \\ -1 \\ 0 \\ 1 \\ 2 \\ 3 \\ 4 } }
+  \end{equation*}
+  \begin{equation*}   %  =   =   =   =   =
+    \begin{array}{cccc}
+      \A{} & = & \Q{} & \R{}, \\
+      \mat{cc}{
+         1 & 1 \\
+         1 & 2 \\
+         1 & 3 \\
+         1 & 4 \\
+         1 & 5 \\
+         1 & 6 \\
+         1 & 7 \\
+         1 & 8 \\
+         1 & 9 } & = &
+       \mat{cc}{ \frac{1}{3} 
+       \mat{c}{1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1} &  \frac{1}{2\sqrt{15}}
+       \mat{r}{ -4 \\ -3 \\ -2 \\ -1 \\ 0 \\ 1 \\ 2 \\ 3 \\ 4 } } &
+       \mat{cc}{ 3 & 15 \\ 0 & 2\sqrt{15} }         
+    %\label{eq:}
+    \end{array}
+  \end{equation*}
+
+\endinput

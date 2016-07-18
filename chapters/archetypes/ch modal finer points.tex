@@ -1,11 +1,11 @@
-\chapter[Modal Example III: Observations]{Modal Example III\\Observations}
+\chapter{Finer Points}
 
 A deeper look at the example.
 
 \section{Invariances}  %    S    S    S    S    S    S    S    S    S
 Invariance is a touchstone which allows for elegant discrimination of theoretical and numerical analysis. The critical insight is this: complicated problems have complicated solutions, but they retain simple invariances. Simple properties afford simple tools for checking complicated problems.
 
-\subsection{Translation Invariance}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
+\subsection{\label{spec:translation invariance}Translation Invariance}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
 Intuitively, a translation of the coordinate system will not change the temperature measurements, which means the gradient of the temperature is invariant under translation of the coordinate system. For the example in figure \ref{fig:bar}, the temperature gradient was measured over the length of a 10 cm bar. For convenience, the end of the bar in contact with the ice bath was taken as the origin. But just as readily, that point could have been taken as $x$ = 5 cm; the end of the bar touching the boiling water bath is then 15 cm. The physics is unchanged. For an arbitrary shift of $x_{*}$ the gradient is invariant:
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
@@ -24,7 +24,7 @@ How should the solution change? We insist the slope (gradient) remain unchanged.
   \end{equation*}
 that is, $a_{0} \to a_{0} - a_{1} x_{*}$.
 
-\subsubsection{Translation}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
+\subsubsection{\label{sssec:translation}Translation}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
 Formally evaluate how the least squares solution in (??) transforms under the translation
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}

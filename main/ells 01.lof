@@ -9,40 +9,44 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Data vector resolved as $b + {\color {red} {b_{ \mathcal {N} }}} = {\color {blue} {b_{ \mathcal {R} }}}$.}}{20}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces The merit function for the learning curve showing the minimum and the value.}}{21}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Measuring the temperature of a bar.}}{24}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Solution plotted against data with residual errors shown in red.}}{31}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Scatter plot of residual errors.}}{31}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Scatter plot of residual errors with data points connected.}}{32}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The merit function.}}{33}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Another look at the merit function showing the primary error ellipse.}}{34}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Whisker plot showing 250 randomly sampled solutions.}}{34}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Scatter plot showing sampling of solutions.}}{36}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Measuring the temperature of a bar.}}{28}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Solution plotted against data with residual errors shown in red.}}{35}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Scatter plot of residual errors.}}{36}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Scatter plot of residual errors with data points connected.}}{36}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The merit function.}}{37}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Another look at the merit function showing the primary error ellipse.}}{38}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Whisker plot showing 250 randomly sampled solutions.}}{38}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Scatter plot showing sampling of solutions.}}{40}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The solution vector is the mixture of $u_{1}$ and $u_{2}$ which eliminates error.}}{45}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Measurement space for the Bevington example}}{46}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Minimization occurs in the codomain.}}{47}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Data vector resolved into range and null space components.}}{47}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Decomposing $\left \delimiter 69645069 {\color {red} {r}} = {\color {red} {T_{ \mathcal {N} }}} \right \delimiter 86422285 _{2}^{2}$ into residual error terms $r_{k}^2$ of table 4.3\hbox {}.}}{47}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The solution vector is the mixture of $u_{1}$ and $u_{2}$ which eliminates error.}}{46}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Measurement space for the Bevington example}}{48}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Minimization occurs in the codomain.}}{49}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Data vector resolved into range and null space components.}}{49}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Decomposing $\left \delimiter 69645069 {\color {red} {r}} = {\color {red} {T_{ \mathcal {N} }}} \right \delimiter 86422285 _{2}^{2}$ into residual error terms $r_{k}^2$ of table 4.3\hbox {}.}}{49}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Solution after translation along $x$ axis: the slope is invariant.}}{53}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Scatter plot of residual errors.}}{54}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The merit function after translation.}}{55}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The merit function for the learning curve showing the minimum and the value.}}{55}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Merit function for the learning curve in solution space.}}{61}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Merit function constrained to one parameter $b$.}}{63}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Merit function for the learning curve in solution space showing the constrained $a$ parameter as a dotted line.}}{64}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Solution for equations \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 6.2\hbox {}\unskip \@@italiccorr )}} and \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 6.3\hbox {}\unskip \@@italiccorr )}} using data in table 6.2\hbox {}.}}{64}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces The residual errors in figure 6.4\hbox {}.}}{65}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Minimization of the merit function for the learning curve.}}{66}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces The merit function for the learning curve showing the minimum and the value .}}{67}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces The merit function for the learning curve showing the minimum and the value .}}{69}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Solution after translation along $x$ axis: the slope is invariant.}}{57}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Scatter plot of residual errors.}}{58}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces The merit function after translation.}}{59}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces The merit function for the learning curve showing the minimum and the value.}}{59}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Residual error for \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 7.3\hbox {}\unskip \@@italiccorr )}} with $a_{1}$, $a_{2}$, and $a_{3}$ at optimal values.}}{75}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Residual error for $a_{1}$ and $a_{2}$ fixed at optimal values.}}{76}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Solution plotted against data.}}{76}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Scatterplot of residual errors.}}{77}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces The merit function showing least squares solution.}}{77}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces The merit function showing least squares solution and the null cline.}}{78}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Total error $r^{\mathrm {*}}r$ by order of fit.}}{81}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Parallel lines and the least squares solution.}}{62}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Merit function for the learning curve in solution space.}}{71}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Merit function constrained to one parameter $b$.}}{73}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Merit function for the learning curve in solution space showing the constrained $a$ parameter as a dotted line.}}{74}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Solution for equations \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 9.2\hbox {}\unskip \@@italiccorr )}} and \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 9.3\hbox {}\unskip \@@italiccorr )}} using data in table 9.2\hbox {}.}}{74}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces The residual errors in figure 9.4\hbox {}.}}{75}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Minimization of the merit function for the learning curve.}}{76}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces The merit function for the learning curve showing the minimum and the value .}}{77}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces The merit function for the learning curve showing the minimum and the value .}}{79}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Residual error for \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 10.3\hbox {}\unskip \@@italiccorr )}} with $a_{1}$, $a_{2}$, and $a_{3}$ at optimal values.}}{85}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Residual error for $a_{1}$ and $a_{2}$ fixed at optimal values.}}{86}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Solution plotted against data.}}{86}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Scatterplot of residual errors.}}{87}
+\contentsline {figure}{\numberline {10.5}{\ignorespaces The merit function showing least squares solution.}}{87}
+\contentsline {figure}{\numberline {10.6}{\ignorespaces The merit function showing least squares solution and the null cline.}}{88}
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Total error $r^{\mathrm {*}}r$ by order of fit.}}{91}
 \addvspace {10\p@ }

@@ -1,0 +1,46 @@
+\chapter{Tricks}
+
+\section{Where Do Parallel Lines Cross?}  %    S    S    S    S    S    S    S    S    S
+The provocative question which opens this section has an obvious answer in Euclidean space. There is no such point; parallel lines never cross. Yet, if we input these lines as a linear system, we compute a least squares solution. What is the significance of the least squares solution?
+
+Consider this tantalizing example. The two lines,
+  \begin{equation*}   %  =   =   =   =   =
+    \begin{split}
+      y(x) &= \half - \half x, \\
+      y(x) &= 1 - \half x,
+    \end{split}
+   %\label{eq:}
+  \end{equation*}
+are plotted in figure \ref{fig:tantalizing} along with the least squares solution is 
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      x_{LS} = \Ap b = \frac{1}{10}\mat{c}{ 3 \\ 6}.
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+What is so special about this point?
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+     \includegraphics[ width = 3in ]{\pathgraphics "tricks"/"parallel point"} 
+   \caption{Parallel lines and the least squares solution.}
+   \label{fig:tantalizing}
+\end{figure}
+
+\subsection{Intersecting Lines}
+  \begin{equation*}   %  =   =   =   =   =
+   \begin{split}
+      y &= 1, \\
+      y &= x .
+   \end{split}
+   %\label{eq:}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \mat{rr}{0 & 1 \\ -1 & 1 }\mat{c}{x\\y} = \mat{c}{1\\0}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+
+\endinput

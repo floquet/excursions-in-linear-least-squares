@@ -118,6 +118,7 @@ Next up is the row space, or the measurement space
 
 \section{\bsvd\ - I}  %    S    S    S    S    S    S    S    S    S    S    S    S
 The Fundamental Theorem describes the world as a orthogonal decomposition of the domain and codomain. Why not ask for an orthonormal decomposition? This is precisely what we get from the \asvd.
+As noted by Gene Golub, the \asvd is a singularly valuable decomposition. It not only finds an orthonormal basis for the fundamental subspaces, it also aligns the domain and codomain, and furthermore, resolves the scale factors needed to move between spaces. This first presentation offers a statement of the SVD theorem.
 
 \subsection{SVD Theorem}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
 Given a matrix $\aicmnr$, a matrix with complex entries with $m$ rows, $n$ columns, and matrix rank $0<\rho\le\min\paren{m,n}$, then there exists a decomposition of the form
@@ -264,7 +265,7 @@ The error that can be controlled is forced to 0; but this leaves an error which 
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
     r^{2} = \normts{ \run{*} b  } .
-    %\label{eq:}
+    \label{eq:r2ub}
   %\end{split}
   \end{equation*}
 The usually silent \ns \ term can be heard as it pronounces the value of the total error.
@@ -272,10 +273,10 @@ The usually silent \ns \ term can be heard as it pronounces the value of the tot
 To recap, the \asvd \ leads immediately to the pseudoinverse solution and residual error.
 
 \subsubsection{In retrospect}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
-Decompose the data vector in range and null space components:
+We can reimagine the least squares problem as the challenge of resolving the data vector into range and null space components:
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
-    b = \bl{b_{\atomrng}} + \rd{b_{\atomnll}}
+    b = \bl{b_{\atomrng}} + \rd{b_{\atomnll}}.
     %\label{eq:}
   %\end{split}
   \end{equation*}
@@ -309,7 +310,7 @@ Decompose the data vector in range and null space components:
    \caption{Decomposing the data vector.}
    \label{fig:decomposing data vector}
 \end{figure}
-AN example is shown in \eqref{eq:archetype:data vector}.
+Such an example is shown in \eqref{eq:archetype:data vector}.
 
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
@@ -328,14 +329,15 @@ What we shown is that the vector $x$ which minimizes the least squares error in 
 
 For the overdetermined case as we have here the usually silent \ns \ term can be heard as it pronounces the value of the total error
 \begin{equation}
-  r^{2} = \normts{ \run{*} b  } = \paren{ \run{*} b  }^{*} \paren{ \run{*} b  } = b^{*} \paren{ \run{}\run{*} } b 
+  r^{2} = \normts{ \run{*} b  } = \paren{ \run{*} b  }^{*} \paren{ \run{*} b  } = b^{*} \paren{ \run{}\run{*} } b ,
   \label{eq:r2:a}
 \end{equation}
+a restatement of \eqref{eq:r2ub}.
 
 \section{\bsvd\ - II}  %    S    S    S    S    S    S    S    S    S    S    S    S
 
 \subsection{$\sig{}$ Gymnastics}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
-Success in manipulating the \asvd \ includes success in manipulating the $\sig{}$ matrices. Think of the $\sig{}$ matrix as a sabot matrix for the matrix of singular values $\ess{}$. 
+Success in manipulating the \asvd \ includes builds	upon success in manipulating the $\sig{}$ matrices. Think of the $\sig{}$ matrix as a sabot matrix for the matrix of singular values $\ess{}$. 
 The breakdown of block diagrams: the matrix $\sig{}$ $\paren{m \times n}$ and the matrix $\sig{T}$ $\paren{n \times m}$ have different shapes, but equivalent block diagrams.
   \begin{equation*}   %  =   =   =   =   =
     \begin{split}
