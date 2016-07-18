@@ -51,7 +51,7 @@
 \contentsline {subsection}{\numberline {4.1.2}Domain matrix}{42}
 \contentsline {subsection}{\numberline {4.1.3}Codomain matrix}{43}
 \contentsline {subsection}{\numberline {4.1.4}Error terms}{44}
-\contentsline {subsection}{\numberline {4.1.5}Visualization}{45}
+\contentsline {section}{\numberline {4.2}Visualization}{45}
 \contentsline {chapter}{\numberline {5}Solution Via Other Methods}{51}
 \contentsline {section}{\numberline {5.1}Normal Equations from Vectors}{51}
 \contentsline {subsection}{\numberline {5.1.1}Composing the normal equations}{52}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 JUL 2016 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 JUL 2016 11:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1363,12 +1363,12 @@ File: ../pdf/"bevington classic"/bar.pdf Graphic file (type pdf)
 
 <use ../pdf/"bevington classic"/bar.pdf>
 Package pdftex.def Info: ../pdf/"bevington classic"/bar.pdf used on input line 
-47.
+48.
 (pdftex.def)             Requested size: 216.81pt x 78.29309pt.
 
 
 LaTeX Warning: Reference `fig:bevington merit function' on page 28 undefined on
- input line 57.
+ input line 58.
 
 [28 <../pdf/bevington classic/bar.pdf>]
 
@@ -1378,24 +1378,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
 
  []
 
 [29] [30]
 
 LaTeX Warning: Reference `fig:bevington merit function' on page 31 undefined on
- input line 232.
+ input line 233.
 
 
-Overfull \hbox (17.7389pt too wide) in paragraph at lines 218--235
+Overfull \hbox (17.7389pt too wide) in paragraph at lines 219--236
  [] 
  []
 
 [31] [32]
 
 LaTeX Warning: Reference `eqn:bevington soln' on page 33 undefined on input lin
-e 256.
+e 257.
 
 [33] [34]
 <../pdf/"bevington classic"/"red bars".pdf, id=238, 361.35pt x 226.8475pt>
@@ -1403,7 +1403,7 @@ File: ../pdf/"bevington classic"/"red bars".pdf Graphic file (type pdf)
 
 <use ../pdf/"bevington classic"/"red bars".pdf>
 Package pdftex.def Info: ../pdf/"bevington classic"/"red bars".pdf used on inpu
-t line 354.
+t line 355.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
 <../pdf/"bevington classic"/"residuals".pdf, id=239, 361.35pt x 226.8475pt>
@@ -1411,7 +1411,7 @@ File: ../pdf/"bevington classic"/"residuals".pdf Graphic file (type pdf)
 
 <use ../pdf/"bevington classic"/"residuals".pdf>
 Package pdftex.def Info: ../pdf/"bevington classic"/"residuals".pdf used on inp
-ut line 371.
+ut line 372.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
 <../pdf/"bevington classic"/"residuals line".pdf, id=240, 361.35pt x 226.8475pt
@@ -1419,7 +1419,7 @@ ut line 371.
 File: ../pdf/"bevington classic"/"residuals line".pdf Graphic file (type pdf)
  <use ../pdf/"bevington classic"/"residuals line".pdf>
 Package pdftex.def Info: ../pdf/"bevington classic"/"residuals line".pdf used o
-n input line 386.
+n input line 387.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
 <../pdf/"bevington plus"/"n merit bullseye".pdf, id=241, 361.35pt x 358.33875pt
@@ -1427,7 +1427,7 @@ n input line 386.
 File: ../pdf/"bevington plus"/"n merit bullseye".pdf Graphic file (type pdf)
  <use ../pdf/"bevington plus"/"n merit bullseye".pdf>
 Package pdftex.def Info: ../pdf/"bevington plus"/"n merit bullseye".pdf used on
- input line 400.
+ input line 401.
 (pdftex.def)             Requested size: 252.94327pt x 250.83542pt.
  [35 <../pdf/bevington classic/red bars.pdf>]
 <../pdf/"bevington plus"/"n merit bullseye lines".pdf, id=253, 361.35pt x 358.3
@@ -1436,7 +1436,7 @@ File: ../pdf/"bevington plus"/"n merit bullseye lines".pdf Graphic file (type p
 df)
  <use ../pdf/"bevington plus"/"n merit bullseye lines".pdf>
 Package pdftex.def Info: ../pdf/"bevington plus"/"n merit bullseye lines".pdf u
-sed on input line 415.
+sed on input line 416.
 (pdftex.def)             Requested size: 252.94327pt x 250.83542pt.
  [36 <../pdf/bevington classic/residuals.pdf> <../pdf/bevington classic/residua
 ls line.pdf
@@ -1449,7 +1449,7 @@ File: ../pdf/"bevington plus"/"whiskers".pdf Graphic file (type pdf)
 
 <use ../pdf/"bevington plus"/"whiskers".pdf>
 Package pdftex.def Info: ../pdf/"bevington plus"/"whiskers".pdf used on input l
-ine 439.
+ine 440.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
 <../pdf/"bevington classic"/"needle intercept".pdf, id=285, 361.35pt x 233.8737
@@ -1458,17 +1458,17 @@ File: ../pdf/"bevington classic"/"needle intercept".pdf Graphic file (type pdf)
 
  <use ../pdf/"bevington classic"/"needle intercept".pdf>
 Package pdftex.def Info: ../pdf/"bevington classic"/"needle intercept".pdf used
- on input line 468.
+ on input line 469.
 (pdftex.def)             Requested size: 169.83493pt x 109.92065pt.
 
 <../pdf/"bevington classic"/"needle slope".pdf, id=286, 361.35pt x 233.87375pt>
 File: ../pdf/"bevington classic"/"needle slope".pdf Graphic file (type pdf)
 <use ../pdf/"bevington classic"/"needle slope".pdf>
 Package pdftex.def Info: ../pdf/"bevington classic"/"needle slope".pdf used on 
-input line 469.
+input line 470.
 (pdftex.def)             Requested size: 169.83493pt x 109.92065pt.
 
-Overfull \hbox (2.31987pt too wide) in paragraph at lines 464--475
+Overfull \hbox (2.31987pt too wide) in paragraph at lines 465--476
  [] 
  []
 
@@ -1483,7 +1483,7 @@ rs.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 File: ../pdf/"bevington plus"/"scatter samples".pdf Graphic file (type pdf)
 <use ../pdf/"bevington plus"/"scatter samples".pdf>
 Package pdftex.def Info: ../pdf/"bevington plus"/"scatter samples".pdf used on 
-input line 487.
+input line 488.
 (pdftex.def)             Requested size: 252.94327pt x 253.64589pt.
 
 Underfull \vbox (badness 2376) has occurred while \output is active []
@@ -1517,7 +1517,16 @@ File: ../pdf/"bevington plus"/"mixing u1 u2".pdf Graphic file (type pdf)
 Package pdftex.def Info: ../pdf/"bevington plus"/"mixing u1 u2".pdf used on inp
 ut line 281.
 (pdftex.def)             Requested size: 289.07999pt x 281.05037pt.
- [46 <../pdf/bevington plus/mixing u1 u2.pdf>]
+
+
+LaTeX Warning: Reference `eq:white arrow' on page 46 undefined on input line 28
+2.
+
+
+LaTeX Warning: Reference `eq:white arrow' on page 46 undefined on input line 28
+2.
+
+[46 <../pdf/bevington plus/mixing u1 u2.pdf>]
 <../pdf/"bevington plus"/svd/"bevington codomain".pdf, id=432, 451.6875pt x 432
 .61626pt>
 File: ../pdf/"bevington plus"/svd/"bevington codomain".pdf Graphic file (type p
@@ -2182,10 +2191,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24737 strings out of 493089
- 503823 string characters out of 6134842
- 510255 words of memory out of 5000000
- 27622 multiletter control sequences out of 15000+600000
+ 24738 strings out of 493089
+ 503839 string characters out of 6134842
+ 510245 words of memory out of 5000000
+ 27623 multiletter control sequences out of 15000+600000
  25061 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,27n,54p,10445b,717s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2218,7 +2227,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on "ells 01.pdf" (112 pages, 2127759 bytes).
+Output written on "ells 01.pdf" (112 pages, 2127753 bytes).
 PDF statistics:
  1239 PDF objects out of 1440 (max. 8388607)
  840 compressed objects within 9 object streams
