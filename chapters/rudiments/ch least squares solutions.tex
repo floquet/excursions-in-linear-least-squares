@@ -119,14 +119,14 @@ Next up is the row space, or the measurement space
 The Fundamental Theorem describes the world as a orthogonal decomposition of the domain and codomain. Why not ask for an orthonormal decomposition? This is precisely what we get from the \asvd.
 As noted by Gene Golub, the \asvd is a singularly valuable decomposition. It not only finds an orthonormal basis for the fundamental subspaces, it also aligns the domain and codomain, and furthermore, resolves the scale factors needed to move between spaces. This first presentation offers a statement of the SVD theorem.
 
-\subsection{SVD Theorem}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
+\subsection{\label{ssec:SVD Theorem}SVD Theorem}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
 Given a matrix $\aicmnr$, a matrix with complex entries with $m$ rows, $n$ columns, and matrix rank $0<\rho\le\min\paren{m,n}$, then there exists a decomposition of the form
-  \begin{equation*}   %  =   =   =   =   =
+  \begin{equation}   %  =   =   =   =   =
   %\begin{split}
     \svdk{*}
-    %\label{eq:}
+    \label{eq:svdk}
   %\end{split}
-  \end{equation*}
+  \end{equation}
 where
 \begin{enumerate}
   \item column vectors of unitary matrix $\V{}\icnn$ represent an orthonormal span of the domain,
@@ -206,7 +206,7 @@ Decomposition for \eqref{eq:zonalls}:
   %\end{split}
   \end{equation*}
 
-\subsection{SVD and Least Squares}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
+\subsection{\label{SVD and Least Squares}SVD and Least Squares}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
 A direct implication of the \asvd \ is the homogeneous solution.
 
 \subsubsection{Unitary transformation}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
@@ -334,9 +334,13 @@ For the overdetermined case as we have here the usually silent \ns \ term can be
 a restatement of \eqref{eq:r2ub}.
 
 \section{\bsvd\ - II}  %    S    S    S    S    S    S    S    S    S    S    S    S
+We have a statement of the \asvd \ in \S \ref{ssec:SVD Theorem}. We have an understanding that the SVD revolves the four fundamental subspaces and the scaling factors between range spaces (eq. \eqref{eq:svdk}). We saw in \S \ref{SVD and Least Squares} how the SVD naturally leads to the pseudoinverse solution for the least squares problem. Now we turn attention to manipulation of the SVD to further explore the least squares method.
 
 \subsection{$\sig{}$ Gymnastics}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
-Success in manipulating the \asvd \ includes builds	upon success in manipulating the $\sig{}$ matrices. Think of the $\sig{}$ matrix as a sabot matrix for the matrix of singular values $\ess{}$. 
+Success in manipulating the \asvd \ builds	upon success in manipulating the $\sig{}$ matrices. There are three flavors of interest: the raw $\sig{}$ matrix, the transpose of this matrix, $\sig{T}$, and the pseudoinverse $\sig{\sym}$.
+
+Think of the $\sig{}$ matrix as a sabot matrix for the matrix of singular values $\ess{}$. The padding of 0's provides compatibility of shape: the domain matrix $\U{}$ in $m \times m$; the domain matrix $\V{}$ is $n \times n$. Conformability insists the $\sig{}$ matrix in the triple product $\svds{*}{}$ have dimension $m \times n$.
+
 The breakdown of block diagrams: the matrix $\sig{}$ $\paren{m \times n}$ and the matrix $\sig{T}$ $\paren{n \times m}$ have different shapes, but equivalent block diagrams.
   \begin{equation*}   %  =   =   =   =   =
     \begin{split}
@@ -354,6 +358,7 @@ The breakdown of block diagrams: the matrix $\sig{}$ $\paren{m \times n}$ and th
     \end{split}
    %\label{eq:}
   \end{equation*}
+ There are two basic forms of interest: 
 
 Notice the interchange of the indices $m$ and $n$ in the transpose:
   \begin{equation*}   %  =   =   =   =   =

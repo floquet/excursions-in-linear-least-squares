@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 JUL 2016 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 JUL 2016 18:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1156,31 +1156,18 @@ Underfull \hbox (badness 10000) detected at line 123
 
  [4] (./ells 01.lof [5
 
-]
-
-LaTeX Warning: Reference `tab:apex angles' on page 76 undefined on input line 4
-1.
-
-)
+])
 \tf@lof=\write6
 \openout6 = `"ells 01.lof"'.
 
- [6] (./ells 01.lot
-
-LaTeX Warning: Reference `tab:results grains' on page 74 undefined on input lin
-e 29.
-
-
-LaTeX Warning: Reference `fig:dots and overlaps' on page 85 undefined on input 
-line 38.
-
-[7
+ [6] (./ells 01.lot [7
 
 ])
 \tf@lot=\write7
 \openout7 = `"ells 01.lot"'.
 
- (../frontmatter/ch literature.tex [8]
+
+(../frontmatter/ch literature.tex [8]
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
@@ -1309,25 +1296,25 @@ Chapter 2.
 File: ../pdf/theory/ftola/domain.pdf Graphic file (type pdf)
 
 <use ../pdf/theory/ftola/domain.pdf>
-Package pdftex.def Info: ../pdf/theory/ftola/domain.pdf used on input line 63.
+Package pdftex.def Info: ../pdf/theory/ftola/domain.pdf used on input line 62.
 (pdftex.def)             Requested size: 198.7425pt x 194.09361pt.
 
-Overfull \vbox (161.69365pt too high) detected at line 63
+Overfull \vbox (161.69365pt too high) detected at line 62
  []
 
 <../pdf/theory/ftola/codomain.pdf, id=120, 343.2825pt x 335.2525pt>
 File: ../pdf/theory/ftola/codomain.pdf Graphic file (type pdf)
 
 <use ../pdf/theory/ftola/codomain.pdf>
-Package pdftex.def Info: ../pdf/theory/ftola/codomain.pdf used on input line 64
+Package pdftex.def Info: ../pdf/theory/ftola/codomain.pdf used on input line 63
 .
 (pdftex.def)             Requested size: 198.7425pt x 194.09361pt.
 
-Overfull \vbox (161.69365pt too high) detected at line 64
+Overfull \vbox (161.69365pt too high) detected at line 63
  []
 
 
-Overfull \hbox (7.7789pt too wide) in paragraph at lines 55--71
+Overfull \hbox (7.7789pt too wide) in paragraph at lines 54--70
  [] 
  []
 
@@ -1351,19 +1338,15 @@ Missing character: There is no Ê in font cmr10!
 Missing character: There is no Ê in font cmr10!
  [14]
 
-LaTeX Warning: Reference `eq:lsmin' on page 15 undefined on input line 328.
+LaTeX Warning: Reference `eq:lsmin' on page 15 undefined on input line 327.
 
-[15]
-Underfull \vbox (badness 1721) has occurred while \output is active []
-
- [16]
-[17] [18] [19]
+[15] [16] [17] [18] [19]
 <../pdf/"bevington plus"/"reflect bars".pdf, id=160, 361.35pt x 226.8475pt>
 File: ../pdf/"bevington plus"/"reflect bars".pdf Graphic file (type pdf)
 
 <use ../pdf/"bevington plus"/"reflect bars".pdf>
 Package pdftex.def Info: ../pdf/"bevington plus"/"reflect bars".pdf used on inp
-ut line 627.
+ut line 631.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 ) [20] [21 <../pdf/bevington plus/reflect bars.pdf>] [22
 
@@ -2563,10 +2546,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24919 strings out of 493089
- 510521 string characters out of 6134842
- 533300 words of memory out of 5000000
- 27763 multiletter control sequences out of 15000+600000
+ 24922 strings out of 493089
+ 510571 string characters out of 6134842
+ 533337 words of memory out of 5000000
+ 27766 multiletter control sequences out of 15000+600000
  27919 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,27n,54p,10445b,717s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2599,7 +2582,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on "ells 01.pdf" (140 pages, 3408420 bytes).
+Output written on "ells 01.pdf" (140 pages, 3409048 bytes).
 PDF statistics:
  1776 PDF objects out of 2073 (max. 8388607)
  1197 compressed objects within 12 object streams

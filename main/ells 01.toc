@@ -31,7 +31,7 @@
 \contentsline {subsection}{\numberline {2.3.1}$ \Sigma ^{\mathrm {}} $ Gymnastics}{16}
 \contentsline {subsection}{\numberline {2.3.2}Fundamental Projectors}{18}
 \contentsline {section}{\numberline {2.4}Least Squares Solution - Again}{19}
-\contentsline {section}{\numberline {2.5}Reflection Invariance}{19}
+\contentsline {section}{\numberline {2.5}Reflection Invariance}{20}
 \contentsline {part}{\hbox to 20pt{II}Modal Example}{23}
 \contentsline {chapter}{\numberline {3}Solution Via Calculus}{27}
 \contentsline {section}{\numberline {3.1}Modal Approximation}{27}
