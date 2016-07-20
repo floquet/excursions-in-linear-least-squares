@@ -73,30 +73,52 @@
 \contentsline {chapter}{\numberline {8}Zonal Example}{65}
 \contentsline {section}{\numberline {8.1}Problem}{65}
 \contentsline {subsection}{\numberline {8.1.1}Zonal Subsection}{65}
-\contentsline {part}{\hbox to 20pt{IV}Applications:\\Nonlinear Problems}{67}
-\contentsline {chapter}{\numberline {9}Linearization}{69}
-\contentsline {section}{\numberline {9.1}Powers Laws and Exponentials}{69}
-\contentsline {section}{\numberline {9.2}Learning Curve}{69}
-\contentsline {subsection}{\numberline {9.2.1}Problem Statement}{70}
-\contentsline {subsection}{\numberline {9.2.2}Solution}{71}
-\contentsline {subsection}{\numberline {9.2.3}Results}{73}
-\contentsline {section}{\numberline {9.3}What Not To Do}{73}
-\contentsline {subsection}{\numberline {9.3.1}Logarithmic Transform}{73}
-\contentsline {subsection}{\numberline {9.3.2}Linear Transformation}{76}
-\contentsline {subsection}{\numberline {9.3.3}Reflection Test Fails}{78}
-\contentsline {section}{\numberline {9.4}Radioactive Decay}{78}
-\contentsline {subsection}{\numberline {9.4.1}Theory}{78}
-\contentsline {subsection}{\numberline {9.4.2}Problem Statement}{78}
-\contentsline {subsection}{\numberline {9.4.3}Results}{78}
-\contentsline {chapter}{\numberline {10}Population Growth}{83}
-\contentsline {section}{\numberline {10.1}Model}{83}
-\contentsline {section}{\numberline {10.2}Problem Statement}{84}
-\contentsline {section}{\numberline {10.3}Data}{84}
-\contentsline {section}{\numberline {10.4}Example}{84}
-\contentsline {section}{\numberline {10.5}Polynomials}{84}
-\contentsline {part}{\hbox to 20pt{V}Appendices}{93}
-\contentsline {chapter}{\numberline {A}Exercises}{95}
-\contentsline {section}{\numberline {A.1}Linear systems}{95}
-\contentsline {subsection}{\numberline {A.1.1}6.1.1\hbox {}}{95}
-\contentsline {part}{\hbox to 20pt{VI}\ \ Backmatter}{97}
-\contentsline {chapter}{Bibliography}{99}
+\contentsline {chapter}{\numberline {9}Lines}{67}
+\contentsline {section}{\numberline {9.1}Face-centered cubic lattice}{67}
+\contentsline {section}{\numberline {9.2}Model}{68}
+\contentsline {section}{\numberline {9.3}Solution}{71}
+\contentsline {section}{\numberline {9.4}Problem Statement}{72}
+\contentsline {section}{\numberline {9.5}Data}{72}
+\contentsline {section}{\numberline {9.6}Results}{72}
+\contentsline {subsection}{\numberline {9.6.1}Least Squares Results}{72}
+\contentsline {subsection}{\numberline {9.6.2}Apex Angles}{72}
+\contentsline {subsection}{\numberline {9.6.3}Qualitative Results}{72}
+\contentsline {chapter}{\numberline {10}Crystals}{79}
+\contentsline {chapter}{\numberline {11}Stitching Local Maps}{81}
+\contentsline {section}{\numberline {11.1}What is stitching?}{81}
+\contentsline {section}{\numberline {11.2}Stitch $\phi $}{81}
+\contentsline {subsection}{\numberline {11.2.1}Genesis}{81}
+\contentsline {subsection}{\numberline {11.2.2}Data}{81}
+\contentsline {subsection}{\numberline {11.2.3}Data and results}{85}
+\contentsline {subsection}{\numberline {11.2.4}Linear System}{85}
+\contentsline {subsection}{\numberline {11.2.5}Least Squares Arbitration}{87}
+\contentsline {section}{\numberline {11.3}Stitch $\nabla \phi $}{90}
+\contentsline {chapter}{\numberline {12}Gradient I}{93}
+\contentsline {section}{\numberline {12.1}One Dimension}{93}
+\contentsline {part}{\hbox to 20pt{IV}Applications:\\Nonlinear Problems}{95}
+\contentsline {chapter}{\numberline {13}Linearization}{97}
+\contentsline {section}{\numberline {13.1}Powers Laws and Exponentials}{97}
+\contentsline {section}{\numberline {13.2}Learning Curve}{97}
+\contentsline {subsection}{\numberline {13.2.1}Problem Statement}{98}
+\contentsline {subsection}{\numberline {13.2.2}Solution}{99}
+\contentsline {subsection}{\numberline {13.2.3}Results}{101}
+\contentsline {section}{\numberline {13.3}What Not To Do}{101}
+\contentsline {subsection}{\numberline {13.3.1}Logarithmic Transform}{101}
+\contentsline {subsection}{\numberline {13.3.2}Linear Transformation}{104}
+\contentsline {subsection}{\numberline {13.3.3}Reflection Test Fails}{106}
+\contentsline {section}{\numberline {13.4}Radioactive Decay}{106}
+\contentsline {subsection}{\numberline {13.4.1}Theory}{106}
+\contentsline {subsection}{\numberline {13.4.2}Problem Statement}{106}
+\contentsline {subsection}{\numberline {13.4.3}Results}{106}
+\contentsline {chapter}{\numberline {14}Population Growth}{111}
+\contentsline {section}{\numberline {14.1}Model}{111}
+\contentsline {section}{\numberline {14.2}Problem Statement}{112}
+\contentsline {section}{\numberline {14.3}Data}{112}
+\contentsline {section}{\numberline {14.4}Example}{112}
+\contentsline {section}{\numberline {14.5}Polynomials}{112}
+\contentsline {part}{\hbox to 20pt{V}Appendices}{121}
+\contentsline {chapter}{\numberline {A}Exercises}{123}
+\contentsline {section}{\numberline {A.1}Linear systems}{123}
+\contentsline {subsection}{\numberline {A.1.1}6.1.1\hbox {}}{123}
+\contentsline {part}{\hbox to 20pt{VI}\ \ Backmatter}{125}
+\contentsline {chapter}{Bibliography}{127}
