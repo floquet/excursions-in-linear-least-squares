@@ -345,6 +345,7 @@ Thanks to integer arithmetic, it is easy to verify that the sum of the residuals
 
 Numbers tell a story and plots bring a story to life. Besides a powerful and immediate impact, the plots are often a defense against a wide host of problems.
 
+\subsubsection{Data v. Fit}
 The first plot is the solution curve plotted against the measurements as shown in figure \ref{fig:bevington residuals}. The residual errors are shown as red segments which are the actual components of the residual error vector in $\cmplx{9}$. That is, the length of the red bars are given by the coordinates of $r$ in the null space $\rnlla{*}$. But what is the basis for which these coordinates correspond? That will be addressed in \S \ref{sssec:archetype viz}.
 
 Examination of this first plot is a first step, a crude tool which shows that the model was correctly applied. It reveals that there are no gross systematic errors; it says little about the quality of the fit. For that, more refinement is needed.
@@ -363,9 +364,10 @@ Examination of this first plot is a first step, a crude tool which shows that th
    \label{fig:bevington soln v data}
 \end{figure}
 
+\subsubsection{Residual Errors}
 Next, examine the residual errors as in figure \ref{fig:bevington residuals}. This is a more detailed examination of fit quality. The resolution increases by roughly a factor of 10 here. The dark line shows the mean of the residuals; exactly 0 in this case. The gray band represents the first standard deviation.
 
-If data points need to be excluded, the residuals plot buttresses the case. The lone point that is five standard deviations away from the mean is quite obvious. Yes, it will be apparent on the solution plot, but that does not show rejection criteria in terms of the standard deviation.
+If data points need to be excluded, the residuals plot buttresses the case. A lone point five standard deviations from the mean stands out here. Yes, it will also be apparent on the solution plot, but that does not show rejection criteria in terms of the standard deviation.
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
    \begin{overpic}[ scale = \myscale ]
@@ -394,7 +396,8 @@ Ideally, the residuals should be uncorrelated and scattered. In this case, there
    \label{fig:bevington residuals line}
 \end{figure}
 
-The third and final diagnostic plot, figure \ref{fig:bevington residuals}, puts the solution on a map of the merit function. This addresses the question of whether the solution is a true minimum and applies whether the problem is linear or nonlinear. Complicated codes can produce answers which appear valid and this plot helps to filter the good from the bad.
+\subsubsection{Solution v. Minimum}
+The third and final diagnostic plot, the bullseye plot, figure \ref{fig:bevington residuals lines}, puts the solution on a map of the merit function. This addresses the question of whether the solution is a true minimum and applies whether the problem is linear or nonlinear. Complicated codes can produce answers which appear valid and this plot helps to filter the good from the bad.
 % http://ctan.math.washington.edu/tex-archive/macros/latex/contrib/overpic/opic-rel.pdf
 \begin{figure}[htbp]
 \centering
