@@ -50,7 +50,23 @@ But there are no parameters $a_{0}$ and $a_{1}$ which solve all nine equations. 
   \begin{equation*}   %  =   =   =   =   =
     a_{0} {\bf{1}} + a_{1} x = T.
   \end{equation*}
-One strategy is to compose a solution does have a solution
+Therefore there is no exact solution $a$ such that
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \normts{\A{}a - T} = 0 .
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+The root cause is that the data vector has components in the range space and in the null space:
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      T = {\bl{T_{\atomrng}}} + {\rd{T_{\atomnll}}}.
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+
+One strategy is to compose a problem does have a solution
   \begin{equation*}   %  =   =   =   =   =
     \wx{*} a = \A{*} T.
   \end{equation*}

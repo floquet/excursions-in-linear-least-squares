@@ -68,7 +68,7 @@ We now have the sigma matrix and the matrix of singular values $\ess{}$:
   \end{equation*}
 % = =
 
-\subsection{Domain matrix}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
+\subsection{Matrix for the domain}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
 We can skip the eigenvector problem. To find the domain matrix we exploit the \asvd \ of the product matrix
 % = =  e q u a t i o n
   \begin{equation*}
@@ -140,7 +140,7 @@ Using the data set at hand
   \end{equation*}
   % = =
 
-\subsection{Codomain matrix}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
+\subsection{Matrix for the codomain}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
 The final component is of course the codomain matrix. Knowing the decomposition for the adjoint matrix $\A{*}$ and that the linear system is overdetermined we can write
   % = =  e q u a t i o n
   \begin{equation*}
@@ -187,12 +187,6 @@ starting with column three.
 Completing the codomain matrix with an orthonormal span of the null space is optional and can be done by feeding the range space components and a complementary set of unit vectors into a Gram-Schmidt algorithm.
 
 \subsection{Error terms}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
-  % = =  e q u a t i o n
-  \begin{equation*}
-    \eps_{k}^{2} = \frac{\paren{\A{}\alpha - T}^{*}\paren{\A{}\alpha - T}} {m-n} \brac{\paren{\wx{*}}^{-1}}_{kk}
-  \end{equation*}
-  % = =
-
 The error terms can be computed after this step. Given that the product matrix decomposition in \eqref{eq:decompwx} is a \asvd \ we can trivially write the inverse matrix as
   % = =  e q u a t i o n
   \begin{equation*}
@@ -200,7 +194,14 @@ The error terms can be computed after this step. Given that the product matrix d
     \bvr{} \ess{-2} \bvr{*} = \frac{1}{180} \mat{rr}{95 & -15 \\ -15 & 3}
   \end{equation*}
   % = =
-The error terms in \eqref{eq:lr errors} become
+The diagonal elements describe the connection between error in the data and error in the solution parameters
+  % = =  e q u a t i o n
+  \begin{equation*}
+    \eps_{k}^{2} = \frac{\paren{\A{}\alpha - T}^{*}\paren{\A{}\alpha - T}} {m-n} \brac{\paren{\wx{*}}^{-1}}_{kk}.
+	\label{eq:lr errors}
+  \end{equation*}
+  % = =
+Using the columns vectors and the singular values, the error terms in \eqref{eq:lr errors} become
   % = =  e q u a t i o n
   \begin{equation*}
     \begin{split}
@@ -367,12 +368,15 @@ The coordinates are now
 	\caption[The column vectors of $\U{}$.]{The column vectors of $\U{}$. The gray box represents the maximum length an element may have: $[-1,1]$.}
 \end{table}%
 
+Figure \ref{tab:bevington usv block} shows an \asvd \ in block form. The gray values in the system matrix $\A{}$ shows the values of the matrix entries bound between a low of 1 and a high of 9. The gray shading demonsrates the fact that the column vectors are not in $\brnga{}$ and the row vectors are not in $\brnga{*}$. Because the domain matrices $\U{}$ and $\V{}$ are unitary, the magnitude of each entry is less than unity. The matrix for the domain, $\U{}$, has column vectors in $\brnga{}$ shaded in blue, and column vectors in $\rnlla{}$ shaded in red.
 \begin{table}[t]
 	\begin{center}
-		\begin{tabular}{cccc}
+		\begin{tabular}{ccccc}
 		  %
-		  $\A{} = $ & $\U{}$ & $\sig{}$ & $\V{*}$ \\
+		  $\A{}$ & $ = $ & $\U{}$ & $\sig{}$ & $\V{*}$ \\
 		  %
+		  \includegraphics[ width = 1.5cm ]{\pathgraphics "bevington plus"/svd/"bevington poles"/A} &
+		  \raisebox{25\height}=
 		  &
 	 	  \includegraphics[ width = 6.5cm ]{\pathgraphics "bevington plus"/svd/"bevington poles"/U}  &
 		  \includegraphics[ width = 1.5cm ]{\pathgraphics "bevington plus"/svd/"bevington poles"/S}  &
@@ -397,7 +401,7 @@ The coordinates are now
 			\node[] at (5.5,-0.5) {\bl{$T_{\atomrng}$}};
 			\node[] at (10.5,0.5) {\rd{$T_{\atomnll}$}};
     \end{tikzpicture}
-   \caption{Data vector resolved into range and null space components.}
+   \caption{Data vector $T = {\bl{T_{\atomrng}}} + {\rd{T_{\atomnll}}}$ resolved into range and null space components as in figure \ref{fig:null up}.}
 \end{figure}
 
   \begin{table}[htbp]  %  T A B L E

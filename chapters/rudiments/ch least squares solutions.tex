@@ -559,7 +559,7 @@ Notice that $-r = b - \Ap b$. To reflect the data points through the solution cu
    %\label{eq:}
   \end{equation*}
 
-Two equivalent ways to define the residual vector
+There are two equivalent ways to define the residual vector. When discussing range and null space decomposition, it is natural to write $b = \bl{b_{\atomrng}} +  \rd{b_{\atomnll}}$ as in figure \ref{fig:null up}. However, when discussing the projection of the data vector down onto the range space as in figure \ref{fig:null down}, the choice is $b +  \rd{b_{\atomnll}} = \bl{b_{\atomrng}}$. In the first instance the red arrow points up, in the second it points down.
 % http://cremeronline.com/LaTeX/minimaltikz.pdf
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
@@ -573,6 +573,7 @@ Two equivalent ways to define the residual vector
 			\node[] at (10.5,0.5) {\rd{$b_{\atomnll}$}};
     \end{tikzpicture}
    \caption{Data vector resolved as $b = \bl{b_{\atomrng}} +  \rd{b_{\atomnll}}$.}
+   \label{fig:null up}
 \end{figure}
 
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
@@ -587,6 +588,7 @@ Two equivalent ways to define the residual vector
 			\node[] at (10.5,0.5) {\rd{$b_{\atomnll}$}};
     \end{tikzpicture}
    \caption{Data vector resolved as $b +  \rd{b_{\atomnll}} = \bl{b_{\atomrng}}$.}
+    \label{fig:null down}
 \end{figure}
 
 
@@ -634,8 +636,8 @@ True iff $\wxi{*} \A{*} r = 0$:
       	\put(-4,33) {$a_{1}$}
 	      %
    \end{overpic}
-   \caption{The merit function for the learning curve showing the minimum and the value.}
-   \label{fig:learn:merit}
+   \caption{Reflecting the data points through the solution curve.}
+   \label{fig:learn:reflect}
 \end{figure}
 
 This test can be a filter as seen in \S \ref{ssec:RTF}

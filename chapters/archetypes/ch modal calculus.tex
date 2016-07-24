@@ -1,5 +1,4 @@
-\chapter{Solution Via Calculus}
-
+022222
 \section{Modal Approximation}  %    S    S    S    S    S    S    S    S    S
 The following example represents a problem in linear regression. A sequence of $m$ data points $\paren{x_{k}, T_{k}}$,  $\kto{m}$  is recorded. The goal is to find the best approximation to a straight line. The \emph{trial function} is
   \begin{equation*}   %  =   =   =   =   =
@@ -246,7 +245,7 @@ Exact results for the fit parameters are error follow. The product matrix in \eq
   \begin{equation*}   %  =   =   =   =   =
     \mat{cl}{m & \sum x_{k} \\ \sum x_{k} & \sum x_{k}^{2}} = \mat{rr}{ 9 & 45 \\ 45 & 285 },
   \end{equation*}
-with determinant
+with determinant \eqref{eq:det}
   \begin{equation*}   %  =   =   =   =   =
     \Delta =  540.
   \end{equation*}
@@ -254,7 +253,7 @@ The inverse of this matrix, \eqref{eq:bevington matrix inverse}, is
   \begin{equation*}   %  =   =   =   =   =
     \mat{cl}{m & \sum x_{k} \\ \sum x_{k} & \sum x_{k}^{2}} ^{-1} = \Delta^{-1} \mat{rr}{ 285 & -45 \\ -45 & 9 }.
   \end{equation*}
-The solution vector, \eqref{eqn:bevington soln}, is
+The solution vector, \eqref{eqn:bevington soln sum}, is
   \begin{equation*}   %  =   =   =   =   =
       a = \mat{c}{a_{0} \\ a_{1}} = \frac{1}{360} \bl{\mat{c}{1733 \\ 3387}}.
   \end{equation*}
@@ -428,7 +427,7 @@ The modified version explicitly labels the radii of the error ellipse, $\eps_{0}
 	    %
     \end{overpic}
    \label{fig:bevington residuals lines}
-   \caption{Another look at the merit function showing the primary error ellipse.}
+   \caption{Another look at the merit function showing the primary error ellipse (black) and contour levels (gray).}
 \end{figure}
 
 \subsection{Seeing the Uncertainty}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
@@ -436,7 +435,7 @@ The interpretation of the variation of the parameters $a$ is straightforward. A 
   \begin{equation*}   %  =   =   =   =   =
        T_{\mu}(x) = a_{0_{\mu}} + a_{1_{\mu}} x, \qquad \ktoo{\mu}{250}.
   \end{equation*}
-Each solution represents a line. All of the lines provide a qualitative feel for the simultaneous variation of slope and intercept prescribed by the solution. Notice the white dots representing the ideal solution.
+Each solution represents a graph. All of the graphs provide a qualitative feel for the simultaneous variation of slope and intercept prescribed by the solution. The white dots representing the ideal solution.
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
    \begin{overpic}[ scale = \myscale ]
@@ -453,7 +452,7 @@ Each solution represents a line. All of the lines provide a qualitative feel for
 \end{figure}
   
 \subsection{Digging Deeper}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
-The whisker plot is a nice tool to quickly communicate the variation of the solution. This section describes the nuts and bolts of creating the representation. The primary tool is the assumed distribution of errors, here the normal distribution:
+The whisker plot is a nice tool to quickly communicate the variation of the solution. This section describes the nuts and bolts of creating the representation. The foundation is the assumed distribution of errors, here the normal distribution:
   \begin{equation*}   %  =   =   =   =   =
     f\paren{x;\mu,\sigma} = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}
   \end{equation*}
