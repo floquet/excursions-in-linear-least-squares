@@ -190,7 +190,7 @@ The solution to equation \eqref{eq:modal matrix eq} is the matrix product
   \label{eqn:bevington soln sum}
   \end{split}
   \end{equation}
-The final results agree with Bevington's equations 6--17:
+The final results agree with Bevington's equations 6--17.
 
 Bevington's \S 6--5 is a succinct explanation of error propagation. In short, measurements are inexact, therefore results will be inexact. The beauty of the method of least squares is that the error in the solution parameters can be expressed in terms of the error in the data. Measurements without uncertainties are incomplete measurements.
 
@@ -218,8 +218,8 @@ Error contributions for individual parameters are harvested from the diagonal el
     \begin{center}
       \begin{tabular}{lll}
         %
-        \bf{fit parameters} & $a_{0}$ & intercept, $^{\circ}$C \\
-                            & $a_{1}$ & slope, $^{\circ}$C / cm \\
+        \bf{fit parameters} & $a_{0} = \frac{\sum x_{k}^{2} \sum x_{k}y_{k} - \sum x_{k} \sum x_{k} y_{k}} {m \sum x_{k}^{2} - \paren{\sum x_{k}}^{2}}$ & intercept, $^{\circ}$C \\
+                            & $a_{1} = \frac{m \sum x_{k}y_{k} - \sum x_{k} \sum y_{k}} {m \sum x_{k}^{2} - \paren{\sum x_{k}}^{2}}$ & slope, $^{\circ}$C / cm \\
         \bf{solution function} & $T(x) = a_{0} + a_{1} x$ & $^{\circ}$C \\
         \bf{solution error} & $\eps_{T}^{2}(x) = \eps_{0}^{2} + x^{2} \eps_{1}^{2} + a_{1}^{2} \eps_{x}^{2} $ &$^{\circ}$C \\
         \bf{computed solution} & $\mat{c}{a_{0}\\a_{1}} = \mat{c}{4.8\\9.41} \pm \mat{c}{4.9\\0.87}$ \\

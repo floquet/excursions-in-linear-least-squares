@@ -33,41 +33,41 @@
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Parallel lines and the least squares solution.}}{68}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces A slice of a face-centered cubic lattice showing a single crystal.}}{73}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Simulation output showing atomic shades shaded by potential energy.}}{74}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Full data set showing inset.}}{75}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Sample data set showing fit parameters.}}{75}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Solutions for three data sets.}}{79}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Apex angles displayed in table 9.7\hbox {}.}}{82}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Merit functions for the three data sets.}}{83}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces A slice of a face-centered cubic lattice showing a single crystal.}}{75}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Simulation output showing atomic shades shaded by potential energy.}}{76}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Full data set showing inset.}}{77}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Sample data set showing fit parameters.}}{77}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Solutions for three data sets.}}{81}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Apex angles displayed in table 9.7\hbox {}.}}{84}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Merit functions for the three data sets.}}{85}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Stitching local maps together to form a global map.}}{87}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces The ideal potential function showing five measurement zones and four overlap bands.}}{89}
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Waterfall diagram showing discretization within measurement zones with left and right zone overlaps.}}{89}
-\contentsline {figure}{\numberline {11.4}{\ignorespaces Stitching unifies the data.}}{90}
-\contentsline {figure}{\numberline {11.5}{\ignorespaces A set of piston adjustments which restores continuity across the domain.}}{90}
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Looking at the merit function on the $p_{2} - p_{3}$ axis.}}{95}
-\contentsline {figure}{\numberline {11.7}{\ignorespaces Pistons from the solution and pistons used to create the data}}{96}
-\contentsline {figure}{\numberline {11.8}{\ignorespaces A set of tilt adjustments which restores continuity of the gradient across the domain.}}{97}
-\contentsline {figure}{\numberline {11.9}{\ignorespaces A function and its gradient.}}{97}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Stitching local maps together to form a global map.}}{89}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces The ideal potential function showing five measurement zones and four overlap bands.}}{91}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Waterfall diagram showing discretization within measurement zones with left and right zone overlaps.}}{91}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Stitching unifies the data.}}{92}
+\contentsline {figure}{\numberline {11.5}{\ignorespaces A set of piston adjustments which restores continuity across the domain.}}{92}
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Looking at the merit function on the $p_{2} - p_{3}$ axis.}}{97}
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Pistons from the solution and pistons used to create the data}}{98}
+\contentsline {figure}{\numberline {11.8}{\ignorespaces A set of tilt adjustments which restores continuity of the gradient across the domain.}}{99}
+\contentsline {figure}{\numberline {11.9}{\ignorespaces A function and its gradient.}}{99}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Merit function for the learning curve in solution space.}}{111}
-\contentsline {figure}{\numberline {14.2}{\ignorespaces Merit function constrained to one parameter $b$.}}{113}
-\contentsline {figure}{\numberline {14.3}{\ignorespaces Merit function for the learning curve in solution space showing the constrained $a$ parameter as a dotted line.}}{114}
-\contentsline {figure}{\numberline {14.4}{\ignorespaces Solution for equations \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 14.2\hbox {}\unskip \@@italiccorr )}} and \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 14.3\hbox {}\unskip \@@italiccorr )}} using data in table 14.2\hbox {}.}}{114}
-\contentsline {figure}{\numberline {14.5}{\ignorespaces The residual errors in figure 14.4\hbox {}.}}{115}
-\contentsline {figure}{\numberline {14.6}{\ignorespaces Minimization of the merit function for the learning curve.}}{116}
-\contentsline {figure}{\numberline {14.7}{\ignorespaces The merit function for the learning curve showing the minimum and the value .}}{117}
-\contentsline {figure}{\numberline {14.8}{\ignorespaces The merit function for the learning curve showing the minimum and the value .}}{119}
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Merit function for the learning curve in solution space.}}{113}
+\contentsline {figure}{\numberline {14.2}{\ignorespaces Merit function constrained to one parameter $b$.}}{115}
+\contentsline {figure}{\numberline {14.3}{\ignorespaces Merit function for the learning curve in solution space showing the constrained $a$ parameter as a dotted line.}}{116}
+\contentsline {figure}{\numberline {14.4}{\ignorespaces Solution for equations \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 14.2\hbox {}\unskip \@@italiccorr )}} and \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 14.3\hbox {}\unskip \@@italiccorr )}} using data in table 14.2\hbox {}.}}{116}
+\contentsline {figure}{\numberline {14.5}{\ignorespaces The residual errors in figure 14.4\hbox {}.}}{117}
+\contentsline {figure}{\numberline {14.6}{\ignorespaces Minimization of the merit function for the learning curve.}}{118}
+\contentsline {figure}{\numberline {14.7}{\ignorespaces The merit function for the learning curve showing the minimum and the value .}}{119}
+\contentsline {figure}{\numberline {14.8}{\ignorespaces The merit function for the learning curve showing the minimum and the value .}}{121}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {15.1}{\ignorespaces Residual error for \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 15.3\hbox {}\unskip \@@italiccorr )}} with $a_{1}$, $a_{2}$, and $a_{3}$ at optimal values.}}{125}
-\contentsline {figure}{\numberline {15.2}{\ignorespaces Residual error for $a_{1}$ and $a_{2}$ fixed at optimal values.}}{126}
-\contentsline {figure}{\numberline {15.3}{\ignorespaces Solution plotted against data.}}{126}
-\contentsline {figure}{\numberline {15.4}{\ignorespaces Scatterplot of residual errors.}}{127}
-\contentsline {figure}{\numberline {15.5}{\ignorespaces The merit function showing least squares solution.}}{127}
-\contentsline {figure}{\numberline {15.6}{\ignorespaces The merit function showing least squares solution and the null cline.}}{128}
-\contentsline {figure}{\numberline {15.7}{\ignorespaces Total error $r^{\mathrm {*}}r$ by order of fit.}}{132}
+\contentsline {figure}{\numberline {15.1}{\ignorespaces Residual error for \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 15.3\hbox {}\unskip \@@italiccorr )}} with $a_{1}$, $a_{2}$, and $a_{3}$ at optimal values.}}{127}
+\contentsline {figure}{\numberline {15.2}{\ignorespaces Residual error for $a_{1}$ and $a_{2}$ fixed at optimal values.}}{128}
+\contentsline {figure}{\numberline {15.3}{\ignorespaces Solution plotted against data.}}{128}
+\contentsline {figure}{\numberline {15.4}{\ignorespaces Scatterplot of residual errors.}}{129}
+\contentsline {figure}{\numberline {15.5}{\ignorespaces The merit function showing least squares solution.}}{129}
+\contentsline {figure}{\numberline {15.6}{\ignorespaces The merit function showing least squares solution and the null cline.}}{130}
+\contentsline {figure}{\numberline {15.7}{\ignorespaces Total error $r^{\mathrm {*}}r$ by order of fit.}}{135}
 \addvspace {10\p@ }
