@@ -70,9 +70,10 @@
 \contentsline {subsection}{\numberline {6.1.2}Reflection Invariance}{63}
 \contentsline {section}{\numberline {6.2}Fitting To Higher Orders}{64}
 \contentsline {chapter}{\numberline {7}Tricks}{67}
-\contentsline {section}{\numberline {7.1}Where Do Parallel Lines Cross?}{67}
-\contentsline {subsection}{\numberline {7.1.1}Intersecting Lines}{67}
-\contentsline {section}{\numberline {7.2}Removing Terms}{67}
+\contentsline {section}{\numberline {7.1}A Single Line}{67}
+\contentsline {section}{\numberline {7.2}Two Parallel Lines}{68}
+\contentsline {subsection}{\numberline {7.2.1}Intersecting Lines}{68}
+\contentsline {section}{\numberline {7.3}Removing Terms}{69}
 \contentsline {part}{\hbox to 20pt{III}Zonal Example}{71}
 \contentsline {chapter}{\numberline {8}Zonal Example}{73}
 \contentsline {section}{\numberline {8.1}Problem}{73}

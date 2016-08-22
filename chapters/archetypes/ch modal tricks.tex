@@ -1,7 +1,80 @@
 \chapter{Tricks}
 
-\section{Where Do Parallel Lines Cross?}  %    S    S    S    S    S    S    S    S    S
-The provocative question which opens this section has an obvious answer in Euclidean space. There is no such point; parallel lines never cross. Yet, if we input these lines as a linear system, we compute a least squares solution. What is the significance of the least squares solution?
+
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      y(x) = a_{0} + a_{1} x
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+\section{A Single Line}  %    S    S    S    S    S    S    S    S    S
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      y = a_{0} + a_{1} x
+   %\end{split}
+   \label{eq:myline}
+  \end{equation}
+Rewrite
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      -a_{1} x + y = a_{0}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \mat{cc}{-a_{1} & 1} 
+      \mat{c}{x\\y} =
+      b
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      x_{LS} = \lst{x\in\real{2}\colon \norms{\A{}x - b} \text{is minimized}}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      M\paren{x,y} = \paren{y - a_{0} - a_{1} x}^{2}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+Every point on the line is a solution point. Every point on the line produces the same error of 0. 
+The least squares solution is the solution of minimum length.
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      y = -\frac{1}{a_{1}} x
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+    \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      x = \frac{a_{0} a_{1}} {1 + a_{1}^{2}}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      p(\tau) = p_{0} + \tau \mat{c}{1\\a_{1}}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \A{\dagger} x = \frac{a_{0}}{1+a_{1}^2} \mat{c}{-a_{1} \\ 1}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+Every point on the line in \eqref{eq:myline}
+
+\section{Two Parallel Lines}  %    S    S    S    S    S    S    S    S    S
+Where Do Parallel Lines Cross? The provocative question which opens this section has an obvious answer in Euclidean space. There is no such point; parallel lines never cross. Yet, if we input these lines as a linear system, we compute a least squares solution. What is the significance of the least squares solution?
 
 Consider this tantalizing example. The two lines,
   \begin{equation*}   %  =   =   =   =   =
