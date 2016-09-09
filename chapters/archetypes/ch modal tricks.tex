@@ -197,7 +197,123 @@ Numerator:
    \label{eq:rule 2}
   \end{equation*}
 
+
 Denominator:
 
+\section{Three Lines}  %    S    S    S    S    S    S    S    S    S
+  \begin{equation*}   %  =   =   =   =   =
+     \begin{split}
+       %
+       y_{1}(x) &= 1, \\
+       y_{2}(x) &= 1 - x, \\
+       y_{3}(x) &= m x.
+       %
+     \end{split}
+   %\label{eq:}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+    \begin{split}
+      &y = 1 \\
+      x + &y = 1 \\
+      -mx +&y = 0
+    \end{split}
+   %\label{eq:}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \mat{rc}{0 & 1 \\ 1 & 1 \\ -m & 1 } 
+      \mat{c}{x \\ y} = 
+      \mat{c}{1\\1\\0}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+Merit function
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      M(x,y) = \normts{\A{}\mat{c}{x\\y}-b}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \A{*}.\A{} = 
+      \mat{lc}{1+m^{2} & 1-m \\ 1-m & 3}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+    \begin{split}
+      \tr {\A{}} &= 4 + m^{2} \\
+      \det \paren{\A{}} &= 2 + 2m + 2m^{2}
+    \end{split}
+   %\label{eq:}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      p\paren{\lambda} = \lambda^{2} - \tr{\W{}} + \det\paren{\W{}}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      p\paren{\lambda} = 0
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \sigma = 2^{-1/2} \sqrt{m^{2} + 4 \pm \factor}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+      \xi = \factor
+   %\label{eq:}
+  \end{equation*}
+
+
+\begin{table}[htbp]
+\caption{Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty$.}
+    \begin{center}
+        \begin{tabular}{ccc}
+           %
+           & Domain: Graphs & Domain: Merit Function \\\hline
+           %
+           \raisebox{0.5\height}{$m=0$} &
+           \includegraphics[ width = 2in ]{\pathgraphics tricks/three_lines/"three lines m = 0"} &
+           \includegraphics[ width = 2.1in ]{\pathgraphics tricks/three_lines/"merit function m = 0"} \\[10pt]
+           %
+           $m=1$ &
+           \includegraphics[ width = 2in ]{\pathgraphics tricks/three_lines/"three lines m = 1"} &
+           \includegraphics[ width = 2.1in ]{\pathgraphics tricks/three_lines/"merit function m = 1"} \\[10pt]
+           %
+           $m=2$ &
+           \includegraphics[ width = 2in ]{\pathgraphics tricks/three_lines/"three lines m = 2"} &
+           \includegraphics[ width = 2.1in ]{\pathgraphics tricks/three_lines/"merit function m = 2"} \\[10pt]
+           %
+           $m=5$ &
+           \includegraphics[ width = 2in ]{\pathgraphics tricks/three_lines/"three lines m = 5"} &
+           \includegraphics[ width = 2.1in ]{\pathgraphics tricks/three_lines/"merit function m = 5"} \\[10pt]
+           %
+           $m=\infty$ &
+           \includegraphics[ width = 2in ]{\pathgraphics tricks/three_lines/"three lines m = inf"} &
+           \includegraphics[ width = 2.1in ]{\pathgraphics tricks/three_lines/"merit function m = inf"} \\
+           %
+        \end{tabular}
+    \end{center}
+\label{tab:three lines}
+\end{table}%
+
+
+%merit function m = 0.pdf%merit function m = 1.pdf%merit function m = 2.pdf%merit function m = 5.pdf%merit function m = inf.pdfb%three lines m = 0.pdf%three lines m = 1.pdf%three lines m = 2.pdf%three lines m = 5.pdf%three lines m = inf.pdf
 
 \endinput
