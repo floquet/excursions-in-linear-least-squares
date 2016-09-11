@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 SEP 2016 00:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 SEP 2016 12:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1772,7 +1772,7 @@ File: ../pdf/tricks/three_lines/"three lines m = 0".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 0".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 0".pdf used
- on input line 292.
+ on input line 299.
 (pdftex.def)             Requested size: 144.54pt x 78.2911pt.
 
 <../pdf/tricks/three_lines/"merit function m = 0".pdf, id=645, 361.35pt x 185.6
@@ -1781,7 +1781,7 @@ File: ../pdf/tricks/three_lines/"merit function m = 0".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 0".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 0".pdf u
-sed on input line 293.
+sed on input line 300.
 (pdftex.def)             Requested size: 151.76744pt x 77.99084pt.
 
 <../pdf/tricks/three_lines/"three lines m = 1".pdf, id=646, 361.35pt x 195.7312
@@ -1790,7 +1790,7 @@ File: ../pdf/tricks/three_lines/"three lines m = 1".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 1".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 1".pdf used
- on input line 296.
+ on input line 303.
 (pdftex.def)             Requested size: 144.54pt x 78.2911pt.
 
 <../pdf/tricks/three_lines/"merit function m = 1".pdf, id=647, 361.35pt x 185.6
@@ -1799,7 +1799,7 @@ File: ../pdf/tricks/three_lines/"merit function m = 1".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 1".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 1".pdf u
-sed on input line 297.
+sed on input line 304.
 (pdftex.def)             Requested size: 151.76744pt x 77.99084pt.
 
 <../pdf/tricks/three_lines/"three lines m = 2".pdf, id=648, 361.35pt x 195.7312
@@ -1808,7 +1808,7 @@ File: ../pdf/tricks/three_lines/"three lines m = 2".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 2".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 2".pdf used
- on input line 300.
+ on input line 307.
 (pdftex.def)             Requested size: 144.54pt x 78.2911pt.
 
 <../pdf/tricks/three_lines/"merit function m = 2".pdf, id=649, 361.35pt x 185.6
@@ -1817,7 +1817,7 @@ File: ../pdf/tricks/three_lines/"merit function m = 2".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 2".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 2".pdf u
-sed on input line 301.
+sed on input line 308.
 (pdftex.def)             Requested size: 151.76744pt x 77.99084pt.
 
 <../pdf/tricks/three_lines/"three lines m = 5".pdf, id=650, 361.35pt x 195.7312
@@ -1826,7 +1826,7 @@ File: ../pdf/tricks/three_lines/"three lines m = 5".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 5".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 5".pdf used
- on input line 304.
+ on input line 311.
 (pdftex.def)             Requested size: 144.54pt x 78.2911pt.
 
 <../pdf/tricks/three_lines/"merit function m = 5".pdf, id=651, 361.35pt x 185.6
@@ -1835,7 +1835,7 @@ File: ../pdf/tricks/three_lines/"merit function m = 5".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 5".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 5".pdf u
-sed on input line 305.
+sed on input line 312.
 (pdftex.def)             Requested size: 151.76744pt x 77.99084pt.
 
 <../pdf/tricks/three_lines/"three lines m = inf".pdf, id=652, 361.35pt x 195.73
@@ -1844,7 +1844,7 @@ File: ../pdf/tricks/three_lines/"three lines m = inf".pdf Graphic file (type pd
 f)
  <use ../pdf/tricks/three_lines/"three lines m = inf".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = inf".pdf us
-ed on input line 308.
+ed on input line 315.
 (pdftex.def)             Requested size: 144.54pt x 78.2911pt.
 
 <../pdf/tricks/three_lines/"merit function m = inf".pdf, id=653, 361.35pt x 185
@@ -1853,15 +1853,15 @@ File: ../pdf/tricks/three_lines/"merit function m = inf".pdf Graphic file (type
  pdf)
  <use ../pdf/tricks/three_lines/"merit function m = inf".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = inf".pdf
- used on input line 309.
+ used on input line 316.
 (pdftex.def)             Requested size: 151.76744pt x 77.99084pt.
 
-Overfull \hbox (3.07082pt too wide) in paragraph at lines 287--312
+Overfull \hbox (3.07082pt too wide) in paragraph at lines 294--319
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 2.34464pt on input line 314.
+LaTeX Warning: Float too large for page by 2.34464pt on input line 321.
 
 ) [70] [71 <../pdf/tricks/three_lines/three lines m = 0.pdf> <../pdf/tricks/thr
 ee_lines/merit function m = 0.pdf
@@ -2844,7 +2844,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  24989 strings out of 493089
  513504 string characters out of 6134842
- 534069 words of memory out of 5000000
+ 534071 words of memory out of 5000000
  27819 multiletter control sequences out of 15000+600000
  27919 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2878,7 +2878,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on "ells 01.pdf" (158 pages, 3992815 bytes).
+Output written on "ells 01.pdf" (158 pages, 3993297 bytes).
 PDF statistics:
  2040 PDF objects out of 2073 (max. 8388607)
  1370 compressed objects within 14 object streams

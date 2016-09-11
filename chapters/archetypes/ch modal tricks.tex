@@ -240,7 +240,7 @@ Merit function
 
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
-      \A{*}.\A{} = 
+      \A{*} \cdot \A{} = 
       \mat{lc}{1+m^{2} & 1-m \\ 1-m & 3}
    %\end{split}
    %\label{eq:}
@@ -256,13 +256,20 @@ Merit function
 
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
-      p\paren{\lambda} = \lambda^{2} - \tr{\W{}} + \det\paren{\W{}}
+      p\paren{\lambda} = \lambda^{2} - \lambda \, \tr{\W{}} + \det\paren{\W{}}
    %\end{split}
    %\label{eq:}
   \end{equation*}
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
       p\paren{\lambda} = 0
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \lambda_{\pm} = \frac{\tr{\W{}} \pm \sqrt{ \tr{\W{}}^{2} - 4 \det\paren{\W{}} } } {2}
    %\end{split}
    %\label{eq:}
   \end{equation*}
@@ -288,7 +295,7 @@ Merit function
            %
            & Domain: Graphs & Domain: Merit Function \\\hline
            %
-           \raisebox{0.5\height}{$m=0$} &
+           \raisebox{1.5\height}{$m=0$} &
            \includegraphics[ width = 2in ]{\pathgraphics tricks/three_lines/"three lines m = 0"} &
            \includegraphics[ width = 2.1in ]{\pathgraphics tricks/three_lines/"merit function m = 0"} \\[10pt]
            %
