@@ -1,14 +1,60 @@
-\chapter{Tricks}
+\chapter{Playing with lines}
 
-
+The method of least squares is a wonderfully versatile tool, and we will get a sense of this from looking at the canonical equation for a line
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
-      y(x) = a_{0} + a_{1} x
+      y(x) = a_{0} + a_{1} x.
    %\end{split}
    %\label{eq:}
   \end{equation*}
+There are two ways to exploit the equation. One way is to input a set of measurements $\lst{x_{k},y_{k}}_{k=1}^{m}$, and find the best parameters $\paren{a_{0},a_{1}}$, in the least squares sense. 
+
+The focus on this chapter is to take a set of parameters $\paren{a_{0},a_{1}}$ and to find the bet set $\paren{x, y}$, in the least squares sense.	
+
+\begin{table}[htbp]  % + + + + T A B L E
+    %\caption{default}
+    \begin{center}
+        \begin{tabular}{ll}
+            %
+            input & output \\\hline
+            %
+            parameters $a_{0}$, $a_{1}$ & set $(x, y)$\\
+      		%
+			intercept, slope & least squares solution
+            %
+        \end{tabular}
+    \end{center}
+    %\label{default}
+\end{table}%
+
 
 \section{A Single Line}  %    S    S    S    S    S    S    S    S    S
+
+  \begin{table}[h]  %  T A B L E
+    \caption{Problem statement for least squares solution for a single line.}
+    \begin{center}
+      \begin{tabular}{lll}
+        %
+        \bf{trial function} & $y(x) = a_{0} + a_{1} x$ \\
+        \bf{residual error} & $r(x) = y - a_{0} - a_{1} x$ \\
+        \bf{merit function} & $M(a) = \sum_{k=1}^{m}\paren{T_{k} - a_{0} - a_{1} x}^{2}$\\
+        \bf{inputs}         & $a_{0}$ & $y-$axis intercept \\
+                            & $a_{1}$ & slope \\
+        \bf{results}        & $\mat{c}{x\\y}_{LS} = \mat{c}{x\\y}_{particular} + \mat{c}{x\\y}_{homogenous}$   \\
+        \bf{\# of parameter sets} & $m = 1$ & rows in $\A{}$ \\
+        \bf{\# of parameters}   & $n = 2$ & columns in $\A{}$ \\
+        \bf{system matrix}  & $\A{} \in \real{1 \times 2}_{1}$ \\
+        \bf{linear system}  & $\mat{c}{1 & x_{1}  \\ \vdots & \vdots \\ 1 & x_{m}} 
+                               \mat{c}{x \\ y} = 
+                               \mat{c}{a_{0}}$ \\
+        \bf{ideal solution} & NA \\
+        \bf{input data}     & --
+        %
+      \end{tabular}
+    \end{center}
+  \label{tab:bevington inputs}
+  \end{table}%
+
   \begin{equation}   %  =   =   =   =   =
    %\begin{split}
       y = a_{0} + a_{1} x
@@ -321,6 +367,15 @@ Merit function
 \end{table}%
 
 
-%merit function m = 0.pdf%merit function m = 1.pdf%merit function m = 2.pdf%merit function m = 5.pdf%merit function m = inf.pdfb%three lines m = 0.pdf%three lines m = 1.pdf%three lines m = 2.pdf%three lines m = 5.pdf%three lines m = inf.pdf
+%merit function m = 0.pdf
+%merit function m = 1.pdf
+%merit function m = 2.pdf
+%merit function m = 5.pdf
+%merit function m = inf.pdfb
+%three lines m = 0.pdf
+%three lines m = 1.pdf
+%three lines m = 2.pdf
+%three lines m = 5.pdf
+%three lines m = inf.pdf
 
 \endinput
