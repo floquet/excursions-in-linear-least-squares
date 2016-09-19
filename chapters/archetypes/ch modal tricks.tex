@@ -14,13 +14,13 @@ The focus on this chapter is to take a set of parameters $\paren{a_{0},a_{1}}$ a
 \begin{table}[htbp]  % + + + + T A B L E
     %\caption{default}
     \begin{center}
-        \begin{tabular}{ll}
+        \begin{tabular}{lcl}
             %
-            input & output \\\hline
+            input & $\rightarrow$ & output \\\hline
             %
-            parameters $a_{0}$, $a_{1}$ & set $(x, y)$\\
+            parameters $a_{0}$, $a_{1}$ && set $(x, y)$\\
       		%
-			intercept, slope & least squares solution
+			intercept, slope && least squares solution
             %
         \end{tabular}
     \end{center}
@@ -40,11 +40,11 @@ The focus on this chapter is to take a set of parameters $\paren{a_{0},a_{1}}$ a
         \bf{merit function} & $M(a) = \sum_{k=1}^{m}\paren{T_{k} - a_{0} - a_{1} x}^{2}$\\
         \bf{inputs}         & $a_{0}$ & $y-$axis intercept \\
                             & $a_{1}$ & slope \\
-        \bf{results}        & $\mat{c}{x\\y}_{LS} = \mat{c}{x\\y}_{particular} + \mat{c}{x\\y}_{homogenous}$   \\
+        \bf{results}        & $\mat{c}{x\\y}_{LS} = \mat{c}{x\\y}_{part} + \mat{c}{x\\y}_{homog}$   \\
         \bf{\# of parameter sets} & $m = 1$ & rows in $\A{}$ \\
         \bf{\# of parameters}   & $n = 2$ & columns in $\A{}$ \\
         \bf{system matrix}  & $\A{} \in \real{1 \times 2}_{1}$ \\
-        \bf{linear system}  & $\mat{c}{1 & x_{1}  \\ \vdots & \vdots \\ 1 & x_{m}} 
+        \bf{linear system}  & $\mat{cc}{-a_{1} & 1} 
                                \mat{c}{x \\ y} = 
                                \mat{c}{a_{0}}$ \\
         \bf{ideal solution} & NA \\
