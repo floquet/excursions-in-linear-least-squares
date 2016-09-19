@@ -230,20 +230,25 @@ The columns of the system matrix $\A{} = \mat{c|c}{\bf{1} & x}$. The solution pa
 \subsection{Errors}  %   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS   SS
 When measurements are not exact, solutions are not exact. A great beauty of the method of least squares in that the quality of the solution can be quantified. An ability to discern answers like 3.0 $\pm$ 1.0 from 3.000 $\pm$ 0.0010 is invaluable. The machinery needed to compute uncertainties will be developed in following chapters.
 
-\section{\label{sec:lsp}Least Squares Problem}  %    S    S    S    S    S    S    S    S    S    S    S    S    S    S
+\section{\label{sec:lsp}General Least Squares Problem and Solution}  %    S    S    S    S    S    S    S    S    S    S    S    S    S    S
 Emboldened by solutions to two basic problems, we turn attention towards formalities. Starting with a the linear system $\axeb$ where the matrix $\aicmn$, the data vector $b\in\cmplxm$, the least squares solution\index{least squares!solution!definition} $\xls$ is defined as the set
   \begin{equation}   %  =   =   =   =   =
+  \boxed{
     \xlsdef .
     \label{eq:xlsdef}
+	}
   \end{equation}
 The least squares solution may be a point or it may be a hyperplane. The general solution is a combination of a particular solution (in blue) and a homogenous solution (in red):
   \begin{equation}   %  =   =   =   =   =
+  \boxed{
    \begin{array}{cccccl}
      \xls 
        & = & \bsolnlsa{b}{y}, & \qquad y \in \cmplx{n} \\
-       & = & \xbotha
+       & = & \xbotha, \\
+       & = & \bl{x_{part}} & + & \rd{x_{homog}} .
     \label{eq:general soln}
    \end{array}
+  }
   \end{equation}
 where the matrix $\Ap$ is the pseudoinverse and $y$ is an arbitrary vector.
 
