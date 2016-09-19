@@ -21,9 +21,10 @@
 \contentsline {table}{\numberline {4.3}{\ignorespaces A summary of the residual errors and their contributions to $\left \delimiter 69645069 {\color {red} {r}} \right \delimiter 86422285 _{2}$.}}{53}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Relating the pair index $\mu $ to the indices $j$ and $k$.}}{66}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces Problem statement for least squares solution for a single line.}}{68}
-\contentsline {table}{\numberline {7.2}{\ignorespaces default}}{70}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Rewriting the equations $y=mx+b$ as a linear system.}}{70}
 \contentsline {table}{\numberline {7.3}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{72}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

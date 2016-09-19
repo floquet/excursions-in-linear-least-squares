@@ -19,8 +19,8 @@ The focus on this chapter is to take a set of parameters $\paren{a_{0},a_{1}}$ a
             input & $\rightarrow$ & output \\\hline
             %
             parameters $a_{0}$, $a_{1}$ && set $(x, y)$\\
-      		%
-			intercept, slope && least squares solution
+      			%
+						intercept, slope && least squares solution
             %
         \end{tabular}
     \end{center}
@@ -29,6 +29,35 @@ The focus on this chapter is to take a set of parameters $\paren{a_{0},a_{1}}$ a
 
 
 \section{A Single Line}  %    S    S    S    S    S    S    S    S    S
+
+Given the parameters $a=\mat{c}{a_{0}\\a_{1}}$, find the set $\mat{c}{x\\y}$ which comprises the least squares solution for
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      y = a_{0} + a_{1} x, \qquad a_{0} \ne 0.
+   %\end{split}
+   \label{eq:myline}
+  \end{equation}
+
+
+Rewriting the equation as a linear system reveals
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      -a_{1} x + y = a_{0},
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+which is the linear system
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    \mat{rc}{ -a_{1} & 1 } \mat{c}{x\\y} = \mat{c}{a_{0}}.
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+Certainly, the heavy artillery of the SVD could be brought to bear. Yet simple geometric reasoning will produce a solution and reinforce basic insights.
+
+Equation \eqref{eq:myline} describes a line, a continuous set of points. Referring back to the boxed least squares solution in \eqref{eq:general soln}, the least squares solution may be the 
+
+Which point on the line is closet to the origin? One way to solve for this is use the fact that the shortest line through the origin which connects with \eqref{eq:myline} is perpendicular to \eqref{eq:myline}. This is the orthogonal projection theorem.
 
   \begin{table}[h]  %  T A B L E
     \caption{Problem statement for least squares solution for a single line.}
@@ -54,20 +83,6 @@ The focus on this chapter is to take a set of parameters $\paren{a_{0},a_{1}}$ a
     \end{center}
   \label{tab:bevington inputs}
   \end{table}%
-
-  \begin{equation}   %  =   =   =   =   =
-   %\begin{split}
-      y = a_{0} + a_{1} x
-   %\end{split}
-   \label{eq:myline}
-  \end{equation}
-Rewrite
-  \begin{equation*}   %  =   =   =   =   =
-   %\begin{split}
-      -a_{1} x + y = a_{0}
-   %\end{split}
-   %\label{eq:}
-  \end{equation*}
 
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
@@ -119,7 +134,7 @@ The least squares solution is the solution of minimum length.
 
 Every point on the line in \eqref{eq:myline}
 
-\section{Two Parallel Lines}  %    S    S    S    S    S    S    S    S    S
+\section{Two Lines}  %    S    S    S    S    S    S    S    S    S
 Where Do Parallel Lines Cross? The provocative question which opens this section has an obvious answer in Euclidean space. There is no such point; parallel lines never cross. Yet, if we input these lines as a linear system, we compute a least squares solution. What is the significance of the least squares solution?
 
 Consider this tantalizing example. The two lines,
@@ -162,90 +177,6 @@ What is so special about this point?
   \end{equation*}
 
 
-\section{Removing Terms}  %    S    S    S    S    S    S    S    S    S
-Here we develop a useful tool for removing isolated terms in the merit function.
-
-Trial function for a line (polynomial expansion)
-  \begin{equation*}   %  =   =   =   =   =
-   %\begin{split}
-      y_{k} = a_{0} + a_{1} x_{k}, \qquad k = 1, m
-   %\end{split}
-   %\label{eq:}
-  \end{equation*}
-
-In this instance, we can eliminate the intercept by looking at the differences between measurements. To wit,
-  \begin{equation*}   %  =   =   =   =   =
-   %\begin{split}
-      y_{j} - y_{k} = a_{1} \paren{x_{j} - x_{k}}, \qquad \begin{cases}j=1, m-1\\ k= j+1, m\end{cases}
-   %\end{split}
-   \label{eq:difference jk}
-  \end{equation*}
-The common sense interpretation of this equation is that the difference in measurements tells us about the slope
-Use the integer $p_{\nu}$, $\nu=\half n\paren{n-1}$ to keep track of the pairs of indices $(j,k)$. 
-\begin{table}[htbp]
-    \caption{default}
-    \begin{center}
-        \begin{tabular}{ll}
-        	%
-			$p_{1}$ & (1,2) \\
-			$p_{2}$ & (1,3) \\
-			\ $\vdots$ & \ $\vdots$ \\
-			$p_{m-1}$ & $(1,m-1)$  \\
-			$p_{m}$ & $(2,1)$  \\
-			\ $\vdots$ & \ $\vdots$ \\
-			$p_{\half n\paren{n-1}}$ & $(m-1,m)$  \\
-        	%
-        \end{tabular}
-    \end{center}
-    \label{default}
-\end{table}
-The variable $M  = \half n\paren{n-1}$ counts the number of distinct pairs.
-  \begin{equation*}   %  =   =   =   =   =
-   %\begin{split}
-      Y_{p_{\mu}} = a_{1} Y_{p_{\mu}}, \qquad \mu = 1, M
-   %\end{split}
-   \label{eq:difference jk}
-  \end{equation*}
-The merit function is
-  \begin{equation*}   %  =   =   =   =   =
-   %\begin{split}
-      M(a_{1}) = \sum_{\mu=1}^{M} \paren{Y_{p_{\mu}} - a_{1} X_{p_{\mu}}}^{2}
-   %\end{split}
-   %\label{eq:}
-  \end{equation*}
-Setting the derivative with respect to $a_{1}$ equal to zero generates the solution
-  \begin{equation*}   %  =   =   =   =   =
-   %\begin{split}
-      a_{1} = \frac{\sum_{\mu=1}^{M} X_{p_{\mu}} Y_{p_{\mu}}} {\sum_{\mu=1}^{M} X_{p_{\mu}}^{2}}
-   %\end{split}
-   %\label{eq:}
-  \end{equation*}
-
-This is the same answer as \eqref{???},
-`  \begin{equation*}   %  =   =   =   =   =
-   %\begin{split}
-      a_{1} = \frac{m \sum_{k=1}^{m}x_{k}y_{k} - \sum_{k=1}^{m}x_{k}\sum_{k=1}^{m}y_{k}} {m \sum_{k=1}^{m}x_{k}^{2} - \paren{\sum_{k=1}^{m}x_{k}}^{2}} .
-   %\end{split}
-   %\label{eq:}
-  \end{equation*}
-Numerator:
-  \begin{equation*}   %  =   =   =   =   =
-   %\begin{split}
-      \sum_{j=1}^{m-1} \sum_{k=j+1}^{m} \paren{x_{j}y_{j} + x_{k}y_{k}} = (m-1) \sum_{i=1}^{m} x_{i}y_{i}
-   %\end{split}
-   \label{eq:rule 1}
-  \end{equation*}
-  \begin{equation*}   %  =   =   =   =   =
-   %\begin{split}
-   	  \sum_{i=1}^{m}x_{i} \sum_{i=1}^{m}y_{i} = \sum_{i=1}^{m}x_{i}y_{i} - 
-      \sum_{j=1}^{m-1} \sum_{k=j+1}^{m} \paren{x_{j}y_{k} + x_{k}y_{j}} 
-   %\end{split}
-   \label{eq:rule 2}
-  \end{equation*}
-
-
-Denominator:
-
 \section{Three Lines}  %    S    S    S    S    S    S    S    S    S
   \begin{equation*}   %  =   =   =   =   =
      \begin{split}
@@ -258,14 +189,31 @@ Denominator:
    %\label{eq:}
   \end{equation*}
 
-  \begin{equation*}   %  =   =   =   =   =
-    \begin{split}
-      &y = 1 \\
-      x + &y = 1 \\
-      -mx +&y = 0
-    \end{split}
-   %\label{eq:}
-  \end{equation*}
+%  \begin{equation*}   %  =   =   =   =   =
+%    \begin{split}
+%      &y = 1 \\
+%      x + &y = 1 \\
+%      -mx +&y = 0
+%    \end{split}
+%   %\label{eq:}
+%  \end{equation*}
+
+  \begin{table}[htbp]
+  \caption{Rewriting the equations $y=mx+b$ as a linear system.}
+  \begin{center}
+    \begin{tabular}{lclcccrcrcl}
+      %
+      $y_{1}(x)$ &=&  1       && $\Rightarrow$ && &&          $y$ &=& 1 \\
+      %
+      $y_{2}(x)$ &=&  $1 - x$ && $\Rightarrow$ && $x$   & + & $y$ &=& 1 \\
+      %
+      $y_{3}(x)$ &=&  $m x$   && $\Rightarrow$ && $-mx$ & + & $y$ &=& 0 \\
+      %
+    \end{tabular}
+  \end{center}
+  %\label{default}
+  \end{table}%
+
 
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
@@ -345,7 +293,7 @@ Merit function
            \includegraphics[ width = 2in ]{\pathgraphics tricks/three_lines/"three lines m = 0"} &
            \includegraphics[ width = 2.1in ]{\pathgraphics tricks/three_lines/"merit function m = 0"} \\[10pt]
            %
-           $m=1$ &
+           \raisebox{-2.5\height}{$m=1$} &
            \includegraphics[ width = 2in ]{\pathgraphics tricks/three_lines/"three lines m = 1"} &
            \includegraphics[ width = 2.1in ]{\pathgraphics tricks/three_lines/"merit function m = 1"} \\[10pt]
            %
@@ -366,6 +314,13 @@ Merit function
 \label{tab:three lines}
 \end{table}%
 
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    p(m) = \frac{1} {2\paren{m^{2} + m + 1}} \mat{c}{ b_{1}\paren{m-1} + b_{2}\paren{m+2} + b_{3} \paren{-2m-1} \\
+                                                      b_{1}\paren{m^{2}+1} + b_{2} m\paren{m+1} + b_{3} \paren{m+1} }
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
 
 %merit function m = 0.pdf
 %merit function m = 1.pdf
@@ -377,5 +332,11 @@ Merit function
 %three lines m = 2.pdf
 %three lines m = 5.pdf
 %three lines m = inf.pdf
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[ width = 3.5in ]{\pathgraphics tricks/three_lines/"three lines oval"} 
+   \caption{example caption}
+   \label{fig:three lines oval}
+\end{figure}
 
 \endinput
