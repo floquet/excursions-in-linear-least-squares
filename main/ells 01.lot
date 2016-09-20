@@ -10,59 +10,61 @@
 \contentsline {table}{\numberline {2.6}{\ignorespaces Fundamental Projectors using domain matrices.}}{19}
 \contentsline {table}{\numberline {2.7}{\ignorespaces Reflecting the data for $\A {}x - T = r$.}}{21}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Problem statement for linear regression.}}{30}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Raw data and results.}}{31}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Results for linear regression.}}{32}
-\contentsline {table}{\numberline {3.4}{\ignorespaces The solution parameters expressed as normal distributions.}}{39}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Comparing samples to ideal normal distribution.}}{40}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Problem statement for least squares solution for a single line.}}{24}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Rewriting the equations $y=mx+b$ as a linear system.}}{26}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{28}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{30}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{31}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces The column vectors of $ \mathbf {U}^{\mathrm { }} $.}}{52}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Singular value decomposition for the system matrix $\A {}$.}}{52}
-\contentsline {table}{\numberline {4.3}{\ignorespaces A summary of the residual errors and their contributions to $\left \delimiter 69645069 {\color {red} {r}} \right \delimiter 86422285 _{2}$.}}{53}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Problem statement for linear regression.}}{40}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Raw data and results.}}{41}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Results for linear regression.}}{42}
+\contentsline {table}{\numberline {4.4}{\ignorespaces The solution parameters expressed as normal distributions.}}{49}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Comparing samples to ideal normal distribution.}}{50}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Relating the pair index $\mu $ to the indices $j$ and $k$.}}{66}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Problem statement for least squares solution for a single line.}}{68}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Rewriting the equations $y=mx+b$ as a linear system.}}{70}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{72}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Data sets and basic results}}{80}
-\contentsline {table}{\numberline {9.2}{\ignorespaces Problem statement for grain identification by rows (coupled linear regression).}}{83}
-\contentsline {table}{\numberline {9.3}{\ignorespaces Point membership in data sets shown in figure 9.1\hbox {}.}}{84}
-\contentsline {table}{\numberline {9.4}{\ignorespaces Excerpted data set.}}{85}
-\contentsline {table}{\numberline {9.5}{\ignorespaces Least squares results for three axes.}}{85}
-\contentsline {table}{\numberline {9.6}{\ignorespaces Intermediate results: angles for the axes.}}{85}
-\contentsline {table}{\numberline {9.7}{\ignorespaces Final results: apex angle measurements}}{85}
+\contentsline {table}{\numberline {5.1}{\ignorespaces The column vectors of $ \mathbf {U}^{\mathrm { }} $.}}{62}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Singular value decomposition for the system matrix $\A {}$.}}{62}
+\contentsline {table}{\numberline {5.3}{\ignorespaces A summary of the residual errors and their contributions to $\left \delimiter 69645069 {\color {red} {r}} \right \delimiter 86422285 _{2}$.}}{63}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {11.1}{\ignorespaces The input data in continuous and discrete form.}}{92}
-\contentsline {table}{\numberline {11.2}{\ignorespaces Sample showing two zones with overlap.}}{92}
-\contentsline {table}{\numberline {11.3}{\ignorespaces Measurements displaying the connection between overlap bands in figure 11.3\hbox {}.}}{95}
-\contentsline {table}{\numberline {11.4}{\ignorespaces Computation of the zone shift values.}}{95}
-\contentsline {table}{\numberline {11.5}{\ignorespaces Computation of the zone shift values.}}{96}
-\contentsline {table}{\numberline {11.6}{\ignorespaces Input data}}{96}
-\contentsline {table}{\numberline {11.7}{\ignorespaces Problem statement for linear regression.}}{97}
-\contentsline {table}{\numberline {11.8}{\ignorespaces Results for stitching with piston.}}{98}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Relating the pair index $\mu $ to the indices $j$ and $k$.}}{76}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {13.1}{\ignorespaces Problem statement for linear regression.}}{110}
-\contentsline {table}{\numberline {13.2}{\ignorespaces Results for best circle}}{111}
+\contentsline {table}{\numberline {9.1}{\ignorespaces Data sets and basic results}}{84}
+\contentsline {table}{\numberline {9.2}{\ignorespaces Problem statement for grain identification by rows (coupled linear regression).}}{87}
+\contentsline {table}{\numberline {9.3}{\ignorespaces Point membership in data sets shown in figure 9.1\hbox {}.}}{88}
+\contentsline {table}{\numberline {9.4}{\ignorespaces Excerpted data set.}}{89}
+\contentsline {table}{\numberline {9.5}{\ignorespaces Least squares results for three axes.}}{89}
+\contentsline {table}{\numberline {9.6}{\ignorespaces Intermediate results: angles for the axes.}}{89}
+\contentsline {table}{\numberline {9.7}{\ignorespaces Final results: apex angle measurements}}{89}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {14.1}{\ignorespaces Problem statement for learning curve.}}{116}
-\contentsline {table}{\numberline {14.2}{\ignorespaces The simultaneous conditions defining $\nabla M(a,b) = 0$.}}{116}
-\contentsline {table}{\numberline {14.3}{\ignorespaces Results for learning curve analysis.}}{119}
-\contentsline {table}{\numberline {14.4}{\ignorespaces Problem statement for radioactive decay.}}{122}
-\contentsline {table}{\numberline {14.5}{\ignorespaces Logarithmic scaling distorts errors.}}{124}
-\contentsline {table}{\numberline {14.6}{\ignorespaces Results for radioactive decay.}}{125}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {15.1}{\ignorespaces Problem statement for population model with linear and exponential growth.}}{128}
-\contentsline {table}{\numberline {15.2}{\ignorespaces Data v. prediction.}}{129}
-\contentsline {table}{\numberline {15.3}{\ignorespaces Results for census analysis}}{132}
-\contentsline {table}{\numberline {15.4}{\ignorespaces Fitting the census data with low order polynomials.}}{133}
-\contentsline {table}{\numberline {15.5}{\ignorespaces Fitting the census data with higher order polynomials.}}{134}
-\contentsline {table}{\numberline {15.6}{\ignorespaces Fitting the census data with low order polynomials.}}{135}
-\contentsline {table}{\numberline {15.7}{\ignorespaces Fitting the census data with higher order polynomials.}}{136}
-\contentsline {table}{\numberline {15.8}{\ignorespaces Projections, by order of fit, for population in 2010.}}{137}
+\contentsline {table}{\numberline {11.1}{\ignorespaces The input data in continuous and discrete form.}}{96}
+\contentsline {table}{\numberline {11.2}{\ignorespaces Sample showing two zones with overlap.}}{96}
+\contentsline {table}{\numberline {11.3}{\ignorespaces Measurements displaying the connection between overlap bands in figure 11.3\hbox {}.}}{99}
+\contentsline {table}{\numberline {11.4}{\ignorespaces Computation of the zone shift values.}}{99}
+\contentsline {table}{\numberline {11.5}{\ignorespaces Computation of the zone shift values.}}{100}
+\contentsline {table}{\numberline {11.6}{\ignorespaces Input data}}{100}
+\contentsline {table}{\numberline {11.7}{\ignorespaces Problem statement for linear regression.}}{101}
+\contentsline {table}{\numberline {11.8}{\ignorespaces Results for stitching with piston.}}{102}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {13.1}{\ignorespaces Problem statement for linear regression.}}{114}
+\contentsline {table}{\numberline {13.2}{\ignorespaces Results for best circle}}{115}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {14.1}{\ignorespaces Problem statement for learning curve.}}{120}
+\contentsline {table}{\numberline {14.2}{\ignorespaces The simultaneous conditions defining $\nabla M(a,b) = 0$.}}{120}
+\contentsline {table}{\numberline {14.3}{\ignorespaces Results for learning curve analysis.}}{123}
+\contentsline {table}{\numberline {14.4}{\ignorespaces Problem statement for radioactive decay.}}{126}
+\contentsline {table}{\numberline {14.5}{\ignorespaces Logarithmic scaling distorts errors.}}{128}
+\contentsline {table}{\numberline {14.6}{\ignorespaces Results for radioactive decay.}}{129}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {15.1}{\ignorespaces Problem statement for population model with linear and exponential growth.}}{132}
+\contentsline {table}{\numberline {15.2}{\ignorespaces Data v. prediction.}}{133}
+\contentsline {table}{\numberline {15.3}{\ignorespaces Results for census analysis}}{136}
+\contentsline {table}{\numberline {15.4}{\ignorespaces Fitting the census data with low order polynomials.}}{137}
+\contentsline {table}{\numberline {15.5}{\ignorespaces Fitting the census data with higher order polynomials.}}{138}
+\contentsline {table}{\numberline {15.6}{\ignorespaces Fitting the census data with low order polynomials.}}{139}
+\contentsline {table}{\numberline {15.7}{\ignorespaces Fitting the census data with higher order polynomials.}}{140}
+\contentsline {table}{\numberline {15.8}{\ignorespaces Projections, by order of fit, for population in 2010.}}{141}
 \addvspace {10\p@ }

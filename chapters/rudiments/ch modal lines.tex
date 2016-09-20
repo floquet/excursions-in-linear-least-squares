@@ -1,4 +1,4 @@
-\chapter{Playing with lines}
+\chapter{Playing With Lines}
 
 The method of least squares is a wonderfully versatile tool, and we will get a sense of this from looking at the canonical equation for a line
   \begin{equation*}   %  =   =   =   =   =
@@ -37,7 +37,6 @@ Given the parameters $a=\mat{c}{a_{0}\\a_{1}}$, find the set $\mat{c}{x\\y}$ whi
    %\end{split}
    \label{eq:myline}
   \end{equation}
-
 
 Rewriting the equation as a linear system reveals
   \begin{equation*}   %  =   =   =   =   =
@@ -88,13 +87,13 @@ Which point on the line is closet to the origin? One way to solve for this is us
    %\begin{split}
       \mat{cc}{-a_{1} & 1} 
       \mat{c}{x\\y} =
-      b
+      \mat{c}{a_{0}}
    %\end{split}
    %\label{eq:}
   \end{equation*}
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
-      x_{LS} = \lst{x\in\real{2}\colon \norms{\A{}x - b} \text{is minimized}}
+      x_{LS} = \lst{x\in\real{2}\colon \norms{\A{}x - a_{0}} \text{is minimized}}
    %\end{split}
    %\label{eq:}
   \end{equation*}
@@ -104,7 +103,8 @@ Which point on the line is closet to the origin? One way to solve for this is us
    %\end{split}
    %\label{eq:}
   \end{equation*}
-Every point on the line is a solution point. Every point on the line produces the same error of 0. 
+Because every point on the line \eqref{eq:myline} is a point of 0 residual, every point on the line is a solution point. 
+
 The least squares solution is the solution of minimum length.
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
@@ -314,28 +314,120 @@ Merit function
 \label{tab:three lines}
 \end{table}%
 
-  \begin{equation*}   %  =   =   =   =   =
+\break
+\begin{table}[htbp]
+\caption{Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty$.}
+    \begin{center}
+        \begin{tabular}{lc}
+           %
+           $m$ & Domain: Graphs \\\hline
+           %
+           \raisebox{8\height}{$m=0$} &
+           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"three lines m = 0"} \\[7pt]
+           %
+           \raisebox{8\height}{$m=1$} &
+           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"three lines m = 1"}\\[7pt]
+           %
+           \raisebox{8\height}{$m=5$} &
+           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"three lines m = 5"}\\[7pt]
+           %
+           \raisebox{12\height}{$m=\infty$} &
+           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"three lines m = inf"}
+           %
+        \end{tabular}
+    \end{center}
+\label{tab:three lines graphs}
+\end{table}%
+
+\begin{table}[htbp]
+\caption{Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty$.}
+    \begin{center}
+        \begin{tabular}{lc}
+           %
+           $m$ & Domain: Merit function \\\hline
+           %
+           \raisebox{8\height}{$m=0$} &
+           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"merit function m = 0"} \\[7pt]
+           %
+           \raisebox{8\height}{$m=1$} &
+           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"merit function m = 1"}\\[7pt]
+           %
+           \raisebox{8\height}{$m=5$} &
+           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"merit function m = 5"}\\[7pt]
+           %
+           \raisebox{12\height}{$m=\infty$} &
+           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"merit function m = inf"}
+           %
+        \end{tabular}
+    \end{center}
+\label{tab:three lines merit}
+\end{table}%
+
+%\begin{landscape}
+%\begin{table}[htbp]
+%\caption{Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty$.}
+%    \begin{center}
+%        \begin{tabular}{ccc}
+%           %
+%           & Domain: Graphs & Domain: Merit Function \\\hline
+%           %
+%           \raisebox{10\height}{$m=0$} &
+%           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"three lines m = 0"} &
+%           \includegraphics[ width = 2.675in ]{\pathgraphics tricks/three_lines/"merit function m = 0"} \\[10pt]
+%           %
+%           \raisebox{8\height}{$m=1$} &
+%           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"three lines m = 1"} &
+%           \includegraphics[ width = 2.675in ]{\pathgraphics tricks/three_lines/"merit function m = 1"} \\[10pt]
+%           %
+%           \raisebox{7\height}{$m=5$} &
+%           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"three lines m = 5"} &
+%           \includegraphics[ width = 2.675in ]{\pathgraphics tricks/three_lines/"merit function m = 5"} \\[10pt]
+%           %
+%           \raisebox{5\height}{$m=\infty$} &
+%           \includegraphics[ width = 2.5in ]{\pathgraphics tricks/three_lines/"three lines m = inf"} &
+%           \includegraphics[ width = 2.675in ]{\pathgraphics tricks/three_lines/"merit function m = inf"} \\
+%           %
+%        \end{tabular}
+%    \end{center}
+%\label{tab:three lines}
+%\end{table}%
+%\end{landscape}
+
+  \begin{equation}   %  =   =   =   =   =
   %\begin{split}
     p(m) = \frac{1} {2\paren{m^{2} + m + 1}} \mat{c}{ b_{1}\paren{m-1} + b_{2}\paren{m+2} + b_{3} \paren{-2m-1} \\
                                                       b_{1}\paren{m^{2}+1} + b_{2} m\paren{m+1} + b_{3} \paren{m+1} }
-    %\label{eq:}
+    \label{eq:p(m)}
   %\end{split}
-  \end{equation*}
+  \end{equation}
 
-%merit function m = 0.pdf
-%merit function m = 1.pdf
-%merit function m = 2.pdf
-%merit function m = 5.pdf
-%merit function m = inf.pdfb
-%three lines m = 0.pdf
-%three lines m = 1.pdf
-%three lines m = 2.pdf
-%three lines m = 5.pdf
-%three lines m = inf.pdf
+%\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+%   \centering
+%   \includegraphics[ width = 3.5in ]{\pathgraphics tricks/three_lines/"three lines oval"} 
+%   \caption{example caption}
+%   \label{fig:three lines oval}
+%\end{figure}
+
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[ width = 3.5in ]{\pathgraphics tricks/three_lines/"three lines oval"} 
-   \caption{example caption}
+   \begin{overpic}[ scale = \myscale ]
+	   {\pathgraphics tricks/three_lines/"three lines oval"}
+        %
+%        \put(45,48) {$m\rightarrow\infty^{-}$}
+%        \put(61,40) {$m\rightarrow\infty^{+}$}
+				\put(55,43) {$m=\infty$}
+        %
+        \put(17,43) {$m=-1$}
+        %
+        \put(76.5,17.5) {$m=1$}
+        %
+        \put(83,8) {$m=0$}
+        %
+    	  \put(51,-3) {$x$}
+    	  \put(-4,31) {$y$}
+	      %
+   \end{overpic}
+   \caption{Trajectory of the solution point $p(m)$ in \eqref{eq:p(m)} for $-\infty < m < \infty$.}
    \label{fig:three lines oval}
 \end{figure}
 
