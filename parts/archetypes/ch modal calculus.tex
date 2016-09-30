@@ -138,12 +138,13 @@ the simultaneous equations to solve are
     \end{split}
   \end{equation}
 These two differential equations spawn the linear system
-\begin{equation*}
+\begin{equation}
   \begin{split}
     &-2 \sum_{k=1}^{m} \paren{T_{k} - a_{0} - a_{1}x_{k}} \phantom{x_{k}} = 0, \\
     &-2 \sum_{k=1}^{m} \paren{T_{k} - a_{0} - a_{1}x_{k}} x_{k}  = 0.
   \end{split}
-\end{equation*}
+  \label{eq:calculus normal}
+\end{equation}
 Distributing the summation operators creates a more revealing form  \\[-5pt]
   \begin{equation*}   %  =   =   =   =   =
   \begin{array}{lclclcl}
@@ -331,7 +332,7 @@ which allows for interpolation and extrapolation. What happens when the solution
   \end{split}
   \end{equation*}
   
-One final thought. The method of least squares minimizes the sums of the squares of the residual errors. And in linear regression, the sum of these residuals must be 0. That is,
+One final thought. The method of least squares minimizes the sums of the squares of the residual errors. And in linear regression, the sum of these residuals must be 0 (as shown in \eqref{eq:calculus normal}). That is,
   \begin{equation*}   %  =   =   =   =   =
     \sum_{k=1}^{m} r_{k} = 0 .
   \end{equation*}
