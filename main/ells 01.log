@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 SEP 2016 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 OCT 2016 17:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1140,27 +1140,27 @@ Underfull \hbox (badness 10000) detected at line 8
 
 
 ]
-Underfull \hbox (badness 10000) detected at line 40
+Underfull \hbox (badness 10000) detected at line 41
 \OT1/cmr/bx/n/10 II
  []
 
 
-Underfull \hbox (badness 10000) detected at line 78
+Underfull \hbox (badness 10000) detected at line 79
 \OT1/cmr/bx/n/10 III
  []
 
 [2]
-Underfull \hbox (badness 10000) detected at line 104
+Underfull \hbox (badness 10000) detected at line 105
 \OT1/cmr/bx/n/10 IV
  []
 
 [3]
-Underfull \hbox (badness 10000) detected at line 130
+Underfull \hbox (badness 10000) detected at line 131
 \OT1/cmr/bx/n/10 V
  []
 
 
-Underfull \hbox (badness 10000) detected at line 134
+Underfull \hbox (badness 10000) detected at line 135
 \OT1/cmr/bx/n/10 VI
  []
 
@@ -1368,101 +1368,122 @@ ut line 640.
 
 ]
 Chapter 3.
-[23]
-Overfull \hbox (3.3436pt too wide) in paragraph at lines 64--82
+
+<../pdf/tricks/one_line/"line- y = mx + b".pdf, id=178, 361.35pt x 213.79875pt>
+File: ../pdf/tricks/one_line/"line- y = mx + b".pdf Graphic file (type pdf)
+<use ../pdf/tricks/one_line/"line- y = mx + b".pdf>
+Package pdftex.def Info: ../pdf/tricks/one_line/"line- y = mx + b".pdf used on 
+input line 44.
+(pdftex.def)             Requested size: 252.94327pt x 149.6581pt.
+ [23]
+Overfull \hbox (3.3436pt too wide) in paragraph at lines 77--95
  [] 
  []
 
-[24] <../pdf/"tricks"/"parallel point".pdf, id=184, 361.35pt x 312.16624pt>
-File: ../pdf/"tricks"/"parallel point".pdf Graphic file (type pdf)
 
-<use ../pdf/"tricks"/"parallel point".pdf>
-Package pdftex.def Info: ../pdf/"tricks"/"parallel point".pdf used on input lin
-e 158.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<../pdf/tricks/one_line/"line- blue dot, red line".pdf, id=182, 361.35pt x 213.
+79875pt>
+File: ../pdf/tricks/one_line/"line- blue dot, red line".pdf Graphic file (type 
+pdf)
+ <use ../pdf/tricks/one_line/"line- blue dot, red line".pdf>
+Package pdftex.def Info: ../pdf/tricks/one_line/"line- blue dot, red line".pdf 
+used on input line 151.
+(pdftex.def)             Requested size: 252.94327pt x 149.6581pt.
+ [24 <../pdf/tricks/one_line/line- y = mx + b.pdf>] [25 <../pdf/tricks/one_line
+/line- blue dot, red line.pdf>]
+<../pdf/"tricks"/two_lines/"parallel point".pdf, id=220, 361.35pt x 312.16624pt
+>
+File: ../pdf/"tricks"/two_lines/"parallel point".pdf Graphic file (type pdf)
+ <use ../pdf/"tricks"/two_lines/"parallel point".pdf>
+Package pdftex.def Info: ../pdf/"tricks"/two_lines/"parallel point".pdf used on
+ input line 215.
 (pdftex.def)             Requested size: 216.81pt x 187.3012pt.
- [25 <../pdf/tricks/parallel point.pdf>] [26]
+ [26 <../pdf/tricks/two_lines/parallel point.pdf>] [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
-<../pdf/tricks/three_lines/"three lines m = 0".pdf, id=210, 361.35pt x 195.7312
+ [28]
+<../pdf/tricks/three_lines/"three lines m = 0".pdf, id=244, 361.35pt x 195.7312
 5pt>
 File: ../pdf/tricks/three_lines/"three lines m = 0".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 0".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 0".pdf used
- on input line 325.
+ on input line 383.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
-<../pdf/tricks/three_lines/"three lines m = 1".pdf, id=211, 361.35pt x 195.7312
+<../pdf/tricks/three_lines/"three lines m = 1".pdf, id=245, 361.35pt x 195.7312
 5pt>
 File: ../pdf/tricks/three_lines/"three lines m = 1".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 1".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 1".pdf used
- on input line 328.
+ on input line 386.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
-<../pdf/tricks/three_lines/"three lines m = 5".pdf, id=212, 361.35pt x 195.7312
+<../pdf/tricks/three_lines/"three lines m = 5".pdf, id=246, 361.35pt x 195.7312
 5pt>
 File: ../pdf/tricks/three_lines/"three lines m = 5".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 5".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 5".pdf used
- on input line 331.
+ on input line 389.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
-<../pdf/tricks/three_lines/"three lines m = inf".pdf, id=213, 361.35pt x 195.73
+<../pdf/tricks/three_lines/"three lines m = inf".pdf, id=247, 361.35pt x 195.73
 125pt>
 File: ../pdf/tricks/three_lines/"three lines m = inf".pdf Graphic file (type pd
 f)
  <use ../pdf/tricks/three_lines/"three lines m = inf".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = inf".pdf us
-ed on input line 334.
+ed on input line 392.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
-<../pdf/tricks/three_lines/"merit function m = 0".pdf, id=214, 361.35pt x 185.6
+<../pdf/tricks/three_lines/"merit function m = 0".pdf, id=248, 361.35pt x 185.6
 9376pt>
 File: ../pdf/tricks/three_lines/"merit function m = 0".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 0".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 0".pdf u
-sed on input line 349.
+sed on input line 407.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
-<../pdf/tricks/three_lines/"merit function m = 1".pdf, id=215, 361.35pt x 185.6
+<../pdf/tricks/three_lines/"merit function m = 1".pdf, id=249, 361.35pt x 185.6
 9376pt>
 File: ../pdf/tricks/three_lines/"merit function m = 1".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 1".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 1".pdf u
-sed on input line 352.
+sed on input line 410.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
-<../pdf/tricks/three_lines/"merit function m = 5".pdf, id=216, 361.35pt x 185.6
+<../pdf/tricks/three_lines/"merit function m = 5".pdf, id=250, 361.35pt x 185.6
 9376pt>
 File: ../pdf/tricks/three_lines/"merit function m = 5".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 5".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 5".pdf u
-sed on input line 355.
+sed on input line 413.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
-<../pdf/tricks/three_lines/"merit function m = inf".pdf, id=217, 361.35pt x 185
+<../pdf/tricks/three_lines/"merit function m = inf".pdf, id=251, 361.35pt x 185
 .69376pt>
 File: ../pdf/tricks/three_lines/"merit function m = inf".pdf Graphic file (type
  pdf)
  <use ../pdf/tricks/three_lines/"merit function m = inf".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = inf".pdf
- used on input line 358.
+ used on input line 416.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
-<../pdf/tricks/three_lines/"three lines oval".pdf, id=218, 361.35pt x 216.81pt>
+<../pdf/tricks/three_lines/"three lines oval".pdf, id=252, 361.35pt x 216.81pt>
 File: ../pdf/tricks/three_lines/"three lines oval".pdf Graphic file (type pdf)
 <use ../pdf/tricks/three_lines/"three lines oval".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines oval".pdf used 
-on input line 413.
+on input line 471.
 (pdftex.def)             Requested size: 252.94327pt x 151.76596pt.
-) [28 <../pdf/tricks/three_lines/three lines oval.pdf>] [29 <../pdf/tricks/thre
+) [29 <../pdf/tricks/three_lines/three lines oval.pdf>] [30 <../pdf/tricks/thre
 e_lines/three lines m = 0.pdf> <../pdf/tricks/three_lines/three lines m = 1.pdf
 
 
@@ -1479,7 +1500,7 @@ a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/tricks/three_lines/th
 ree lines m = inf.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
->] [30 <../pdf/tricks/three_lines/merit function m = 0.pdf> <../pdf/tricks/thre
+>] [31 <../pdf/tricks/three_lines/merit function m = 0.pdf> <../pdf/tricks/thre
 e_lines/merit function m = 1.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/tricks/three_lines/me
@@ -1495,9 +1516,9 @@ in a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/tricks/three_lines/me
 rit function m = inf.pdf): PDF inclusion: multiple pdfs with page group include
 d in a single page
->] [31
+>] [32
 
-] [32] (../parts/archetypes/ch modal calculus.tex [33] [34
+] [33] [34] (../parts/archetypes/ch modal calculus.tex [35] [36
 
 ]
 Chapter 4.
@@ -1506,7 +1527,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-[35] <../pdf/"bevington classic"/bar.pdf, id=420, 361.35pt x 130.4875pt>
+[37] <../pdf/"bevington classic"/bar.pdf, id=458, 361.35pt x 130.4875pt>
 File: ../pdf/"bevington classic"/bar.pdf Graphic file (type pdf)
 
 <use ../pdf/"bevington classic"/bar.pdf>
@@ -1515,10 +1536,10 @@ Package pdftex.def Info: ../pdf/"bevington classic"/bar.pdf used on input line
 (pdftex.def)             Requested size: 216.81pt x 78.29309pt.
 
 
-LaTeX Warning: Reference `fig:bevington merit function' on page 36 undefined on
+LaTeX Warning: Reference `fig:bevington merit function' on page 38 undefined on
  input line 58.
 
-[36 <../pdf/bevington classic/bar.pdf>]
+[38 <../pdf/bevington classic/bar.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1530,9 +1551,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
-[37] [38]
+[39] [40]
 
-LaTeX Warning: Reference `fig:bevington merit function' on page 39 undefined on
+LaTeX Warning: Reference `fig:bevington merit function' on page 41 undefined on
  input line 234.
 
 
@@ -1540,13 +1561,8 @@ Overfull \hbox (17.7389pt too wide) in paragraph at lines 220--237
  [] 
  []
 
-[39] [40] [41]
-
-LaTeX Warning: Reference `eq:calculus normal' on page 42 undefined on input lin
-e 335.
-
-[42]
-<../pdf/"bevington classic"/"red bars".pdf, id=465, 361.35pt x 226.8475pt>
+[41] [42] [43] [44]
+<../pdf/"bevington classic"/"red bars".pdf, id=503, 361.35pt x 226.8475pt>
 File: ../pdf/"bevington classic"/"red bars".pdf Graphic file (type pdf)
 
 <use ../pdf/"bevington classic"/"red bars".pdf>
@@ -1554,7 +1570,7 @@ Package pdftex.def Info: ../pdf/"bevington classic"/"red bars".pdf used on inpu
 t line 357.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
-<../pdf/"bevington classic"/"residuals".pdf, id=466, 361.35pt x 226.8475pt>
+<../pdf/"bevington classic"/"residuals".pdf, id=504, 361.35pt x 226.8475pt>
 File: ../pdf/"bevington classic"/"residuals".pdf Graphic file (type pdf)
 
 <use ../pdf/"bevington classic"/"residuals".pdf>
@@ -1562,7 +1578,7 @@ Package pdftex.def Info: ../pdf/"bevington classic"/"residuals".pdf used on inp
 ut line 375.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
-<../pdf/"bevington classic"/"residuals line".pdf, id=467, 361.35pt x 226.8475pt
+<../pdf/"bevington classic"/"residuals line".pdf, id=505, 361.35pt x 226.8475pt
 >
 File: ../pdf/"bevington classic"/"residuals line".pdf Graphic file (type pdf)
  <use ../pdf/"bevington classic"/"residuals line".pdf>
@@ -1570,7 +1586,7 @@ Package pdftex.def Info: ../pdf/"bevington classic"/"residuals line".pdf used o
 n input line 390.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
-<../pdf/"bevington plus"/"n merit bullseye".pdf, id=468, 361.35pt x 358.33875pt
+<../pdf/"bevington plus"/"n merit bullseye".pdf, id=506, 361.35pt x 358.33875pt
 >
 File: ../pdf/"bevington plus"/"n merit bullseye".pdf Graphic file (type pdf)
  <use ../pdf/"bevington plus"/"n merit bullseye".pdf>
@@ -1580,14 +1596,14 @@ Package pdftex.def Info: ../pdf/"bevington plus"/"n merit bullseye".pdf used on
 
 Underfull \vbox (badness 3343) has occurred while \output is active []
 
- [43 <../pdf/bevington classic/red bars.pdf>] [44 <../pdf/bevington classic/res
+ [45 <../pdf/bevington classic/red bars.pdf>] [46 <../pdf/bevington classic/res
 iduals.pdf> <../pdf/bevington classic/residuals line.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/bevington classic/res
 iduals line.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
 >]
-<../pdf/"bevington plus"/"n merit bullseye lines".pdf, id=512, 361.35pt x 358.3
+<../pdf/"bevington plus"/"n merit bullseye lines".pdf, id=548, 361.35pt x 358.3
 3875pt>
 File: ../pdf/"bevington plus"/"n merit bullseye lines".pdf Graphic file (type p
 df)
@@ -1596,7 +1612,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/"n merit bullseye lines".pdf u
 sed on input line 420.
 (pdftex.def)             Requested size: 252.94327pt x 250.83542pt.
 
-<../pdf/"bevington plus"/"whiskers".pdf, id=513, 361.35pt x 226.8475pt>
+<../pdf/"bevington plus"/"whiskers".pdf, id=549, 361.35pt x 226.8475pt>
 File: ../pdf/"bevington plus"/"whiskers".pdf Graphic file (type pdf)
 
 <use ../pdf/"bevington plus"/"whiskers".pdf>
@@ -1606,8 +1622,8 @@ ine 444.
 
 Underfull \vbox (badness 7273) has occurred while \output is active []
 
- [45 <../pdf/bevington plus/n merit bullseye.pdf>]
-<../pdf/"bevington classic"/"needle intercept".pdf, id=531, 361.35pt x 233.8737
+ [47 <../pdf/bevington plus/n merit bullseye.pdf>]
+<../pdf/"bevington classic"/"needle intercept".pdf, id=567, 361.35pt x 233.8737
 5pt>
 File: ../pdf/"bevington classic"/"needle intercept".pdf Graphic file (type pdf)
 
@@ -1616,7 +1632,7 @@ Package pdftex.def Info: ../pdf/"bevington classic"/"needle intercept".pdf used
  on input line 473.
 (pdftex.def)             Requested size: 169.83493pt x 109.92065pt.
 
-<../pdf/"bevington classic"/"needle slope".pdf, id=532, 361.35pt x 233.87375pt>
+<../pdf/"bevington classic"/"needle slope".pdf, id=568, 361.35pt x 233.87375pt>
 File: ../pdf/"bevington classic"/"needle slope".pdf Graphic file (type pdf)
 <use ../pdf/"bevington classic"/"needle slope".pdf>
 Package pdftex.def Info: ../pdf/"bevington classic"/"needle slope".pdf used on 
@@ -1627,14 +1643,14 @@ Overfull \hbox (2.31987pt too wide) in paragraph at lines 469--480
  [] 
  []
 
-[46 <../pdf/bevington plus/n merit bullseye lines.pdf>]
-<../pdf/"bevington plus"/"scatter samples".pdf, id=556, 361.35pt x 362.35374pt>
+[48 <../pdf/bevington plus/n merit bullseye lines.pdf>]
+<../pdf/"bevington plus"/"scatter samples".pdf, id=592, 361.35pt x 362.35374pt>
 File: ../pdf/"bevington plus"/"scatter samples".pdf Graphic file (type pdf)
 <use ../pdf/"bevington plus"/"scatter samples".pdf>
 Package pdftex.def Info: ../pdf/"bevington plus"/"scatter samples".pdf used on 
 input line 492.
 (pdftex.def)             Requested size: 252.94327pt x 253.64589pt.
- [47 <../pdf/bevington plus/whiskers.pdf> <../pdf/bevington classic/needle inte
+ [49 <../pdf/bevington plus/whiskers.pdf> <../pdf/bevington classic/needle inte
 rcept.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/bevington classic/nee
@@ -1645,30 +1661,30 @@ single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/bevington classic/nee
 dle slope.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
->] [48 <../pdf/bevington plus/scatter samples.pdf>])
-(../parts/archetypes/ch modal svd.tex [49] [50
+>] [50 <../pdf/bevington plus/scatter samples.pdf>])
+(../parts/archetypes/ch modal svd.tex [51] [52
 
 ]
 Chapter 5.
 Missing character: There is no Ê in font cmr10!
-[51] [52]
+[53] [54]
 
-LaTeX Warning: Reference `eq:wxthatmat' on page 53 undefined on input line 93.
+LaTeX Warning: Reference `eq:wxthatmat' on page 55 undefined on input line 93.
 
-[53]
+[55]
 Underfull \vbox (badness 1365) has occurred while \output is active []
 
- [54]
-[55]
-<../pdf/"bevington plus"/"mixing u1 u2".pdf, id=634, 361.35pt x 351.3125pt>
+ [56]
+[57]
+<../pdf/"bevington plus"/"mixing u1 u2".pdf, id=671, 361.35pt x 351.3125pt>
 File: ../pdf/"bevington plus"/"mixing u1 u2".pdf Graphic file (type pdf)
 
 <use ../pdf/"bevington plus"/"mixing u1 u2".pdf>
 Package pdftex.def Info: ../pdf/"bevington plus"/"mixing u1 u2".pdf used on inp
 ut line 282.
 (pdftex.def)             Requested size: 289.07999pt x 281.05037pt.
- [56]
-<../pdf/"bevington plus"/svd/"bevington codomain".pdf, id=638, 451.6875pt x 432
+ [58]
+<../pdf/"bevington plus"/svd/"bevington codomain".pdf, id=675, 451.6875pt x 432
 .61626pt>
 File: ../pdf/"bevington plus"/svd/"bevington codomain".pdf Graphic file (type p
 df)
@@ -1677,7 +1693,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington codomain".pdf u
 sed on input line 335.
 (pdftex.def)             Requested size: 252.94499pt x 242.27005pt.
 
-<../pdf/"bevington plus"/svd/"bevington domain".pdf, id=639, 246.0673pt x 433.6
+<../pdf/"bevington plus"/svd/"bevington domain".pdf, id=676, 246.0673pt x 433.6
 2pt>
 File: ../pdf/"bevington plus"/svd/"bevington domain".pdf Graphic file (type pdf
 )
@@ -1686,7 +1702,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington domain".pdf use
 d on input line 343.
 (pdftex.def)             Requested size: 180.67499pt x 318.38597pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 01".pdf, id=640, 111.803
+<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 01".pdf, id=677, 111.803
 7pt x 433.62pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole 01".pdf Graphic fil
 e (type pdf)
@@ -1696,7 +1712,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole
 01".pdf used on input line 353.
 (pdftex.def)             Requested size: 28.45274pt x 110.34998pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 02".pdf, id=641, 111.803
+<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 02".pdf, id=678, 111.803
 7pt x 433.62pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole 02".pdf Graphic fil
 e (type pdf)
@@ -1706,7 +1722,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole
 02".pdf used on input line 354.
 (pdftex.def)             Requested size: 28.45274pt x 110.34998pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 03".pdf, id=642, 111.803
+<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 03".pdf, id=679, 111.803
 7pt x 433.62pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole 03".pdf Graphic fil
 e (type pdf)
@@ -1716,7 +1732,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole
 03".pdf used on input line 355.
 (pdftex.def)             Requested size: 28.45274pt x 110.34998pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 04".pdf, id=643, 111.803
+<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 04".pdf, id=680, 111.803
 7pt x 433.62pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole 04".pdf Graphic fil
 e (type pdf)
@@ -1726,7 +1742,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole
 04".pdf used on input line 356.
 (pdftex.def)             Requested size: 28.45274pt x 110.34998pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 05".pdf, id=644, 111.803
+<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 05".pdf, id=681, 111.803
 7pt x 433.62pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole 05".pdf Graphic fil
 e (type pdf)
@@ -1736,7 +1752,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole
 05".pdf used on input line 357.
 (pdftex.def)             Requested size: 28.45274pt x 110.34998pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 06".pdf, id=645, 111.803
+<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 06".pdf, id=682, 111.803
 7pt x 433.62pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole 06".pdf Graphic fil
 e (type pdf)
@@ -1746,7 +1762,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole
 06".pdf used on input line 358.
 (pdftex.def)             Requested size: 28.45274pt x 110.34998pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 07".pdf, id=646, 111.803
+<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 07".pdf, id=683, 111.803
 7pt x 433.62pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole 07".pdf Graphic fil
 e (type pdf)
@@ -1756,7 +1772,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole
 07".pdf used on input line 359.
 (pdftex.def)             Requested size: 28.45274pt x 110.34998pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 08".pdf, id=647, 111.803
+<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 08".pdf, id=684, 111.803
 7pt x 433.62pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole 08".pdf Graphic fil
 e (type pdf)
@@ -1766,7 +1782,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole
 08".pdf used on input line 360.
 (pdftex.def)             Requested size: 28.45274pt x 110.34998pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 09".pdf, id=648, 111.803
+<../pdf/"bevington plus"/svd/"bevington poles"/"u pole 09".pdf, id=685, 111.803
 7pt x 433.62pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/"u pole 09".pdf Graphic fil
 e (type pdf)
@@ -1781,7 +1797,7 @@ Overfull \hbox (2.7247pt too wide) in paragraph at lines 351--366
  []
 
 
-<../pdf/"bevington plus"/svd/"bevington poles"/A.pdf, id=649, 144.54pt x 628.34
+<../pdf/"bevington plus"/svd/"bevington poles"/A.pdf, id=686, 144.54pt x 628.34
 75pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/A.pdf Graphic file (type pd
 f)
@@ -1790,7 +1806,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington poles"/A.pdf us
 ed on input line 378.
 (pdftex.def)             Requested size: 42.67912pt x 185.53348pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/U.pdf, id=650, 650.43pt x 649.39
+<../pdf/"bevington plus"/svd/"bevington poles"/U.pdf, id=687, 650.43pt x 649.39
 212pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/U.pdf Graphic file (type pd
 f)
@@ -1799,7 +1815,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington poles"/U.pdf us
 ed on input line 381.
 (pdftex.def)             Requested size: 184.9429pt x 184.64267pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/S.pdf, id=651, 289.08pt x 1253.1
+<../pdf/"bevington plus"/svd/"bevington poles"/S.pdf, id=688, 289.08pt x 1253.1
 8384pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/S.pdf Graphic file (type pd
 f)
@@ -1808,7 +1824,7 @@ Package pdftex.def Info: ../pdf/"bevington plus"/svd/"bevington poles"/S.pdf us
 ed on input line 382.
 (pdftex.def)             Requested size: 42.67912pt x 185.00555pt.
 
-<../pdf/"bevington plus"/svd/"bevington poles"/VT.pdf, id=652, 144.54pt x 144.3
+<../pdf/"bevington plus"/svd/"bevington poles"/VT.pdf, id=689, 144.54pt x 144.3
 1215pt>
 File: ../pdf/"bevington plus"/svd/"bevington poles"/VT.pdf Graphic file (type p
 df)
@@ -1821,10 +1837,10 @@ Overfull \hbox (19.40808pt too wide) in paragraph at lines 374--387
  [] 
  []
 
-[57 <../pdf/bevington plus/mixing u1 u2.pdf>])
-(../parts/archetypes/ch modal others.tex [58 <../pdf/bevington plus/svd/bevingt
-on codomain.pdf>] [59 <../pdf/bevington plus/svd/bevington domain.pdf>]
-[60 <../pdf/bevington plus/svd/bevington poles/u pole 01.pdf> <../pdf/bevington
+[59 <../pdf/bevington plus/mixing u1 u2.pdf>])
+(../parts/archetypes/ch modal others.tex [60 <../pdf/bevington plus/svd/bevingt
+on codomain.pdf>] [61 <../pdf/bevington plus/svd/bevington domain.pdf>]
+[62 <../pdf/bevington plus/svd/bevington poles/u pole 01.pdf> <../pdf/bevington
  plus/svd/bevington poles/u pole 02.pdf> <../pdf/bevington plus/svd/bevington p
 oles/u pole 03.pdf> <../pdf/bevington plus/svd/bevington poles/u pole 04.pdf> <
 ../pdf/bevington plus/svd/bevington poles/u pole 05.pdf> <../pdf/bevington plus
@@ -1833,30 +1849,30 @@ u pole 07.pdf> <../pdf/bevington plus/svd/bevington poles/u pole 08.pdf> <../pd
 f/bevington plus/svd/bevington poles/u pole 09.pdf> <../pdf/bevington plus/svd/
 bevington poles/A.pdf> <../pdf/bevington plus/svd/bevington poles/U.pdf> <../pd
 f/bevington plus/svd/bevington poles/S.pdf> <../pdf/bevington plus/svd/bevingto
-n poles/VT.pdf>] [61] [62
+n poles/VT.pdf>] [63] [64
 
 ]
 Chapter 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
-[64]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 133.
  [65]
+[66]
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 133.
+ [67]
 Underfull \vbox (badness 6173) has occurred while \output is active []
 
- [66])
-(../parts/archetypes/ch modal finer points.tex [67] [68
+ [68])
+(../parts/archetypes/ch modal finer points.tex [69] [70
 
 ]
 Chapter 7.
-[69]
+[71]
 
-LaTeX Warning: Reference `eq:get' on page 70 undefined on input line 64.
+LaTeX Warning: Reference `eq:get' on page 72 undefined on input line 64.
 
-[70]
-<../pdf/"bevington III"/"translate data v soln".pdf, id=793, 361.35pt x 226.847
+[72]
+<../pdf/"bevington III"/"translate data v soln".pdf, id=829, 361.35pt x 226.847
 5pt>
 File: ../pdf/"bevington III"/"translate data v soln".pdf Graphic file (type pdf
 )
@@ -1865,7 +1881,7 @@ Package pdftex.def Info: ../pdf/"bevington III"/"translate data v soln".pdf use
 d on input line 135.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
-<../pdf/"bevington III"/"translate residuals".pdf, id=794, 361.35pt x 226.8475p
+<../pdf/"bevington III"/"translate residuals".pdf, id=830, 361.35pt x 226.8475p
 t>
 File: ../pdf/"bevington III"/"translate residuals".pdf Graphic file (type pdf)
  <use ../pdf/"bevington III"/"translate residuals".pdf>
@@ -1873,7 +1889,7 @@ Package pdftex.def Info: ../pdf/"bevington III"/"translate residuals".pdf used
 on input line 150.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
-<../pdf/"bevington III"/"translate merit".pdf, id=795, 361.35pt x 362.35374pt>
+<../pdf/"bevington III"/"translate merit".pdf, id=831, 361.35pt x 362.35374pt>
 File: ../pdf/"bevington III"/"translate merit".pdf Graphic file (type pdf)
 
 <use ../pdf/"bevington III"/"translate merit".pdf>
@@ -1886,24 +1902,24 @@ File: ../pdf/"bevington plus"/"reflect bars".pdf Graphic file (type pdf)
 Package pdftex.def Info: ../pdf/"bevington plus"/"reflect bars".pdf used on inp
 ut line 187.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
- [71 <../pdf/bevington III/translate data v soln.pdf>]
+ [73 <../pdf/bevington III/translate data v soln.pdf>]
 
-LaTeX Warning: Reference `???' on page 72 undefined on input line 260.
+LaTeX Warning: Reference `???' on page 74 undefined on input line 260.
 
-[72 <../pdf/bevington III/translate residuals.pdf>]) [73 <../pdf/bevington III/
-translate merit.pdf>] [74] [75
+[74 <../pdf/bevington III/translate residuals.pdf>]) [75 <../pdf/bevington III/
+translate merit.pdf>] [76] [77
 
-] [76]
+] [78]
 (../parts/archetypes/ch archetype zonal.tex
 Chapter 8.
-) (../parts/patterns/ch patterns lines.tex [77
+) (../parts/patterns/ch patterns lines.tex [79
 
-] [78
+] [80
 
 ]
 Chapter 9.
 
-<../pdf/"patterns"/"lines"/"fcc lattice with cell".pdf, id=857, 355.3275pt x 43
+<../pdf/"patterns"/"lines"/"fcc lattice with cell".pdf, id=894, 355.3275pt x 43
 3.62pt>
 File: ../pdf/"patterns"/"lines"/"fcc lattice with cell".pdf Graphic file (type 
 pdf)
@@ -1912,7 +1928,7 @@ Package pdftex.def Info: ../pdf/"patterns"/"lines"/"fcc lattice with cell".pdf
 used on input line 7.
 (pdftex.def)             Requested size: 216.81pt x 264.5872pt.
 
-<../pdf/"patterns"/"lines"/"potentials".pdf, id=858, 361.35pt x 367.3725pt>
+<../pdf/"patterns"/"lines"/"potentials".pdf, id=895, 361.35pt x 367.3725pt>
 File: ../pdf/"patterns"/"lines"/"potentials".pdf Graphic file (type pdf)
 
 <use ../pdf/"patterns"/"lines"/"potentials".pdf>
@@ -1922,8 +1938,8 @@ ut line 14.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79 <../pdf/patterns/lines/fcc lattice with cell.pdf>]
-<../pdf/"patterns"/"lines"/"all with inset".pdf, id=877, 361.35pt x 356.33125pt
+ [81 <../pdf/patterns/lines/fcc lattice with cell.pdf>]
+<../pdf/"patterns"/"lines"/"all with inset".pdf, id=913, 361.35pt x 356.33125pt
 >
 File: ../pdf/"patterns"/"lines"/"all with inset".pdf Graphic file (type pdf)
  <use ../pdf/"patterns"/"lines"/"all with inset".pdf>
@@ -1931,23 +1947,24 @@ Package pdftex.def Info: ../pdf/"patterns"/"lines"/"all with inset".pdf used on
  input line 58.
 (pdftex.def)             Requested size: 216.81pt x 213.80038pt.
 
-<../pdf/"patterns"/"lines"/"parameters".pdf, id=878, 505.89pt x 302.12875pt>
+<../pdf/"patterns"/"lines"/"parameters".pdf, id=914, 505.89pt x 302.12875pt>
 File: ../pdf/"patterns"/"lines"/"parameters".pdf Graphic file (type pdf)
 
 <use ../pdf/"patterns"/"lines"/"parameters".pdf>
 Package pdftex.def Info: ../pdf/"patterns"/"lines"/"parameters".pdf used on inp
 ut line 65.
 (pdftex.def)             Requested size: 289.07999pt x 172.64851pt.
- [80 <../pdf/patterns/lines/potentials.pdf>] [81 <../pdf/patterns/lines/all wit
+ [82 <../pdf/patterns/lines/potentials.pdf>] [83 <../pdf/patterns/lines/all wit
 h inset.pdf> <../pdf/patterns/lines/parameters.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/patterns/lines/parame
 ters.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
 ge
 >]
-<../pdf/"patterns"/"lines"/"data set rows".pdf, id=964, 505.89pt x 292.09125pt>
+<../pdf/"patterns"/"lines"/"data set rows".pdf, id=1000, 505.89pt x 292.09125pt
+>
 File: ../pdf/"patterns"/"lines"/"data set rows".pdf Graphic file (type pdf)
-<use ../pdf/"patterns"/"lines"/"data set rows".pdf>
+ <use ../pdf/"patterns"/"lines"/"data set rows".pdf>
 Package pdftex.def Info: ../pdf/"patterns"/"lines"/"data set rows".pdf used on 
 input line 77.
 (pdftex.def)             Requested size: 195.12877pt x 112.66272pt.
@@ -1956,9 +1973,10 @@ Overfull \vbox (68.26276pt too high) detected at line 77
  []
 
 
-<../pdf/"patterns"/"lines"/"data set cols".pdf, id=965, 505.89pt x 292.09125pt>
+<../pdf/"patterns"/"lines"/"data set cols".pdf, id=1001, 505.89pt x 292.09125pt
+>
 File: ../pdf/"patterns"/"lines"/"data set cols".pdf Graphic file (type pdf)
-<use ../pdf/"patterns"/"lines"/"data set cols".pdf>
+ <use ../pdf/"patterns"/"lines"/"data set cols".pdf>
 Package pdftex.def Info: ../pdf/"patterns"/"lines"/"data set cols".pdf used on 
 input line 84.
 (pdftex.def)             Requested size: 195.12877pt x 112.66272pt.
@@ -1967,8 +1985,8 @@ Overfull \vbox (68.26276pt too high) detected at line 84
  []
 
 
-<../pdf/"patterns"/"lines"/"data set spokes".pdf, id=966, 505.89pt x 292.09125p
-t>
+<../pdf/"patterns"/"lines"/"data set spokes".pdf, id=1002, 505.89pt x 292.09125
+pt>
 File: ../pdf/"patterns"/"lines"/"data set spokes".pdf Graphic file (type pdf)
  <use ../pdf/"patterns"/"lines"/"data set spokes".pdf>
 Package pdftex.def Info: ../pdf/"patterns"/"lines"/"data set spokes".pdf used o
@@ -1983,7 +2001,7 @@ Overfull \hbox (15.05455pt too wide) in paragraph at lines 74--98
  [] 
  []
 
-[82 <../pdf/patterns/lines/data set rows.pdf> <../pdf/patterns/lines/data set c
+[84 <../pdf/patterns/lines/data set rows.pdf> <../pdf/patterns/lines/data set c
 ols.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/patterns/lines/data s
@@ -1996,13 +2014,13 @@ et spokes.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
 >]
 
-LaTeX Warning: Reference `eq:normal solution' on page 83 undefined on input lin
+LaTeX Warning: Reference `eq:normal solution' on page 85 undefined on input lin
 e 131.
 
 
-LaTeX Warning: Reference `eq:minverse' on page 83 undefined on input line 164.
+LaTeX Warning: Reference `eq:minverse' on page 85 undefined on input line 164.
 
-[83
+[85
 
 
 ]
@@ -2019,7 +2037,7 @@ Overfull \hbox (68.78957pt too wide) in paragraph at lines 259--351
 LaTeX Warning: Float too large for page by 33.90121pt on input line 353.
 
 
-<../pdf/"patterns"/"lines"/"three lines".pdf, id=1031, 505.89pt x 302.12875pt>
+<../pdf/"patterns"/"lines"/"three lines".pdf, id=1068, 505.89pt x 302.12875pt>
 File: ../pdf/"patterns"/"lines"/"three lines".pdf Graphic file (type pdf)
 
 <use ../pdf/"patterns"/"lines"/"three lines".pdf>
@@ -2031,7 +2049,7 @@ Overfull \hbox (10.25952pt too wide) in paragraph at lines 391--402
  [] 
  []
 
-<../pdf/"patterns"/"lines"/"apex angles".pdf, id=1032, 361.35pt x 242.9075pt>
+<../pdf/"patterns"/"lines"/"apex angles".pdf, id=1069, 361.35pt x 242.9075pt>
 File: ../pdf/"patterns"/"lines"/"apex angles".pdf Graphic file (type pdf)
 
 <use ../pdf/"patterns"/"lines"/"apex angles".pdf>
@@ -2039,7 +2057,7 @@ Package pdftex.def Info: ../pdf/"patterns"/"lines"/"apex angles".pdf used on in
 put line 448.
 (pdftex.def)             Requested size: 289.07999pt x 194.32625pt.
 
-<../pdf/"patterns"/"lines"/"patterns lines merit bullseye 1".pdf, id=1033, 361.
+<../pdf/"patterns"/"lines"/"patterns lines merit bullseye 1".pdf, id=1070, 361.
 35pt x 341.275pt>
 File: ../pdf/"patterns"/"lines"/"patterns lines merit bullseye 1".pdf Graphic f
 ile (type pdf)
@@ -2049,7 +2067,7 @@ Package pdftex.def Info: ../pdf/"patterns"/"lines"/"patterns lines merit bullse
 ye 1".pdf used on input line 457.
 (pdftex.def)             Requested size: 169.83493pt x 160.39926pt.
 
-<../pdf/"patterns"/"lines"/"patterns lines merit bullseye 2".pdf, id=1034, 361.
+<../pdf/"patterns"/"lines"/"patterns lines merit bullseye 2".pdf, id=1071, 361.
 35pt x 341.275pt>
 File: ../pdf/"patterns"/"lines"/"patterns lines merit bullseye 2".pdf Graphic f
 ile (type pdf)
@@ -2059,7 +2077,7 @@ Package pdftex.def Info: ../pdf/"patterns"/"lines"/"patterns lines merit bullse
 ye 2".pdf used on input line 458.
 (pdftex.def)             Requested size: 169.83493pt x 160.39926pt.
 
-<../pdf/"patterns"/"lines"/"patterns lines merit bullseye 3".pdf, id=1035, 361.
+<../pdf/"patterns"/"lines"/"patterns lines merit bullseye 3".pdf, id=1072, 361.
 35pt x 341.275pt>
 File: ../pdf/"patterns"/"lines"/"patterns lines merit bullseye 3".pdf Graphic f
 ile (type pdf)
@@ -2069,8 +2087,8 @@ Package pdftex.def Info: ../pdf/"patterns"/"lines"/"patterns lines merit bullse
 ye 3".pdf used on input line 459.
 (pdftex.def)             Requested size: 169.83493pt x 160.39926pt.
 )
-(../parts/patterns/ch patterns crystals.tex [84] [85 <../pdf/patterns/lines/thr
-ee lines.pdf>] [86] [87] [88 <../pdf/patterns/lines/apex angles.pdf>] [89 <../p
+(../parts/patterns/ch patterns crystals.tex [86] [87 <../pdf/patterns/lines/thr
+ee lines.pdf>] [88] [89] [90 <../pdf/patterns/lines/apex angles.pdf>] [91 <../p
 df/patterns/lines/patterns lines merit bullseye 1.pdf> <../pdf/patterns/lines/p
 atterns lines merit bullseye 2.pdf
 
@@ -2082,15 +2100,15 @@ cluded in a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/patterns/lines/patter
 ns lines merit bullseye 3.pdf): PDF inclusion: multiple pdfs with page group in
 cluded in a single page
->] [90
+>] [92
 
 ]
 Chapter 10.
-) (../parts/stitch/ch stitch piston.tex [91] [92
+) (../parts/stitch/ch stitch piston.tex [93] [94
 
 ]
 Chapter 11.
-<../pdf/"stitch"/"piston"/"ABC".pdf, id=1168, 361.35pt x 66.2475pt>
+<../pdf/"stitch"/"piston"/"ABC".pdf, id=1204, 361.35pt x 66.2475pt>
 File: ../pdf/"stitch"/"piston"/"ABC".pdf Graphic file (type pdf)
 
 <use ../pdf/"stitch"/"piston"/"ABC".pdf>
@@ -2098,7 +2116,7 @@ Package pdftex.def Info: ../pdf/"stitch"/"piston"/"ABC".pdf used on input line
 8.
 (pdftex.def)             Requested size: 289.07999pt x 52.99806pt.
 
-<../pdf/"stitch"/"piston"/"stitch input".pdf, id=1169, 361.35pt x 223.83624pt>
+<../pdf/"stitch"/"piston"/"stitch input".pdf, id=1205, 361.35pt x 223.83624pt>
 File: ../pdf/"stitch"/"piston"/"stitch input".pdf Graphic file (type pdf)
 
 <use ../pdf/"stitch"/"piston"/"stitch input".pdf>
@@ -2106,7 +2124,7 @@ Package pdftex.def Info: ../pdf/"stitch"/"piston"/"stitch input".pdf used on in
 put line 31.
 (pdftex.def)             Requested size: 289.07999pt x 179.06923pt.
 
-<../pdf/"stitch"/"piston"/"dots and overlaps".pdf, id=1170, 361.35pt x 179.6712
+<../pdf/"stitch"/"piston"/"dots and overlaps".pdf, id=1206, 361.35pt x 179.6712
 5pt>
 File: ../pdf/"stitch"/"piston"/"dots and overlaps".pdf Graphic file (type pdf)
  <use ../pdf/"stitch"/"piston"/"dots and overlaps".pdf>
@@ -2114,7 +2132,7 @@ Package pdftex.def Info: ../pdf/"stitch"/"piston"/"dots and overlaps".pdf used
 on input line 38.
 (pdftex.def)             Requested size: 289.07999pt x 143.73717pt.
 
-<../pdf/"stitch"/"piston"/"stitch broken labeled".pdf, id=1171, 361.35pt x 223.
+<../pdf/"stitch"/"piston"/"stitch broken labeled".pdf, id=1207, 361.35pt x 223.
 83624pt>
 File: ../pdf/"stitch"/"piston"/"stitch broken labeled".pdf Graphic file (type p
 df)
@@ -2123,7 +2141,7 @@ Package pdftex.def Info: ../pdf/"stitch"/"piston"/"stitch broken labeled".pdf u
 sed on input line 48.
 (pdftex.def)             Requested size: 289.07999pt x 179.06923pt.
 
-<../pdf/"stitch"/"piston"/"stitch discrete steps".pdf, id=1172, 361.35pt x 223.
+<../pdf/"stitch"/"piston"/"stitch discrete steps".pdf, id=1208, 361.35pt x 223.
 83624pt>
 File: ../pdf/"stitch"/"piston"/"stitch discrete steps".pdf Graphic file (type p
 df)
@@ -2132,7 +2150,7 @@ Package pdftex.def Info: ../pdf/"stitch"/"piston"/"stitch discrete steps".pdf u
 sed on input line 51.
 (pdftex.def)             Requested size: 289.07999pt x 179.06923pt.
 
-<../pdf/"stitch"/"piston"/"stitch final".pdf, id=1173, 361.35pt x 223.83624pt>
+<../pdf/"stitch"/"piston"/"stitch final".pdf, id=1209, 361.35pt x 223.83624pt>
 File: ../pdf/"stitch"/"piston"/"stitch final".pdf Graphic file (type pdf)
 
 <use ../pdf/"stitch"/"piston"/"stitch final".pdf>
@@ -2140,20 +2158,20 @@ Package pdftex.def Info: ../pdf/"stitch"/"piston"/"stitch final".pdf used on in
 put line 60.
 (pdftex.def)             Requested size: 289.07999pt x 179.06923pt.
 
-<../pdf/"stitch"/"piston"/"pistons grid".pdf, id=1174, 361.35pt x 223.83624pt>
+<../pdf/"stitch"/"piston"/"pistons grid".pdf, id=1210, 361.35pt x 223.83624pt>
 File: ../pdf/"stitch"/"piston"/"pistons grid".pdf Graphic file (type pdf)
 
 <use ../pdf/"stitch"/"piston"/"pistons grid".pdf>
 Package pdftex.def Info: ../pdf/"stitch"/"piston"/"pistons grid".pdf used on in
 put line 67.
 (pdftex.def)             Requested size: 289.07999pt x 179.06923pt.
- [93 <../pdf/stitch/piston/ABC.pdf>] [94 <../pdf/stitch/piston/stitch broken la
+ [95 <../pdf/stitch/piston/ABC.pdf>] [96 <../pdf/stitch/piston/stitch broken la
 beled.pdf> <../pdf/stitch/piston/stitch discrete steps.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/stitch/piston/stitch 
 discrete steps.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
->] [95 <../pdf/stitch/piston/stitch input.pdf> <../pdf/stitch/piston/dots and o
+>] [97 <../pdf/stitch/piston/stitch input.pdf> <../pdf/stitch/piston/dots and o
 verlaps.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/stitch/piston/dots an
@@ -2162,7 +2180,7 @@ gle page
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96 <../pdf/stitch/piston/stitch final.pdf> <../pdf/stitch/piston/pistons grid
+ [98 <../pdf/stitch/piston/stitch final.pdf> <../pdf/stitch/piston/pistons grid
 .pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/stitch/piston/pistons
@@ -2183,13 +2201,13 @@ Overfull \hbox (6.66664pt too wide) detected at line 181
  
  []
 
-[97]
+[99]
 Overfull \hbox (7.14975pt too wide) in paragraph at lines 329--344
  [] 
  []
 
 
-<../pdf/"stitch"/"piston"/"stitch merit bullseye".pdf, id=1301, 361.35pt x 355.
+<../pdf/"stitch"/"piston"/"stitch merit bullseye".pdf, id=1337, 361.35pt x 355.
 3275pt>
 File: ../pdf/"stitch"/"piston"/"stitch merit bullseye".pdf Graphic file (type p
 df)
@@ -2197,11 +2215,11 @@ df)
 Package pdftex.def Info: ../pdf/"stitch"/"piston"/"stitch merit bullseye".pdf u
 sed on input line 350.
 (pdftex.def)             Requested size: 289.07999pt x 284.26237pt.
- [98]
-[99]
+ [100]
+[101]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100]
+ [102]
 File: ../pdf/"stitch"/"piston"/"pistons grid".pdf Graphic file (type pdf)
 
 <use ../pdf/"stitch"/"piston"/"pistons grid".pdf>
@@ -2209,7 +2227,7 @@ Package pdftex.def Info: ../pdf/"stitch"/"piston"/"pistons grid".pdf used on in
 put line 416.
 (pdftex.def)             Requested size: 216.81pt x 134.30278pt.
 
-<../pdf/"stitch"/"piston"/"pistons input grid".pdf, id=1311, 361.35pt x 223.836
+<../pdf/"stitch"/"piston"/"pistons input grid".pdf, id=1347, 361.35pt x 223.836
 24pt>
 File: ../pdf/"stitch"/"piston"/"pistons input grid".pdf Graphic file (type pdf)
 
@@ -2217,8 +2235,8 @@ File: ../pdf/"stitch"/"piston"/"pistons input grid".pdf Graphic file (type pdf)
 Package pdftex.def Info: ../pdf/"stitch"/"piston"/"pistons input grid".pdf used
  on input line 417.
 (pdftex.def)             Requested size: 216.81pt x 134.30278pt.
- [101 <../pdf/stitch/piston/stitch merit bullseye.pdf>]
-<../pdf/"stitch"/"slope"/"tilts".pdf, id=1341, 361.35pt x 236.885pt>
+ [103 <../pdf/stitch/piston/stitch merit bullseye.pdf>]
+<../pdf/"stitch"/"slope"/"tilts".pdf, id=1378, 361.35pt x 236.885pt>
 File: ../pdf/"stitch"/"slope"/"tilts".pdf Graphic file (type pdf)
 
 <use ../pdf/"stitch"/"slope"/"tilts".pdf>
@@ -2226,7 +2244,7 @@ Package pdftex.def Info: ../pdf/"stitch"/"slope"/"tilts".pdf used on input line
  439.
 (pdftex.def)             Requested size: 289.07999pt x 189.50824pt.
 
-<../pdf/"stitch"/"slope"/"function and gradient".pdf, id=1342, 361.35pt x 228.8
+<../pdf/"stitch"/"slope"/"function and gradient".pdf, id=1379, 361.35pt x 228.8
 55pt>
 File: ../pdf/"stitch"/"slope"/"function and gradient".pdf Graphic file (type pd
 f)
@@ -2237,16 +2255,16 @@ ed on input line 446.
 
 Underfull \vbox (badness 2368) has occurred while \output is active []
 
- [102 <../pdf/stitch/piston/pistons input grid.pdf>]
+ [104 <../pdf/stitch/piston/pistons input grid.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [103 <../pdf/stitch/slope/tilts.pdf> <../pdf/stitch/slope/function and gradien
+ [105 <../pdf/stitch/slope/tilts.pdf> <../pdf/stitch/slope/function and gradien
 t.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/stitch/slope/function
  and gradient.pdf): PDF inclusion: multiple pdfs with page group included in a 
 single page
->]) (../parts/gradient/ch gradient.tex [104]
+>]) (../parts/gradient/ch gradient.tex [106]
 Chapter 12.
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--27
@@ -2258,11 +2276,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
-) [105
+) [107
 
-] [106
+] [108
 
-] [107] [108] (../parts/nonlinear/ch best circle.tex [109] [110
+] [109] [110] (../parts/nonlinear/ch best circle.tex [111] [112
 
 ]
 Chapter 13.
@@ -2274,12 +2292,12 @@ Overfull \hbox (17.35664pt too wide) in paragraph at lines 11--30
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (../parts/nonlinear/ch linearization.tex [111] [112] [113] [114
+) (../parts/nonlinear/ch linearization.tex [113] [114] [115] [116
 
 ]
 Chapter 14.
-[115]
-<../pdf/"nonlinear"/"faux"/"learning merit naked".pdf, id=1424, 361.35pt x 349.
+[117]
+<../pdf/"nonlinear"/"faux"/"learning merit naked".pdf, id=1460, 361.35pt x 349.
 305pt>
 File: ../pdf/"nonlinear"/"faux"/"learning merit naked".pdf Graphic file (type p
 df)
@@ -2298,9 +2316,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 3250) has occurred while \output is active []
 
- [116]
-[117 <../pdf/nonlinear/faux/learning merit naked.pdf>]
-<../pdf/"nonlinear"/"faux"/"minimize one d".pdf, id=1445, 361.35pt x 215.80624p
+ [118]
+[119 <../pdf/nonlinear/faux/learning merit naked.pdf>]
+<../pdf/"nonlinear"/"faux"/"minimize one d".pdf, id=1481, 361.35pt x 215.80624p
 t>
 File: ../pdf/"nonlinear"/"faux"/"minimize one d".pdf Graphic file (type pdf)
  <use ../pdf/"nonlinear"/"faux"/"minimize one d".pdf>
@@ -2308,7 +2326,7 @@ Package pdftex.def Info: ../pdf/"nonlinear"/"faux"/"minimize one d".pdf used on
  input line 180.
 (pdftex.def)             Requested size: 252.94327pt x 151.06332pt.
 
-<../pdf/"nonlinear"/"faux"/"learning merit a line".pdf, id=1446, 361.35pt x 349
+<../pdf/"nonlinear"/"faux"/"learning merit a line".pdf, id=1482, 361.35pt x 349
 .305pt>
 File: ../pdf/"nonlinear"/"faux"/"learning merit a line".pdf Graphic file (type 
 pdf)
@@ -2316,13 +2334,13 @@ pdf)
 Package pdftex.def Info: ../pdf/"nonlinear"/"faux"/"learning merit a line".pdf 
 used on input line 198.
 (pdftex.def)             Requested size: 252.94327pt x 244.51183pt.
- [118]
+ [120]
 Overfull \hbox (15.569pt too wide) in paragraph at lines 231--247
  [] 
  []
 
 
-<../pdf/"nonlinear"/"faux"/"learn data v soln".pdf, id=1450, 361.35pt x 226.847
+<../pdf/"nonlinear"/"faux"/"learn data v soln".pdf, id=1486, 361.35pt x 226.847
 5pt>
 File: ../pdf/"nonlinear"/"faux"/"learn data v soln".pdf Graphic file (type pdf)
 
@@ -2331,7 +2349,7 @@ Package pdftex.def Info: ../pdf/"nonlinear"/"faux"/"learn data v soln".pdf used
  on input line 254.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
-<../pdf/"nonlinear"/"faux"/"learn residuals".pdf, id=1451, 361.35pt x 226.8475p
+<../pdf/"nonlinear"/"faux"/"learn residuals".pdf, id=1487, 361.35pt x 226.8475p
 t>
 File: ../pdf/"nonlinear"/"faux"/"learn residuals".pdf Graphic file (type pdf)
  <use ../pdf/"nonlinear"/"faux"/"learn residuals".pdf>
@@ -2339,17 +2357,17 @@ Package pdftex.def Info: ../pdf/"nonlinear"/"faux"/"learn residuals".pdf used o
 n input line 271.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
-<../pdf/"nonlinear"/"faux"/"tagged merit".pdf, id=1452, 361.35pt x 349.305pt>
+<../pdf/"nonlinear"/"faux"/"tagged merit".pdf, id=1488, 361.35pt x 349.305pt>
 File: ../pdf/"nonlinear"/"faux"/"tagged merit".pdf Graphic file (type pdf)
 
 <use ../pdf/"nonlinear"/"faux"/"tagged merit".pdf>
 Package pdftex.def Info: ../pdf/"nonlinear"/"faux"/"tagged merit".pdf used on i
 nput line 289.
 (pdftex.def)             Requested size: 252.94327pt x 244.51183pt.
- [119 <../pdf/nonlinear/faux/minimize one d.pdf>]
+ [121 <../pdf/nonlinear/faux/minimize one d.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120 <../pdf/nonlinear/faux/learning merit a line.pdf> <../pdf/nonlinear/faux/
+ [122 <../pdf/nonlinear/faux/learning merit a line.pdf> <../pdf/nonlinear/faux/
 learn data v soln.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/nonlinear/faux/learn 
@@ -2358,9 +2376,9 @@ ngle page
 >]
 Underfull \vbox (badness 4168) has occurred while \output is active []
 
- [121 <../pdf/nonlinear/faux/learn residuals.pdf>] [122 <../pdf/nonlinear/faux/
+ [123 <../pdf/nonlinear/faux/learn residuals.pdf>] [124 <../pdf/nonlinear/faux/
 tagged merit.pdf>]
-<../pdf/"nonlinear"/"faux"/"learn two solutions".pdf, id=1530, 361.35pt x 349.3
+<../pdf/"nonlinear"/"faux"/"learn two solutions".pdf, id=1567, 361.35pt x 349.3
 05pt>
 File: ../pdf/"nonlinear"/"faux"/"learn two solutions".pdf Graphic file (type pd
 f)
@@ -2371,8 +2389,8 @@ ed on input line 378.
 
 Underfull \vbox (badness 4454) has occurred while \output is active []
 
- [123 <../pdf/nonlinear/faux/learn two solutions.pdf>]
-<../pdf/"nonlinear"/"decay"/"linear errors".pdf, id=1556, 361.35pt x 359.3425pt
+ [125 <../pdf/nonlinear/faux/learn two solutions.pdf>]
+<../pdf/"nonlinear"/"decay"/"linear errors".pdf, id=1593, 361.35pt x 359.3425pt
 >
 File: ../pdf/"nonlinear"/"decay"/"linear errors".pdf Graphic file (type pdf)
  <use ../pdf/"nonlinear"/"decay"/"linear errors".pdf>
@@ -2380,7 +2398,7 @@ Package pdftex.def Info: ../pdf/"nonlinear"/"decay"/"linear errors".pdf used on
  input line 439.
 (pdftex.def)             Requested size: 216.81pt x 215.60715pt.
 
-<../pdf/"nonlinear"/"decay"/"log errors".pdf, id=1557, 361.35pt x 354.32375pt>
+<../pdf/"nonlinear"/"decay"/"log errors".pdf, id=1594, 361.35pt x 354.32375pt>
 File: ../pdf/"nonlinear"/"decay"/"log errors".pdf Graphic file (type pdf)
 
 <use ../pdf/"nonlinear"/"decay"/"log errors".pdf>
@@ -2389,7 +2407,7 @@ put line 441.
 (pdftex.def)             Requested size: 216.81pt x 212.59589pt.
 
 
-LaTeX Warning: Reference `fig:bevington merit function' on page 124 undefined o
+LaTeX Warning: Reference `fig:bevington merit function' on page 126 undefined o
 n input line 489.
 
 
@@ -2397,7 +2415,7 @@ Overfull \hbox (26.07227pt too wide) in paragraph at lines 475--492
  [] 
  []
 
-<../pdf/"nonlinear"/"decay"/"merit two".pdf, id=1558, 361.35pt x 339.2675pt>
+<../pdf/"nonlinear"/"decay"/"merit two".pdf, id=1595, 361.35pt x 339.2675pt>
 File: ../pdf/"nonlinear"/"decay"/"merit two".pdf Graphic file (type pdf)
 
 <use ../pdf/"nonlinear"/"decay"/"merit two".pdf>
@@ -2405,24 +2423,24 @@ Package pdftex.def Info: ../pdf/"nonlinear"/"decay"/"merit two".pdf used on inp
 ut line 499.
 (pdftex.def)             Requested size: 252.94327pt x 237.48563pt.
 )
-(../parts/nonlinear/ch census.tex [124] [125 <../pdf/nonlinear/decay/merit two.
-pdf>] [126 <../pdf/nonlinear/decay/linear errors.pdf> <../pdf/nonlinear/decay/l
+(../parts/nonlinear/ch census.tex [126] [127 <../pdf/nonlinear/decay/merit two.
+pdf>] [128 <../pdf/nonlinear/decay/linear errors.pdf> <../pdf/nonlinear/decay/l
 og errors.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/nonlinear/decay/log e
 rrors.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
->] [127] [128
+>] [129] [130
 
 ]
 Chapter 15.
-[129]
+[131]
 Overfull \hbox (1.7647pt too wide) in paragraph at lines 65--82
  [] 
  []
 
 
-<../pdf/nonlinear/census/"census error wide".pdf, id=1616, 361.35pt x 226.8475p
+<../pdf/nonlinear/census/"census error wide".pdf, id=1652, 361.35pt x 226.8475p
 t>
 File: ../pdf/nonlinear/census/"census error wide".pdf Graphic file (type pdf)
  <use ../pdf/nonlinear/census/"census error wide".pdf>
@@ -2430,7 +2448,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"census error wide".pdf used o
 n input line 116.
 (pdftex.def)             Requested size: 252.94327pt x 158.79216pt.
 
-<../pdf/nonlinear/census/"census error zoom".pdf, id=1617, 361.35pt x 229.85875
+<../pdf/nonlinear/census/"census error zoom".pdf, id=1653, 361.35pt x 229.85875
 pt>
 File: ../pdf/nonlinear/census/"census error zoom".pdf Graphic file (type pdf)
  <use ../pdf/nonlinear/census/"census error zoom".pdf>
@@ -2438,7 +2456,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"census error zoom".pdf used o
 n input line 129.
 (pdftex.def)             Requested size: 252.94327pt x 160.90001pt.
 
-<../pdf/nonlinear/census/"census data v soln".pdf, id=1618, 361.35pt x 223.8362
+<../pdf/nonlinear/census/"census data v soln".pdf, id=1654, 361.35pt x 223.8362
 4pt>
 File: ../pdf/nonlinear/census/"census data v soln".pdf Graphic file (type pdf)
  <use ../pdf/nonlinear/census/"census data v soln".pdf>
@@ -2446,7 +2464,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"census data v soln".pdf used
 on input line 142.
 (pdftex.def)             Requested size: 252.94327pt x 156.6843pt.
 
-<../pdf/nonlinear/census/"census residual scatter".pdf, id=1619, 361.35pt x 228
+<../pdf/nonlinear/census/"census residual scatter".pdf, id=1655, 361.35pt x 228
 .855pt>
 File: ../pdf/nonlinear/census/"census residual scatter".pdf Graphic file (type 
 pdf)
@@ -2455,7 +2473,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"census residual scatter".pdf
 used on input line 155.
 (pdftex.def)             Requested size: 252.94327pt x 160.1974pt.
 
-<../pdf/nonlinear/census/"census merit shaded".pdf, id=1620, 361.35pt x 349.305
+<../pdf/nonlinear/census/"census merit shaded".pdf, id=1656, 361.35pt x 349.305
 pt>
 File: ../pdf/nonlinear/census/"census merit shaded".pdf Graphic file (type pdf)
 
@@ -2464,7 +2482,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"census merit shaded".pdf used
  on input line 168.
 (pdftex.def)             Requested size: 252.94327pt x 244.51183pt.
 
-<../pdf/nonlinear/census/"census merit lines".pdf, id=1621, 361.35pt x 349.305p
+<../pdf/nonlinear/census/"census merit lines".pdf, id=1657, 361.35pt x 349.305p
 t>
 File: ../pdf/nonlinear/census/"census merit lines".pdf Graphic file (type pdf)
  <use ../pdf/nonlinear/census/"census merit lines".pdf>
@@ -2472,7 +2490,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"census merit lines".pdf used
 on input line 181.
 (pdftex.def)             Requested size: 252.94327pt x 244.51183pt.
 
-<../pdf/nonlinear/census/"fit order = 0".pdf, id=1622, 361.35pt x 226.8475pt>
+<../pdf/nonlinear/census/"fit order = 0".pdf, id=1658, 361.35pt x 226.8475pt>
 File: ../pdf/nonlinear/census/"fit order = 0".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"fit order = 0".pdf>
@@ -2480,7 +2498,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"fit order = 0".pdf used on in
 put line 231.
 (pdftex.def)             Requested size: 155.38005pt x 97.54251pt.
 
-<../pdf/nonlinear/census/"residuals 0".pdf, id=1623, 361.35pt x 226.8475pt>
+<../pdf/nonlinear/census/"residuals 0".pdf, id=1659, 361.35pt x 226.8475pt>
 File: ../pdf/nonlinear/census/"residuals 0".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"residuals 0".pdf>
@@ -2488,7 +2506,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"residuals 0".pdf used on inpu
 t line 232.
 (pdftex.def)             Requested size: 155.38005pt x 97.54251pt.
 
-<../pdf/nonlinear/census/"fit order = 1".pdf, id=1624, 361.35pt x 225.84375pt>
+<../pdf/nonlinear/census/"fit order = 1".pdf, id=1660, 361.35pt x 225.84375pt>
 File: ../pdf/nonlinear/census/"fit order = 1".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"fit order = 1".pdf>
@@ -2496,7 +2514,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"fit order = 1".pdf used on in
 put line 235.
 (pdftex.def)             Requested size: 155.38005pt x 97.1109pt.
 
-<../pdf/nonlinear/census/"residuals 1".pdf, id=1625, 361.35pt x 226.8475pt>
+<../pdf/nonlinear/census/"residuals 1".pdf, id=1661, 361.35pt x 226.8475pt>
 File: ../pdf/nonlinear/census/"residuals 1".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"residuals 1".pdf>
@@ -2504,7 +2522,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"residuals 1".pdf used on inpu
 t line 236.
 (pdftex.def)             Requested size: 155.38005pt x 97.54251pt.
 
-<../pdf/nonlinear/census/"fit order = 2".pdf, id=1626, 361.35pt x 225.84375pt>
+<../pdf/nonlinear/census/"fit order = 2".pdf, id=1662, 361.35pt x 225.84375pt>
 File: ../pdf/nonlinear/census/"fit order = 2".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"fit order = 2".pdf>
@@ -2512,7 +2530,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"fit order = 2".pdf used on in
 put line 239.
 (pdftex.def)             Requested size: 155.38005pt x 97.1109pt.
 
-<../pdf/nonlinear/census/"residuals 2".pdf, id=1627, 361.35pt x 226.8475pt>
+<../pdf/nonlinear/census/"residuals 2".pdf, id=1663, 361.35pt x 226.8475pt>
 File: ../pdf/nonlinear/census/"residuals 2".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"residuals 2".pdf>
@@ -2520,7 +2538,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"residuals 2".pdf used on inpu
 t line 240.
 (pdftex.def)             Requested size: 155.38005pt x 97.54251pt.
 
-<../pdf/nonlinear/census/"fit order = 3".pdf, id=1628, 361.35pt x 225.84375pt>
+<../pdf/nonlinear/census/"fit order = 3".pdf, id=1664, 361.35pt x 225.84375pt>
 File: ../pdf/nonlinear/census/"fit order = 3".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"fit order = 3".pdf>
@@ -2528,7 +2546,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"fit order = 3".pdf used on in
 put line 243.
 (pdftex.def)             Requested size: 155.38005pt x 97.1109pt.
 
-<../pdf/nonlinear/census/"residuals 3".pdf, id=1629, 361.35pt x 226.8475pt>
+<../pdf/nonlinear/census/"residuals 3".pdf, id=1665, 361.35pt x 226.8475pt>
 File: ../pdf/nonlinear/census/"residuals 3".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"residuals 3".pdf>
@@ -2541,7 +2559,7 @@ Overfull \hbox (8.94821pt too wide) in paragraph at lines 226--247
  []
 
 
-<../pdf/nonlinear/census/"fit order = 4".pdf, id=1630, 361.35pt x 225.84375pt>
+<../pdf/nonlinear/census/"fit order = 4".pdf, id=1666, 361.35pt x 225.84375pt>
 File: ../pdf/nonlinear/census/"fit order = 4".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"fit order = 4".pdf>
@@ -2549,7 +2567,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"fit order = 4".pdf used on in
 put line 258.
 (pdftex.def)             Requested size: 155.38005pt x 97.1109pt.
 
-<../pdf/nonlinear/census/"residuals 4".pdf, id=1631, 361.35pt x 226.8475pt>
+<../pdf/nonlinear/census/"residuals 4".pdf, id=1667, 361.35pt x 226.8475pt>
 File: ../pdf/nonlinear/census/"residuals 4".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"residuals 4".pdf>
@@ -2557,7 +2575,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"residuals 4".pdf used on inpu
 t line 259.
 (pdftex.def)             Requested size: 155.38005pt x 97.54251pt.
 
-<../pdf/nonlinear/census/"fit order = 5".pdf, id=1632, 361.35pt x 225.84375pt>
+<../pdf/nonlinear/census/"fit order = 5".pdf, id=1668, 361.35pt x 225.84375pt>
 File: ../pdf/nonlinear/census/"fit order = 5".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"fit order = 5".pdf>
@@ -2565,7 +2583,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"fit order = 5".pdf used on in
 put line 262.
 (pdftex.def)             Requested size: 155.38005pt x 97.1109pt.
 
-<../pdf/nonlinear/census/"residuals 5".pdf, id=1633, 361.35pt x 226.8475pt>
+<../pdf/nonlinear/census/"residuals 5".pdf, id=1669, 361.35pt x 226.8475pt>
 File: ../pdf/nonlinear/census/"residuals 5".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"residuals 5".pdf>
@@ -2573,7 +2591,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"residuals 5".pdf used on inpu
 t line 263.
 (pdftex.def)             Requested size: 162.6075pt x 102.08043pt.
 
-<../pdf/nonlinear/census/"fit order = 6".pdf, id=1634, 361.35pt x 225.84375pt>
+<../pdf/nonlinear/census/"fit order = 6".pdf, id=1670, 361.35pt x 225.84375pt>
 File: ../pdf/nonlinear/census/"fit order = 6".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"fit order = 6".pdf>
@@ -2581,7 +2599,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"fit order = 6".pdf used on in
 put line 266.
 (pdftex.def)             Requested size: 162.6075pt x 101.62874pt.
 
-<../pdf/nonlinear/census/"residuals 6".pdf, id=1635, 361.35pt x 226.8475pt>
+<../pdf/nonlinear/census/"residuals 6".pdf, id=1671, 361.35pt x 226.8475pt>
 File: ../pdf/nonlinear/census/"residuals 6".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"residuals 6".pdf>
@@ -2589,7 +2607,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"residuals 6".pdf used on inpu
 t line 267.
 (pdftex.def)             Requested size: 162.6075pt x 102.08043pt.
 
-<../pdf/nonlinear/census/"fit order = 7".pdf, id=1636, 361.35pt x 225.84375pt>
+<../pdf/nonlinear/census/"fit order = 7".pdf, id=1672, 361.35pt x 225.84375pt>
 File: ../pdf/nonlinear/census/"fit order = 7".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"fit order = 7".pdf>
@@ -2597,7 +2615,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"fit order = 7".pdf used on in
 put line 270.
 (pdftex.def)             Requested size: 162.6075pt x 101.62874pt.
 
-<../pdf/nonlinear/census/"residuals 7".pdf, id=1637, 361.35pt x 226.8475pt>
+<../pdf/nonlinear/census/"residuals 7".pdf, id=1673, 361.35pt x 226.8475pt>
 File: ../pdf/nonlinear/census/"residuals 7".pdf Graphic file (type pdf)
 
 <use ../pdf/nonlinear/census/"residuals 7".pdf>
@@ -2705,7 +2723,7 @@ Package pdftex.def Info: ../pdf/nonlinear/census/"residuals 7".pdf used on inpu
 t line 318.
 (pdftex.def)             Requested size: 162.6075pt x 102.08043pt.
 
-<../pdf/nonlinear/census/"total error by order".pdf, id=1638, 361.35pt x 220.82
+<../pdf/nonlinear/census/"total error by order".pdf, id=1674, 361.35pt x 220.82
 5pt>
 File: ../pdf/nonlinear/census/"total error by order".pdf Graphic file (type pdf
 )
@@ -2713,20 +2731,20 @@ File: ../pdf/nonlinear/census/"total error by order".pdf Graphic file (type pdf
 Package pdftex.def Info: ../pdf/nonlinear/census/"total error by order".pdf use
 d on input line 364.
 (pdftex.def)             Requested size: 252.94327pt x 154.57643pt.
-) [130] [131 <../pdf/nonlinear/census/census error wide.pdf>] [132 <../pdf/nonl
+) [132] [133 <../pdf/nonlinear/census/census error wide.pdf>] [134 <../pdf/nonl
 inear/census/census error zoom.pdf> <../pdf/nonlinear/census/census data v soln
 .pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/nonlinear/census/cens
 us data v soln.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
->] [133 <../pdf/nonlinear/census/census residual scatter.pdf> <../pdf/nonlinear
+>] [135 <../pdf/nonlinear/census/census residual scatter.pdf> <../pdf/nonlinear
 /census/census merit shaded.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/nonlinear/census/cens
 us merit shaded.pdf): PDF inclusion: multiple pdfs with page group included in 
 a single page
->] [134 <../pdf/nonlinear/census/census merit lines.pdf>] [135 <../pdf/nonlinea
+>] [136 <../pdf/nonlinear/census/census merit lines.pdf>] [137 <../pdf/nonlinea
 r/census/fit order = 0.pdf> <../pdf/nonlinear/census/residuals 0.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/nonlinear/census/resi
@@ -2762,7 +2780,7 @@ le page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/nonlinear/census/resi
 duals 3.pdf): PDF inclusion: multiple pdfs with page group included in a single
  page
->] [136 <../pdf/nonlinear/census/fit order = 4.pdf> <../pdf/nonlinear/census/re
+>] [138 <../pdf/nonlinear/census/fit order = 4.pdf> <../pdf/nonlinear/census/re
 siduals 4.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/nonlinear/census/resi
@@ -2798,24 +2816,24 @@ le page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/nonlinear/census/resi
 duals 7.pdf): PDF inclusion: multiple pdfs with page group included in a single
  page
->] [137] [138] [139 <../pdf/nonlinear/census/total error by order.pdf>]
-[140
+>] [139] [140] [141 <../pdf/nonlinear/census/total error by order.pdf>]
+[142
 
-] [141] [142] (../appendices/app exercises.tex
+] [143] [144] (../appendices/app exercises.tex
 Appendix A.
-) [143
+) [145
 
-] [144
+] [146
 
-] [145] [146] (../ells bibliography.tex
+] [147] [148] (../ells bibliography.tex
 Missing character: There is no Ò in font cmti10!
 Missing character: There is no Ó in font cmti10!
- [147
+ [149
 
 
 ])
 No file "ells 01".ind.
-[148] (./ells 01.aux)
+[150] (./ells 01.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2824,10 +2842,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25053 strings out of 493089
- 514141 string characters out of 6134842
- 535160 words of memory out of 5000000
- 27880 multiletter control sequences out of 15000+600000
+ 25068 strings out of 493089
+ 514749 string characters out of 6134842
+ 535327 words of memory out of 5000000
+ 27892 multiletter control sequences out of 15000+600000
  27919 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,27n,54p,10445b,717s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2860,10 +2878,10 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on "ells 01.pdf" (160 pages, 3901292 bytes).
+Output written on "ells 01.pdf" (162 pages, 3923247 bytes).
 PDF statistics:
- 2029 PDF objects out of 2073 (max. 8388607)
- 1364 compressed objects within 14 object streams
+ 2065 PDF objects out of 2073 (max. 8388607)
+ 1388 compressed objects within 14 object streams
  0 named destinations out of 1000 (max. 500000)
- 513 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 523 words of extra memory for PDF output out of 10000 (max. 10000000)
 

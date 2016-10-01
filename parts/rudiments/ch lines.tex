@@ -19,8 +19,8 @@ The focus on this chapter is to take a set of parameters $\paren{a_{0},a_{1}}$ a
             input & $\rightarrow$ & output \\\hline
             %
             parameters $a_{0}$, $a_{1}$ && set $(x, y)$\\
-      			%
-						intercept, slope && least squares solution
+      		%
+			intercept, slope && least squares solution
             %
         \end{tabular}
     \end{center}
@@ -38,7 +38,20 @@ Given the parameters $a=\mat{c}{a_{0}\\a_{1}}$, find the set $\mat{c}{x\\y}$ whi
    \label{eq:myline}
   \end{equation}
 
-Rewriting the equation as a linear system reveals
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \begin{overpic}[ scale = \myscale ]
+	   {\pathgraphics tricks/one_line/"line- y = mx + b"}
+        %
+    	\put(50,-3) {$x$}
+    	\put(-4,31) {$y$}
+	    %
+   \end{overpic}
+   \caption{A sample line.}
+   %\label{fig:three lines oval}
+\end{figure}
+
+Rewriting \eqref{eq:myline} as a linear system reveals
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
       -a_{1} x + y = a_{0},
@@ -46,12 +59,12 @@ Rewriting the equation as a linear system reveals
    %\label{eq:}
   \end{equation*}
 which is the linear system
-  \begin{equation*}   %  =   =   =   =   =
+  \begin{equation}   %  =   =   =   =   =
   %\begin{split}
     \mat{rc}{ -a_{1} & 1 } \mat{c}{x\\y} = \mat{c}{a_{0}}.
-    %\label{eq:}
+    \label{eq:one line problem}
   %\end{split}
-  \end{equation*}
+  \end{equation}
 Certainly, the heavy artillery of the SVD could be brought to bear. Yet simple geometric reasoning will produce a solution and reinforce basic insights.
 
 Equation \eqref{eq:myline} describes a line, a continuous set of points. Referring back to the boxed least squares solution in \eqref{eq:general soln}, the least squares solution may be the 
@@ -76,7 +89,7 @@ Which point on the line is closet to the origin? One way to solve for this is us
                                \mat{c}{x \\ y} = 
                                \mat{c}{a_{0}}$ \\
         \bf{ideal solution} & NA \\
-        \bf{input data}     & --
+        \bf{input data}     & $a_{0}$, $a_{1}$
         %
       \end{tabular}
     \end{center}
@@ -125,14 +138,58 @@ The least squares solution is the solution of minimum length.
    %\label{eq:}
   \end{equation*}
 
+  \begin{equation}   %  =   =   =   =   =
+      \A{\dagger} x = \frac{a_{0}}{\onelen} \mat{c}{-a_{1} \\ 1}
+   \label{eq:one line soln}
+  \end{equation}
+
+Every point on the line in \eqref{eq:myline}
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \begin{overpic}[ scale = \myscale ]
+	   {\pathgraphics tricks/one_line/"line- blue dot, red line"}
+        %
+%        \put(45,48) {$m\rightarrow\infty^{-}$}
+%        \put(61,40) {$m\rightarrow\infty^{+}$}
+        %
+        \put(17,42) {\rd{$x_{homog}$}}
+        \put(27,48) {\rd{$\pna z$}}
+        %
+        \put(50,25) {\colorbox{white}{\bl{$x_{part}$}}}
+        \put(61,31) {\bl{$\Ap a_{0}$}}
+        %
+    	\put(50,-3) {$x$}
+    	\put(-4,31) {$y$}
+	    %
+   \end{overpic}
+   \caption{The least squares solution for \eqref{eq:one line problem} resolved into range space (blue) and null space components (red).}
+   %\label{fig:three lines oval}
+\end{figure}
+
+\subsection{SVD}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
   \begin{equation*}   %  =   =   =   =   =
-   %\begin{split}
-      \A{\dagger} x = \frac{a_{0}}{1+a_{1}^2} \mat{c}{-a_{1} \\ 1}
-   %\end{split}
+    \begin{array}{ccccc}
+      %
+      \A{} &=& \U{} & \Sigma & \V{*} \\
+      %
+      \mat{cc}{-m & 1} &=& 
+      \frac{1}{\onelensq}
+      \mat{cc}{\bl{ \mat{c}{-a_{1} \\ 1}} & \rd{ \sqrt{a_{1}} \mat{c}{1/a_{1} \\ 1}}} &
+      \mat{cc}{\sqrt{\onelen} & 0} & 
+      \mat{c}{1}
+      %
+    \end{array}
    %\label{eq:}
   \end{equation*}
 
-Every point on the line in \eqref{eq:myline}
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \Ap = \V{} \sig{\sym} \U{*} = \frac{1} {\onelen} \mat{c}{-a_{1} \\ 1}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+Compare $\Ap a_{0}$ to \eqref{eq:one line soln}.
 
 \section{Two Lines}  %    S    S    S    S    S    S    S    S    S
 Where Do Parallel Lines Cross? The provocative question which opens this section has an obvious answer in Euclidean space. There is no such point; parallel lines never cross. Yet, if we input these lines as a linear system, we compute a least squares solution. What is the significance of the least squares solution?
@@ -155,7 +212,7 @@ are plotted in figure \ref{fig:tantalizing} along with the least squares solutio
 What is so special about this point?
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-     \includegraphics[ width = 3in ]{\pathgraphics "tricks"/"parallel point"} 
+     \includegraphics[ width = 3in ]{\pathgraphics "tricks"/two_lines/"parallel point"} 
    \caption{Parallel lines and the least squares solution.}
    \label{fig:tantalizing}
 \end{figure}
@@ -178,6 +235,7 @@ What is so special about this point?
 
 
 \section{Three Lines}  %    S    S    S    S    S    S    S    S    S
+Start with three distinct lines. The first line represents a constant value. The second line has a fixed slope, the third has a variable slope. We will study how the solution varies as this slope $m$ is varied.
   \begin{equation*}   %  =   =   =   =   =
      \begin{split}
        %
@@ -414,7 +472,7 @@ Merit function
         %
 %        \put(45,48) {$m\rightarrow\infty^{-}$}
 %        \put(61,40) {$m\rightarrow\infty^{+}$}
-				\put(55,43) {$m=\infty$}
+		\put(55,43) {$m=\infty$}
         %
         \put(17,43) {$m=-1$}
         %
@@ -422,9 +480,9 @@ Merit function
         %
         \put(83,8) {$m=0$}
         %
-    	  \put(51,-3) {$x$}
-    	  \put(-4,31) {$y$}
-	      %
+    	\put(51,-3) {$x$}
+    	\put(-4,31) {$y$}
+	    %
    \end{overpic}
    \caption{Trajectory of the solution point $p(m)$ in \eqref{eq:p(m)} for $-\infty < m < \infty$.}
    \label{fig:three lines oval}
