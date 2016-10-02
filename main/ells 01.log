@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 OCT 2016 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 OCT 2016 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1140,27 +1140,27 @@ Underfull \hbox (badness 10000) detected at line 8
 
 
 ]
-Underfull \hbox (badness 10000) detected at line 41
+Underfull \hbox (badness 10000) detected at line 42
 \OT1/cmr/bx/n/10 II
  []
 
 
-Underfull \hbox (badness 10000) detected at line 79
+Underfull \hbox (badness 10000) detected at line 80
 \OT1/cmr/bx/n/10 III
  []
 
 [2]
-Underfull \hbox (badness 10000) detected at line 105
+Underfull \hbox (badness 10000) detected at line 106
 \OT1/cmr/bx/n/10 IV
  []
 
 [3]
-Underfull \hbox (badness 10000) detected at line 131
+Underfull \hbox (badness 10000) detected at line 132
 \OT1/cmr/bx/n/10 V
  []
 
 
-Underfull \hbox (badness 10000) detected at line 135
+Underfull \hbox (badness 10000) detected at line 136
 \OT1/cmr/bx/n/10 VI
  []
 
@@ -1381,27 +1381,26 @@ Overfull \hbox (3.3436pt too wide) in paragraph at lines 77--95
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 1590) has occurred while \output is active []
 
-
-<../pdf/tricks/one_line/"line- blue dot, red line".pdf, id=182, 361.35pt x 213.
+ [24 <../pdf/tricks/one_line/line- y = mx + b.pdf>]
+<../pdf/tricks/one_line/"line- blue dot, red line".pdf, id=200, 361.35pt x 213.
 79875pt>
 File: ../pdf/tricks/one_line/"line- blue dot, red line".pdf Graphic file (type 
 pdf)
  <use ../pdf/tricks/one_line/"line- blue dot, red line".pdf>
 Package pdftex.def Info: ../pdf/tricks/one_line/"line- blue dot, red line".pdf 
-used on input line 151.
+used on input line 153.
 (pdftex.def)             Requested size: 252.94327pt x 149.6581pt.
- [24 <../pdf/tricks/one_line/line- y = mx + b.pdf>] [25 <../pdf/tricks/one_line
-/line- blue dot, red line.pdf>]
-<../pdf/"tricks"/two_lines/"parallel point".pdf, id=220, 361.35pt x 312.16624pt
+ [25 <../pdf/tricks/one_line/line- blue dot, red line.pdf>]
+<../pdf/"tricks"/two_lines/"parallel point".pdf, id=219, 361.35pt x 312.16624pt
 >
 File: ../pdf/"tricks"/two_lines/"parallel point".pdf Graphic file (type pdf)
  <use ../pdf/"tricks"/two_lines/"parallel point".pdf>
 Package pdftex.def Info: ../pdf/"tricks"/two_lines/"parallel point".pdf used on
- input line 215.
+ input line 223.
 (pdftex.def)             Requested size: 216.81pt x 187.3012pt.
- [26 <../pdf/tricks/two_lines/parallel point.pdf>] [27]
+ [26] [27 <../pdf/tricks/two_lines/parallel point.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
@@ -1411,7 +1410,7 @@ File: ../pdf/tricks/three_lines/"three lines m = 0".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 0".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 0".pdf used
- on input line 383.
+ on input line 391.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
 <../pdf/tricks/three_lines/"three lines m = 1".pdf, id=245, 361.35pt x 195.7312
@@ -1420,7 +1419,7 @@ File: ../pdf/tricks/three_lines/"three lines m = 1".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 1".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 1".pdf used
- on input line 386.
+ on input line 394.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
 <../pdf/tricks/three_lines/"three lines m = 5".pdf, id=246, 361.35pt x 195.7312
@@ -1429,7 +1428,7 @@ File: ../pdf/tricks/three_lines/"three lines m = 5".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 5".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 5".pdf used
- on input line 389.
+ on input line 397.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
 <../pdf/tricks/three_lines/"three lines m = inf".pdf, id=247, 361.35pt x 195.73
@@ -1438,7 +1437,7 @@ File: ../pdf/tricks/three_lines/"three lines m = inf".pdf Graphic file (type pd
 f)
  <use ../pdf/tricks/three_lines/"three lines m = inf".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = inf".pdf us
-ed on input line 392.
+ed on input line 400.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
 <../pdf/tricks/three_lines/"merit function m = 0".pdf, id=248, 361.35pt x 185.6
@@ -1447,7 +1446,7 @@ File: ../pdf/tricks/three_lines/"merit function m = 0".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 0".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 0".pdf u
-sed on input line 407.
+sed on input line 415.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
 <../pdf/tricks/three_lines/"merit function m = 1".pdf, id=249, 361.35pt x 185.6
@@ -1456,7 +1455,7 @@ File: ../pdf/tricks/three_lines/"merit function m = 1".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 1".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 1".pdf u
-sed on input line 410.
+sed on input line 418.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
 <../pdf/tricks/three_lines/"merit function m = 5".pdf, id=250, 361.35pt x 185.6
@@ -1465,7 +1464,7 @@ File: ../pdf/tricks/three_lines/"merit function m = 5".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 5".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 5".pdf u
-sed on input line 413.
+sed on input line 421.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
 <../pdf/tricks/three_lines/"merit function m = inf".pdf, id=251, 361.35pt x 185
@@ -1474,14 +1473,14 @@ File: ../pdf/tricks/three_lines/"merit function m = inf".pdf Graphic file (type
  pdf)
  <use ../pdf/tricks/three_lines/"merit function m = inf".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = inf".pdf
- used on input line 416.
+ used on input line 424.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
 <../pdf/tricks/three_lines/"three lines oval".pdf, id=252, 361.35pt x 216.81pt>
 File: ../pdf/tricks/three_lines/"three lines oval".pdf Graphic file (type pdf)
 <use ../pdf/tricks/three_lines/"three lines oval".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines oval".pdf used 
-on input line 471.
+on input line 479.
 (pdftex.def)             Requested size: 252.94327pt x 151.76596pt.
 ) [29 <../pdf/tricks/three_lines/three lines oval.pdf>] [30 <../pdf/tricks/thre
 e_lines/three lines m = 0.pdf> <../pdf/tricks/three_lines/three lines m = 1.pdf
@@ -2878,7 +2877,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on "ells 01.pdf" (162 pages, 3923247 bytes).
+Output written on "ells 01.pdf" (162 pages, 3923519 bytes).
 PDF statistics:
  2065 PDF objects out of 2073 (max. 8388607)
  1388 compressed objects within 14 object streams

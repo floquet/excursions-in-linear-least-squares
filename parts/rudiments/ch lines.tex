@@ -78,17 +78,17 @@ Which point on the line is closet to the origin? One way to solve for this is us
         %
         \bf{trial function} & $y(x) = a_{0} + a_{1} x$ \\
         \bf{residual error} & $r(x) = y - a_{0} - a_{1} x$ \\
-        \bf{merit function} & $M(a) = \sum_{k=1}^{m}\paren{T_{k} - a_{0} - a_{1} x}^{2}$\\
+        \bf{merit function} & $M(a) = \paren{y - a_{0} - a_{1} x}^{2}$\\
         \bf{inputs}         & $a_{0}$ & $y-$axis intercept \\
                             & $a_{1}$ & slope \\
-        \bf{results}        & $\mat{c}{x\\y}_{LS} = \mat{c}{x\\y}_{part} + \mat{c}{x\\y}_{homog}$   \\
+        \bf{results}        & $\mat{c}{x\\y}_{LS} = \bl{\mat{c}{x\\y}_{part}} + \rd{\mat{c}{x\\y}_{homog}}$   \\
         \bf{\# of parameter sets} & $m = 1$ & rows in $\A{}$ \\
         \bf{\# of parameters}   & $n = 2$ & columns in $\A{}$ \\
         \bf{system matrix}  & $\A{} \in \real{1 \times 2}_{1}$ \\
         \bf{linear system}  & $\mat{cc}{-a_{1} & 1} 
                                \mat{c}{x \\ y} = 
                                \mat{c}{a_{0}}$ \\
-        \bf{ideal solution} & NA \\
+        %\bf{ideal solution} & NA \\
         \bf{input data}     & $a_{0}$, $a_{1}$
         %
       \end{tabular}
@@ -112,11 +112,13 @@ Which point on the line is closet to the origin? One way to solve for this is us
   \end{equation*}
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
-      M\paren{x,y} = \paren{y - a_{0} - a_{1} x}^{2}
+      M\paren{x,y} = \paren{ - a_{1} x + y - a_{0}}^{2}
    %\end{split}
    %\label{eq:}
   \end{equation*}
-Because every point on the line \eqref{eq:myline} is a point of 0 residual, every point on the line is a solution point. 
+
+\subsection{Geometric Solution}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
+Every point on the line \eqref{eq:myline} is a point of 0 residual, therefore every point on the line is a solution point. 
 
 The least squares solution is the solution of minimum length.
   \begin{equation*}   %  =   =   =   =   =
@@ -150,9 +152,6 @@ Every point on the line in \eqref{eq:myline}
    \begin{overpic}[ scale = \myscale ]
 	   {\pathgraphics tricks/one_line/"line- blue dot, red line"}
         %
-%        \put(45,48) {$m\rightarrow\infty^{-}$}
-%        \put(61,40) {$m\rightarrow\infty^{+}$}
-        %
         \put(17,42) {\rd{$x_{homog}$}}
         \put(27,48) {\rd{$\pna z$}}
         %
@@ -168,12 +167,21 @@ Every point on the line in \eqref{eq:myline}
 \end{figure}
 
 \subsection{SVD}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
+We can construct the \asvd \ by inspection. The target matrix $\A{} = \mat{cc}{-a_{1} & 1}$ has 1 row, which implies the matrix for the codomain is
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \U{} = \mat{c}{1}.
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+The 
+
   \begin{equation*}   %  =   =   =   =   =
     \begin{array}{ccccc}
       %
       \A{} &=& \U{} & \Sigma & \V{*} \\
       %
-      \mat{cc}{-m & 1} &=& 
+      \mat{cc}{-a_{1} & 1} &=& 
       \frac{1}{\onelensq}
       \mat{cc}{\bl{ \mat{c}{-a_{1} \\ 1}} & \rd{ \sqrt{a_{1}} \mat{c}{1/a_{1} \\ 1}}} &
       \mat{cc}{\sqrt{\onelen} & 0} & 
