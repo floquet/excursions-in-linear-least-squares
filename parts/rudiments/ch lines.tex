@@ -93,7 +93,7 @@ Which point on the line is closet to the origin? One way to solve for this is us
         %
       \end{tabular}
     \end{center}
-  \label{tab:bevington inputs}
+  \label{tab:one line inputs}
   \end{table}%
 
   \begin{equation*}   %  =   =   =   =   =
@@ -117,6 +117,21 @@ Which point on the line is closet to the origin? One way to solve for this is us
    %\label{eq:}
   \end{equation*}
 
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \begin{overpic}[ scale = \myscale ]
+	   {\pathgraphics tricks/one_line/"one line merit"}
+	    %
+	    \put(25,55) {$M(a_{0},a_{1}) = \paren{y - a_{0} - a_{1}x}^{2}$}
+        %
+    	\put(50,-3) {$x$}
+    	\put(-4,27) {$y$}
+	    %
+   \end{overpic}
+   \caption{A contour plot of the merit function showing the particular solution (blue dot) and homogeneous solution (red dashes).}
+   \label{fig:one lines merit}
+\end{figure}
+
 \subsection{Geometric Solution}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
 Every point on the line \eqref{eq:myline} is a point of 0 residual, therefore every point on the line is a solution point. 
 
@@ -129,10 +144,19 @@ The least squares solution is the solution of minimum length.
   \end{equation*}
     \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
-      x = \frac{a_{0} a_{1}} {1 + a_{1}^{2}}
+      x = \frac{a_{0} a_{1}} {\onelen}
    %\end{split}
    %\label{eq:}
   \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \mat{c}{x\\y}_{LS} = \frac{a_{0}} {1 + a_{1}^{2}} \mat{c}{-a_{1}\\1}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+  
+  
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
       p(\tau) = p_{0} + \tau \mat{c}{1\\a_{1}}
@@ -141,7 +165,7 @@ The least squares solution is the solution of minimum length.
   \end{equation*}
 
   \begin{equation}   %  =   =   =   =   =
-      \A{\dagger} x = \frac{a_{0}}{\onelen} \mat{c}{-a_{1} \\ 1}
+      \A{\dagger} a_{0} = \frac{a_{0}}{\onelen} \mat{c}{-a_{1} \\ 1}
    \label{eq:one line soln}
   \end{equation}
 
@@ -166,6 +190,27 @@ Every point on the line in \eqref{eq:myline}
    %\label{fig:three lines oval}
 \end{figure}
 
+  \begin{table}[t]  %  T A B L E
+    \caption{Results for best line with $a_{0} = \frac{1}{2}$, $a_{1} = -\frac{1}{2}$.}
+    \begin{center}
+      \begin{tabular}{lll}
+        %
+        \bf{input parameters} & $a_{0} =  \frac{1}{2}$ & intercept \\
+                              & $a_{1} = -\frac{1}{2}$ & slope \\
+        \bf{computed solution} & $\mat{c}{x\\y}_{LS} = \bl{\frac{1}{5}\mat{c}{1\\2}} + \tau \rd{\mat{c}{1\\-1/2}}$ & $\tau \in \cmplx{}$\\
+        \bf{solution error} & 0 & exact solution \\
+        \bf{ideal solution} & $\mat{c}{ \tilde{a}_{0} \\ \tilde{a}_{1} } = \mat{c}{0\\10}$ \\
+        \bf{$\rtr{*}$} & $316.6$ \\
+        \bf{curvature matrix $\wxi{*}$} & $\frac{1}{180}\mat{rr}{95 & \mg{-15} \\ \mg{-15} & 3 }$\\[5pt]
+        \bf{problem statement} & table \ref{tab:one line inputs} \\
+        %\bf{input data}        & table \ref{tab:bevington data and results} \\
+        \bf{plots}             & figure \ref{fig:one lines merit} & 1. merit function \\
+        %
+      \end{tabular}
+    \end{center}
+  \label{tab:one line solution}
+  \end{table}%
+
 \subsection{SVD}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
 We can construct the \asvd \ by inspection. The target matrix $\A{} = \mat{cc}{-a_{1} & 1}$ has 1 row, which implies the matrix for the codomain is
   \begin{equation*}   %  =   =   =   =   =
@@ -182,10 +227,10 @@ The
       \A{} &=& \U{} & \Sigma & \V{*} \\
       %
       \mat{cc}{-a_{1} & 1} &=& 
-      \frac{1}{\onelensq}
-      \mat{cc}{\bl{ \mat{c}{-a_{1} \\ 1}} & \rd{ \sqrt{a_{1}} \mat{c}{1/a_{1} \\ 1}}} &
+      \mat{c}{1} & 
       \mat{cc}{\sqrt{\onelen} & 0} & 
-      \mat{c}{1}
+      \frac{1}{\onelensq}
+      \mat{cc}{\bl{-a_{1}} & \bl{1} \\ \rd{1} & \rd{a_{1}} }
       %
     \end{array}
    %\label{eq:}

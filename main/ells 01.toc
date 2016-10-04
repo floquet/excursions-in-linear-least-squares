@@ -36,8 +36,8 @@
 \contentsline {section}{\numberline {3.1}A Single Line}{23}
 \contentsline {subsection}{\numberline {3.1.1}Geometric Solution}{25}
 \contentsline {subsection}{\numberline {3.1.2}SVD}{26}
-\contentsline {section}{\numberline {3.2}Two Lines}{26}
-\contentsline {subsection}{\numberline {3.2.1}Intersecting Lines}{26}
+\contentsline {section}{\numberline {3.2}Two Lines}{27}
+\contentsline {subsection}{\numberline {3.2.1}Intersecting Lines}{27}
 \contentsline {section}{\numberline {3.3}Three Lines}{27}
 \contentsline {part}{\hbox to 20pt{II}Modal Example}{33}
 \contentsline {chapter}{\numberline {4}Solution via Calculus}{37}
