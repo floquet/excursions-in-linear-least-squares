@@ -1,5 +1,5 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {0.1}{\ignorespaces Matrix manipulations for $\A {*}$ and $\A {T}$.}}{ix}
+\contentsline {table}{\numberline {0.1}{\ignorespaces Matrix manipulations for $\A {*}$ and $\A {T}$.}}{xi}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces The Fundamental Theorem of Linear Algebra}}{10}
@@ -10,11 +10,12 @@
 \contentsline {table}{\numberline {2.6}{\ignorespaces Fundamental Projectors using domain matrices.}}{19}
 \contentsline {table}{\numberline {2.7}{\ignorespaces Reflecting the data for $\A {}x - T = r$.}}{21}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Problem statement for least squares solution for a single line.}}{24}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Results for best line with $a_{0} = \frac {1}{2}$, $a_{1} = -\frac {1}{2}$.}}{26}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Rewriting the equations $y=mx+b$ as a linear system.}}{28}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{31}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{32}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Given the parameters for a line find the solution locus.}}{23}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Problem statement for least squares solution for a single line.}}{25}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Results for best line with $a_{0} = \frac {1}{2}$, $a_{1} = -\frac {1}{2}$.}}{27}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Rewriting the equations $y=mx+b$ as a linear system.}}{28}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{31}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{32}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Problem statement for linear regression.}}{40}
 \contentsline {table}{\numberline {4.2}{\ignorespaces Raw data and results.}}{41}

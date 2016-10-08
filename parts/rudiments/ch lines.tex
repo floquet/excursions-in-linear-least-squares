@@ -9,10 +9,10 @@ The method of least squares is a wonderfully versatile tool, and we will get a s
   \end{equation*}
 There are two ways to exploit the equation. One way is to input a set of measurements $\lst{x_{k},y_{k}}_{k=1}^{m}$, and find the best parameters $\paren{a_{0},a_{1}}$, in the least squares sense. 
 
-The focus on this chapter is to take a set of parameters $\paren{a_{0},a_{1}}$ and to find the bet set $\paren{x, y}$, in the least squares sense.	
+The focus on this chapter is to start with a set of parameters $\paren{a_{0},a_{1}}$ and to find the best set $\paren{x, y}$, in the least squares sense.	
 
 \begin{table}[htbp]  % + + + + T A B L E
-    %\caption{default}
+    \caption{Given the parameters for a line find the solution locus.}
     \begin{center}
         \begin{tabular}{lcl}
             %
@@ -65,7 +65,7 @@ which is the linear system
     \label{eq:one line problem}
   %\end{split}
   \end{equation}
-Certainly, the heavy artillery of the SVD could be brought to bear. Yet simple geometric reasoning will produce a solution and reinforce basic insights.
+Certainly, the heavy artillery of the SVD could be brought to bear. Yet simple geometric reasoning will produce a solution and reinforce basic insights. The SVD will then be a trivial exercise.
 
 Equation \eqref{eq:myline} describes a line, a continuous set of points. Referring back to the boxed least squares solution in \eqref{eq:general soln}, the least squares solution may be the 
 
@@ -155,11 +155,19 @@ The least squares solution is the solution of minimum length.
    %\end{split}
    %\label{eq:}
   \end{equation*}
-  
-  
+    
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
       p(\tau) = p_{0} + \tau \mat{c}{1\\a_{1}}
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      \mat{c}{x\\y}_{LS} = \frac{a_{0}} {1 + a_{1}^{2}} 
+        \bl{\mat{c}{-a_{1}\\1}} +
+        \tau \rd{\mat{c}{1\\a_{1}}}
    %\end{split}
    %\label{eq:}
   \end{equation*}

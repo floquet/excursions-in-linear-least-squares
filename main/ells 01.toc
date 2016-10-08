@@ -1,10 +1,10 @@
-\contentsline {chapter}{Preface}{ix}
-\contentsline {section}{\numberline {0.1}Life is complex}{ix}
-\contentsline {section}{\numberline {0.2}Readings}{ix}
-\contentsline {section}{\numberline {0.3}Least Squares}{ix}
-\contentsline {section}{\numberline {0.4}Linear Algebra and Matrix Analysis}{x}
-\contentsline {section}{\numberline {0.5}Numerical Linear Algebra}{x}
-\contentsline {section}{\numberline {0.6}Discussions on Least Squares}{x}
+\contentsline {chapter}{Preface}{xi}
+\contentsline {section}{\numberline {0.1}Life is complex}{xi}
+\contentsline {section}{\numberline {0.2}Readings}{xi}
+\contentsline {section}{\numberline {0.3}Least Squares}{xi}
+\contentsline {section}{\numberline {0.4}Linear Algebra and Matrix Analysis}{xii}
+\contentsline {section}{\numberline {0.5}Numerical Linear Algebra}{xii}
+\contentsline {section}{\numberline {0.6}Discussions on Least Squares}{xii}
 \contentsline {part}{\hbox to 20pt{I}Rudiments}{1}
 \contentsline {chapter}{\numberline {1}Least Squares Problems}{3}
 \contentsline {section}{\numberline {1.1}Linear Systems}{3}
@@ -34,11 +34,11 @@
 \contentsline {section}{\numberline {2.5}Reflection Invariance}{20}
 \contentsline {chapter}{\numberline {3}Playing With Lines}{23}
 \contentsline {section}{\numberline {3.1}A Single Line}{23}
-\contentsline {subsection}{\numberline {3.1.1}Geometric Solution}{25}
+\contentsline {subsection}{\numberline {3.1.1}Geometric Solution}{24}
 \contentsline {subsection}{\numberline {3.1.2}SVD}{26}
 \contentsline {section}{\numberline {3.2}Two Lines}{27}
 \contentsline {subsection}{\numberline {3.2.1}Intersecting Lines}{27}
-\contentsline {section}{\numberline {3.3}Three Lines}{27}
+\contentsline {section}{\numberline {3.3}Three Lines}{28}
 \contentsline {part}{\hbox to 20pt{II}Modal Example}{33}
 \contentsline {chapter}{\numberline {4}Solution via Calculus}{37}
 \contentsline {section}{\numberline {4.1}Modal Approximation}{37}
