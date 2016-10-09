@@ -96,6 +96,13 @@ Which point on the line is closet to the origin? One way to solve for this is us
   \label{tab:one line inputs}
   \end{table}%
 
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[ width = 3.5in ]{\pathgraphics tricks/one_line/fan} 
+   \caption{Every point on the line satisfies the least squares criterion; the particular solution is the vector of minimum length.}
+   %\label{fig:example}
+\end{figure}
+
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
       \mat{cc}{-a_{1} & 1} 
@@ -195,7 +202,7 @@ Every point on the line in \eqref{eq:myline}
 	    %
    \end{overpic}
    \caption{The least squares solution for \eqref{eq:one line problem} resolved into range space (blue) and null space components (red).}
-   %\label{fig:three lines oval}
+   \label{fig:one line resolved}
 \end{figure}
 
   \begin{table}[t]  %  T A B L E
@@ -208,11 +215,12 @@ Every point on the line in \eqref{eq:myline}
         \bf{computed solution} & $\mat{c}{x\\y}_{LS} = \bl{\frac{1}{5}\mat{c}{1\\2}} + \tau \rd{\mat{c}{1\\-1/2}}$ & $\tau \in \cmplx{}$\\
         \bf{solution error} & 0 & exact solution \\
         \bf{ideal solution} & $\mat{c}{ \tilde{a}_{0} \\ \tilde{a}_{1} } = \mat{c}{0\\10}$ \\
-        \bf{$\rtr{*}$} & $316.6$ \\
-        \bf{curvature matrix $\wxi{*}$} & $\frac{1}{180}\mat{rr}{95 & \mg{-15} \\ \mg{-15} & 3 }$\\[5pt]
+        \bf{$\rtr{*}$} & $0$ \\
+        \bf{curvature matrix $\wxi{*}$} & $\frac{1}{4}\mat{rr}{1 & \mg{2} \\ \mg{2} & 4 }$\\[5pt]
         \bf{problem statement} & table \ref{tab:one line inputs} \\
         %\bf{input data}        & table \ref{tab:bevington data and results} \\
-        \bf{plots}             & figure \ref{fig:one lines merit} & 1. merit function \\
+        \bf{plots}             & figure \ref{fig:one line resolved} & 1. solution\\
+           & figure \ref{fig:one lines merit} & 2. merit function \\
         %
       \end{tabular}
     \end{center}

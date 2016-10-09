@@ -13,7 +13,7 @@
 \contentsline {table}{\numberline {3.1}{\ignorespaces Given the parameters for a line find the solution locus.}}{23}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Problem statement for least squares solution for a single line.}}{25}
 \contentsline {table}{\numberline {3.3}{\ignorespaces Results for best line with $a_{0} = \frac {1}{2}$, $a_{1} = -\frac {1}{2}$.}}{27}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Rewriting the equations $y=mx+b$ as a linear system.}}{28}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Rewriting the equations $y=mx+b$ as a linear system.}}{29}
 \contentsline {table}{\numberline {3.5}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{31}
 \contentsline {table}{\numberline {3.6}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{32}
 \addvspace {10\p@ }
