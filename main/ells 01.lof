@@ -11,68 +11,69 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces A sample line.}}{24}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Every point on the line satisfies the least squares criterion; the particular solution is the vector of minimum length.}}{25}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A contour plot of the merit function showing the particular solution (blue dot) and homogeneous solution (red dashes).}}{26}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The least squares solution for \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 3.2\hbox {}\unskip \@@italiccorr )}} resolved into range space (blue) and null space components (red).}}{26}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Parallel lines and the least squares solution.}}{28}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Trajectory of the solution point $p(m)$ in \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 3.4\hbox {}\unskip \@@italiccorr )}} for $-\infty < m < \infty $.}}{30}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The point on the line closest to the origin.}}{26}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The least squares solution for \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 3.2\hbox {}\unskip \@@italiccorr )}} resolved into range space (blue) and null space components (red).}}{27}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces A contour plot of the merit function showing the particular solution (blue dot) and homogeneous solution (red dashes).}}{28}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Parallel lines and the least squares solution.}}{29}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Trajectory of the solution point $p(m)$ in \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 3.8\hbox {}\unskip \@@italiccorr )}} for $-\infty < m < \infty $.}}{32}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Measuring the temperature of a bar.}}{38}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Solution plotted against data with residual errors shown in red.}}{45}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Scatter plot of residual errors.}}{46}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Scatter plot of residual errors with data points connected.}}{46}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces The merit function.}}{47}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Another look at the merit function showing the primary error ellipse (black) and contour levels (gray).}}{48}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Whisker plot showing 250 randomly sampled solutions.}}{49}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Scatter plot showing sampling of solutions.}}{50}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Measuring the temperature of a bar.}}{40}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Solution plotted against data with residual errors shown in red.}}{47}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Scatter plot of residual errors.}}{48}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Scatter plot of residual errors with data points connected.}}{48}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The merit function.}}{49}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Another look at the merit function showing the primary error ellipse (black) and contour levels (gray).}}{50}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Whisker plot showing 250 randomly sampled solutions.}}{51}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Scatter plot showing sampling of solutions.}}{52}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The solution vector is the mixture of $u_{1}$ and $u_{2}$ which eliminates error.}}{59}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Measurement space for the Bevington example}}{60}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Minimization occurs in the codomain.}}{61}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Data vector $T = {{\color {blue} {T_{ \mathcal {R} }}}} + {{\color {red} {T_{ \mathcal {N} }}}}$ resolved into range and null space components as in figure 2.3\hbox {}.}}{61}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Decomposing $\left \delimiter 69645069 {\color {red} {r}} = {\color {red} {T_{ \mathcal {N} }}} \right \delimiter 86422285 _{2}^{2}$ into residual error terms $r_{k}^2$ of table 5.3\hbox {}.}}{61}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Solution after translation along $x$ axis: the slope is invariant.}}{73}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Scatter plot of residual errors.}}{74}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces The merit function after translation.}}{75}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces The merit function for the learning curve showing the minimum and the value.}}{76}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The solution vector is the mixture of $u_{1}$ and $u_{2}$ which eliminates error.}}{61}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Measurement space for the Bevington example}}{62}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Minimization occurs in the codomain.}}{63}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Data vector $T = {{\color {blue} {T_{ \mathcal {R} }}}} + {{\color {red} {T_{ \mathcal {N} }}}}$ resolved into range and null space components as in figure 2.3\hbox {}.}}{63}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Decomposing $\left \delimiter 69645069 {\color {red} {r}} = {\color {red} {T_{ \mathcal {N} }}} \right \delimiter 86422285 _{2}^{2}$ into residual error terms $r_{k}^2$ of table 5.3\hbox {}.}}{63}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces A slice of a face-centered cubic lattice showing a single crystal.}}{81}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Simulation output showing atomic shades shaded by potential energy.}}{82}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Full data set showing inset.}}{83}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Sample data set showing fit parameters.}}{83}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Solutions for three data sets.}}{87}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Apex angles displayed in table 9.7\hbox {}.}}{90}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Merit functions for the three data sets.}}{91}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Solution after translation along $x$ axis: the slope is invariant.}}{75}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Scatter plot of residual errors.}}{76}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces The merit function after translation.}}{77}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces The merit function for the learning curve showing the minimum and the value.}}{78}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Stitching local maps together to form a global map.}}{95}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces The ideal potential function showing five measurement zones and four overlap bands.}}{97}
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Waterfall diagram showing discretization within measurement zones with left and right zone overlaps.}}{97}
-\contentsline {figure}{\numberline {11.4}{\ignorespaces Stitching unifies the data.}}{98}
-\contentsline {figure}{\numberline {11.5}{\ignorespaces A set of piston adjustments which restores continuity across the domain.}}{98}
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Looking at the merit function on the $p_{2} - p_{3}$ axis.}}{103}
-\contentsline {figure}{\numberline {11.7}{\ignorespaces Pistons from the solution and pistons used to create the data}}{104}
-\contentsline {figure}{\numberline {11.8}{\ignorespaces A set of tilt adjustments which restores continuity of the gradient across the domain.}}{105}
-\contentsline {figure}{\numberline {11.9}{\ignorespaces A function and its gradient.}}{105}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces A slice of a face-centered cubic lattice showing a single crystal.}}{83}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Simulation output showing atomic shades shaded by potential energy.}}{84}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Full data set showing inset.}}{85}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Sample data set showing fit parameters.}}{85}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Solutions for three data sets.}}{89}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Apex angles displayed in table 9.7\hbox {}.}}{92}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Merit functions for the three data sets.}}{93}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Stitching local maps together to form a global map.}}{97}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces The ideal potential function showing five measurement zones and four overlap bands.}}{99}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Waterfall diagram showing discretization within measurement zones with left and right zone overlaps.}}{99}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Stitching unifies the data.}}{100}
+\contentsline {figure}{\numberline {11.5}{\ignorespaces A set of piston adjustments which restores continuity across the domain.}}{100}
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Looking at the merit function on the $p_{2} - p_{3}$ axis.}}{105}
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Pistons from the solution and pistons used to create the data}}{106}
+\contentsline {figure}{\numberline {11.8}{\ignorespaces A set of tilt adjustments which restores continuity of the gradient across the domain.}}{107}
+\contentsline {figure}{\numberline {11.9}{\ignorespaces A function and its gradient.}}{107}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Merit function for the learning curve in solution space.}}{119}
-\contentsline {figure}{\numberline {14.2}{\ignorespaces Merit function constrained to one parameter $b$.}}{121}
-\contentsline {figure}{\numberline {14.3}{\ignorespaces Merit function for the learning curve in solution space showing the constrained $a$ parameter as a dotted line.}}{122}
-\contentsline {figure}{\numberline {14.4}{\ignorespaces Solution for equations \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 14.2\hbox {}\unskip \@@italiccorr )}} and \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 14.3\hbox {}\unskip \@@italiccorr )}} using data in table 14.2\hbox {}.}}{122}
-\contentsline {figure}{\numberline {14.5}{\ignorespaces The residual errors in figure 14.4\hbox {}.}}{123}
-\contentsline {figure}{\numberline {14.6}{\ignorespaces Minimization of the merit function for the learning curve.}}{124}
-\contentsline {figure}{\numberline {14.7}{\ignorespaces The merit function for the learning curve showing the minimum and the value .}}{125}
-\contentsline {figure}{\numberline {14.8}{\ignorespaces The merit function for the radioactive decay model showing the minimum and the value .}}{127}
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Merit function for the learning curve in solution space.}}{121}
+\contentsline {figure}{\numberline {14.2}{\ignorespaces Merit function constrained to one parameter $b$.}}{123}
+\contentsline {figure}{\numberline {14.3}{\ignorespaces Merit function for the learning curve in solution space showing the constrained $a$ parameter as a dotted line.}}{124}
+\contentsline {figure}{\numberline {14.4}{\ignorespaces Solution for equations \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 14.2\hbox {}\unskip \@@italiccorr )}} and \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 14.3\hbox {}\unskip \@@italiccorr )}} using data in table 14.2\hbox {}.}}{124}
+\contentsline {figure}{\numberline {14.5}{\ignorespaces The residual errors in figure 14.4\hbox {}.}}{125}
+\contentsline {figure}{\numberline {14.6}{\ignorespaces Minimization of the merit function for the learning curve.}}{126}
+\contentsline {figure}{\numberline {14.7}{\ignorespaces The merit function for the learning curve showing the minimum and the value .}}{127}
+\contentsline {figure}{\numberline {14.8}{\ignorespaces The merit function for the radioactive decay model showing the minimum and the value .}}{129}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {15.1}{\ignorespaces Residual error for \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 15.3\hbox {}\unskip \@@italiccorr )}} with $a_{1}$, $a_{2}$, and $a_{3}$ at optimal values.}}{133}
-\contentsline {figure}{\numberline {15.2}{\ignorespaces Residual error for $a_{1}$ and $a_{2}$ fixed at optimal values.}}{134}
-\contentsline {figure}{\numberline {15.3}{\ignorespaces Solution plotted against data.}}{134}
-\contentsline {figure}{\numberline {15.4}{\ignorespaces Scatterplot of residual errors.}}{135}
-\contentsline {figure}{\numberline {15.5}{\ignorespaces The merit function showing least squares solution.}}{135}
-\contentsline {figure}{\numberline {15.6}{\ignorespaces The merit function showing least squares solution and the null cline.}}{136}
-\contentsline {figure}{\numberline {15.7}{\ignorespaces Total error $r^{\mathrm {*}}r$ by order of fit.}}{141}
+\contentsline {figure}{\numberline {15.1}{\ignorespaces Residual error for \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 15.3\hbox {}\unskip \@@italiccorr )}} with $a_{1}$, $a_{2}$, and $a_{3}$ at optimal values.}}{135}
+\contentsline {figure}{\numberline {15.2}{\ignorespaces Residual error for $a_{1}$ and $a_{2}$ fixed at optimal values.}}{136}
+\contentsline {figure}{\numberline {15.3}{\ignorespaces Solution plotted against data.}}{136}
+\contentsline {figure}{\numberline {15.4}{\ignorespaces Scatterplot of residual errors.}}{137}
+\contentsline {figure}{\numberline {15.5}{\ignorespaces The merit function showing least squares solution.}}{137}
+\contentsline {figure}{\numberline {15.6}{\ignorespaces The merit function showing least squares solution and the null cline.}}{138}
+\contentsline {figure}{\numberline {15.7}{\ignorespaces Total error $r^{\mathrm {*}}r$ by order of fit.}}{143}
 \addvspace {10\p@ }

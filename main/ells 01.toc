@@ -35,103 +35,104 @@
 \contentsline {chapter}{\numberline {3}Playing With Lines}{23}
 \contentsline {section}{\numberline {3.1}A Single Line}{23}
 \contentsline {subsection}{\numberline {3.1.1}Geometric Solution}{24}
-\contentsline {subsection}{\numberline {3.1.2}SVD}{27}
-\contentsline {section}{\numberline {3.2}Two Lines}{27}
-\contentsline {subsection}{\numberline {3.2.1}Intersecting Lines}{28}
-\contentsline {section}{\numberline {3.3}Three Lines}{28}
-\contentsline {part}{\hbox to 20pt{II}Modal Example}{33}
-\contentsline {chapter}{\numberline {4}Solution via Calculus}{37}
-\contentsline {section}{\numberline {4.1}Modal Approximation}{37}
-\contentsline {section}{\numberline {4.2}Bevington Example}{38}
-\contentsline {subsection}{\numberline {4.2.1}Problem Statement}{38}
-\contentsline {subsection}{\numberline {4.2.2}Normal Equations via Calculus}{39}
-\contentsline {section}{\numberline {4.3}Numerical Results}{42}
-\contentsline {subsection}{\numberline {4.3.1}Exact Form}{42}
-\contentsline {subsection}{\numberline {4.3.2}Computed Form}{43}
-\contentsline {section}{\numberline {4.4}Visualization}{44}
-\contentsline {subsection}{\numberline {4.4.1}Seeing the Solution}{44}
-\contentsline {subsubsection}{Data v. Fit}{45}
-\contentsline {subsubsection}{Residual Errors}{45}
-\contentsline {subsubsection}{Solution v. Minimum}{46}
-\contentsline {subsection}{\numberline {4.4.2}Seeing the Uncertainty}{47}
-\contentsline {subsection}{\numberline {4.4.3}Digging Deeper}{48}
-\contentsline {chapter}{\numberline {5}Solution via SVD}{53}
-\contentsline {section}{\numberline {5.1}Computing the SVD}{53}
-\contentsline {subsection}{\numberline {5.1.1}Singular values}{54}
-\contentsline {subsection}{\numberline {5.1.2}Matrix for the domain}{54}
-\contentsline {subsection}{\numberline {5.1.3}Matrix for the codomain}{55}
-\contentsline {subsection}{\numberline {5.1.4}Error terms}{56}
-\contentsline {section}{\numberline {5.2}Visualization}{57}
-\contentsline {chapter}{\numberline {6}Solution Via Other Methods}{65}
-\contentsline {section}{\numberline {6.1}Normal Equations from Vectors}{65}
-\contentsline {subsection}{\numberline {6.1.1}Composing the normal equations}{66}
-\contentsline {section}{\numberline {6.2}$ \textbf {Q}^{\mathrm { }} \textbf {R}^{\mathrm { }} $ Decomposition}{67}
-\contentsline {subsection}{\numberline {6.2.1}Computing the QR Decomposition}{68}
-\contentsline {chapter}{\numberline {7}Finer Points}{71}
-\contentsline {section}{\numberline {7.1}Invariances}{71}
-\contentsline {subsection}{\numberline {7.1.1}Translation Invariance}{71}
-\contentsline {subsubsection}{Translation}{72}
-\contentsline {subsubsection}{Demonstrations}{72}
-\contentsline {subsubsection}{Computations}{72}
-\contentsline {subsubsection}{Visuals}{73}
-\contentsline {subsection}{\numberline {7.1.2}Reflection Invariance}{73}
-\contentsline {section}{\numberline {7.2}Fitting To Higher Orders}{74}
-\contentsline {section}{\numberline {7.3}Removing Terms}{74}
-\contentsline {part}{\hbox to 20pt{III}Zonal Example}{77}
-\contentsline {chapter}{\numberline {8}Zonal Example}{79}
-\contentsline {section}{\numberline {8.1}Problem}{79}
-\contentsline {subsection}{\numberline {8.1.1}Zonal Subsection}{79}
-\contentsline {chapter}{\numberline {9}Lines}{81}
-\contentsline {section}{\numberline {9.1}Face-centered cubic lattice}{81}
-\contentsline {section}{\numberline {9.2}Model}{82}
-\contentsline {section}{\numberline {9.3}Solution}{85}
-\contentsline {section}{\numberline {9.4}Problem Statement}{86}
-\contentsline {section}{\numberline {9.5}Data}{86}
-\contentsline {section}{\numberline {9.6}Results}{86}
-\contentsline {subsection}{\numberline {9.6.1}Least Squares Results}{86}
-\contentsline {subsection}{\numberline {9.6.2}Apex Angles}{86}
-\contentsline {subsection}{\numberline {9.6.3}Qualitative Results}{86}
-\contentsline {chapter}{\numberline {10}Crystals}{93}
-\contentsline {chapter}{\numberline {11}Stitching Local Maps}{95}
-\contentsline {section}{\numberline {11.1}What is stitching?}{95}
-\contentsline {section}{\numberline {11.2}Stitch $\phi $}{95}
-\contentsline {subsection}{\numberline {11.2.1}Genesis}{95}
-\contentsline {subsection}{\numberline {11.2.2}Data}{95}
-\contentsline {subsection}{\numberline {11.2.3}Data and results}{99}
-\contentsline {subsection}{\numberline {11.2.4}Linear System}{99}
-\contentsline {subsection}{\numberline {11.2.5}Least Squares Arbitration}{101}
-\contentsline {section}{\numberline {11.3}Stitch $\nabla \phi $}{104}
-\contentsline {chapter}{\numberline {12}Gradient I}{107}
-\contentsline {section}{\numberline {12.1}One Dimension}{107}
-\contentsline {part}{\hbox to 20pt{IV}Applications:\\Nonlinear Problems}{109}
-\contentsline {chapter}{\numberline {13}Finding the Best Circle}{113}
-\contentsline {section}{\numberline {13.1}Model}{113}
-\contentsline {section}{\numberline {13.2}Problem Statement}{113}
-\contentsline {section}{\numberline {13.3}Data}{113}
-\contentsline {section}{\numberline {13.4}Example}{113}
-\contentsline {chapter}{\numberline {14}Linearization}{117}
-\contentsline {section}{\numberline {14.1}Powers Laws and Exponentials}{117}
-\contentsline {section}{\numberline {14.2}Learning Curve}{117}
-\contentsline {subsection}{\numberline {14.2.1}Problem Statement}{118}
-\contentsline {subsection}{\numberline {14.2.2}Solution}{119}
-\contentsline {subsection}{\numberline {14.2.3}Results}{121}
-\contentsline {section}{\numberline {14.3}What Not To Do}{121}
-\contentsline {subsection}{\numberline {14.3.1}Logarithmic Transform}{121}
-\contentsline {subsection}{\numberline {14.3.2}Linear Transformation}{124}
-\contentsline {subsection}{\numberline {14.3.3}Reflection Test Fails}{126}
-\contentsline {section}{\numberline {14.4}Radioactive Decay}{126}
-\contentsline {subsection}{\numberline {14.4.1}Theory}{126}
-\contentsline {subsection}{\numberline {14.4.2}Problem Statement}{126}
-\contentsline {subsection}{\numberline {14.4.3}Results}{126}
-\contentsline {chapter}{\numberline {15}Population Growth}{131}
-\contentsline {section}{\numberline {15.1}Model}{131}
-\contentsline {section}{\numberline {15.2}Problem Statement}{132}
-\contentsline {section}{\numberline {15.3}Data}{132}
-\contentsline {section}{\numberline {15.4}Example}{132}
-\contentsline {section}{\numberline {15.5}Polynomials}{132}
-\contentsline {part}{\hbox to 20pt{V}Appendices}{143}
-\contentsline {chapter}{\numberline {A}Exercises}{145}
-\contentsline {section}{\numberline {A.1}Linear systems}{145}
-\contentsline {subsection}{\numberline {A.1.1}7.1.1\hbox {}}{145}
-\contentsline {part}{\hbox to 20pt{VI}\ \ Backmatter}{147}
-\contentsline {chapter}{Bibliography}{149}
+\contentsline {subsection}{\numberline {3.1.2}Solution Space}{27}
+\contentsline {subsection}{\numberline {3.1.3}SVD}{28}
+\contentsline {section}{\numberline {3.2}Two Lines}{29}
+\contentsline {subsection}{\numberline {3.2.1}Intersecting Lines}{30}
+\contentsline {section}{\numberline {3.3}Three Lines}{30}
+\contentsline {part}{\hbox to 20pt{II}Modal Example}{35}
+\contentsline {chapter}{\numberline {4}Solution via Calculus}{39}
+\contentsline {section}{\numberline {4.1}Modal Approximation}{39}
+\contentsline {section}{\numberline {4.2}Bevington Example}{40}
+\contentsline {subsection}{\numberline {4.2.1}Problem Statement}{40}
+\contentsline {subsection}{\numberline {4.2.2}Normal Equations via Calculus}{41}
+\contentsline {section}{\numberline {4.3}Numerical Results}{44}
+\contentsline {subsection}{\numberline {4.3.1}Exact Form}{44}
+\contentsline {subsection}{\numberline {4.3.2}Computed Form}{45}
+\contentsline {section}{\numberline {4.4}Visualization}{46}
+\contentsline {subsection}{\numberline {4.4.1}Seeing the Solution}{46}
+\contentsline {subsubsection}{Data v. Fit}{47}
+\contentsline {subsubsection}{Residual Errors}{47}
+\contentsline {subsubsection}{Solution v. Minimum}{48}
+\contentsline {subsection}{\numberline {4.4.2}Seeing the Uncertainty}{49}
+\contentsline {subsection}{\numberline {4.4.3}Digging Deeper}{50}
+\contentsline {chapter}{\numberline {5}Solution via SVD}{55}
+\contentsline {section}{\numberline {5.1}Computing the SVD}{55}
+\contentsline {subsection}{\numberline {5.1.1}Singular values}{56}
+\contentsline {subsection}{\numberline {5.1.2}Matrix for the domain}{56}
+\contentsline {subsection}{\numberline {5.1.3}Matrix for the codomain}{57}
+\contentsline {subsection}{\numberline {5.1.4}Error terms}{58}
+\contentsline {section}{\numberline {5.2}Visualization}{59}
+\contentsline {chapter}{\numberline {6}Solution Via Other Methods}{67}
+\contentsline {section}{\numberline {6.1}Normal Equations from Vectors}{67}
+\contentsline {subsection}{\numberline {6.1.1}Composing the normal equations}{68}
+\contentsline {section}{\numberline {6.2}$ \textbf {Q}^{\mathrm { }} \textbf {R}^{\mathrm { }} $ Decomposition}{69}
+\contentsline {subsection}{\numberline {6.2.1}Computing the QR Decomposition}{70}
+\contentsline {chapter}{\numberline {7}Finer Points}{73}
+\contentsline {section}{\numberline {7.1}Invariances}{73}
+\contentsline {subsection}{\numberline {7.1.1}Translation Invariance}{73}
+\contentsline {subsubsection}{Translation}{74}
+\contentsline {subsubsection}{Demonstrations}{74}
+\contentsline {subsubsection}{Computations}{74}
+\contentsline {subsubsection}{Visuals}{75}
+\contentsline {subsection}{\numberline {7.1.2}Reflection Invariance}{75}
+\contentsline {section}{\numberline {7.2}Fitting To Higher Orders}{76}
+\contentsline {section}{\numberline {7.3}Removing Terms}{76}
+\contentsline {part}{\hbox to 20pt{III}Zonal Example}{79}
+\contentsline {chapter}{\numberline {8}Zonal Example}{81}
+\contentsline {section}{\numberline {8.1}Problem}{81}
+\contentsline {subsection}{\numberline {8.1.1}Zonal Subsection}{81}
+\contentsline {chapter}{\numberline {9}Lines}{83}
+\contentsline {section}{\numberline {9.1}Face-centered cubic lattice}{83}
+\contentsline {section}{\numberline {9.2}Model}{84}
+\contentsline {section}{\numberline {9.3}Solution}{87}
+\contentsline {section}{\numberline {9.4}Problem Statement}{88}
+\contentsline {section}{\numberline {9.5}Data}{88}
+\contentsline {section}{\numberline {9.6}Results}{88}
+\contentsline {subsection}{\numberline {9.6.1}Least Squares Results}{88}
+\contentsline {subsection}{\numberline {9.6.2}Apex Angles}{88}
+\contentsline {subsection}{\numberline {9.6.3}Qualitative Results}{88}
+\contentsline {chapter}{\numberline {10}Crystals}{95}
+\contentsline {chapter}{\numberline {11}Stitching Local Maps}{97}
+\contentsline {section}{\numberline {11.1}What is stitching?}{97}
+\contentsline {section}{\numberline {11.2}Stitch $\phi $}{97}
+\contentsline {subsection}{\numberline {11.2.1}Genesis}{97}
+\contentsline {subsection}{\numberline {11.2.2}Data}{97}
+\contentsline {subsection}{\numberline {11.2.3}Data and results}{101}
+\contentsline {subsection}{\numberline {11.2.4}Linear System}{101}
+\contentsline {subsection}{\numberline {11.2.5}Least Squares Arbitration}{103}
+\contentsline {section}{\numberline {11.3}Stitch $\nabla \phi $}{106}
+\contentsline {chapter}{\numberline {12}Gradient I}{109}
+\contentsline {section}{\numberline {12.1}One Dimension}{109}
+\contentsline {part}{\hbox to 20pt{IV}Applications:\\Nonlinear Problems}{111}
+\contentsline {chapter}{\numberline {13}Finding the Best Circle}{115}
+\contentsline {section}{\numberline {13.1}Model}{115}
+\contentsline {section}{\numberline {13.2}Problem Statement}{115}
+\contentsline {section}{\numberline {13.3}Data}{115}
+\contentsline {section}{\numberline {13.4}Example}{115}
+\contentsline {chapter}{\numberline {14}Linearization}{119}
+\contentsline {section}{\numberline {14.1}Powers Laws and Exponentials}{119}
+\contentsline {section}{\numberline {14.2}Learning Curve}{119}
+\contentsline {subsection}{\numberline {14.2.1}Problem Statement}{120}
+\contentsline {subsection}{\numberline {14.2.2}Solution}{121}
+\contentsline {subsection}{\numberline {14.2.3}Results}{123}
+\contentsline {section}{\numberline {14.3}What Not To Do}{123}
+\contentsline {subsection}{\numberline {14.3.1}Logarithmic Transform}{123}
+\contentsline {subsection}{\numberline {14.3.2}Linear Transformation}{126}
+\contentsline {subsection}{\numberline {14.3.3}Reflection Test Fails}{128}
+\contentsline {section}{\numberline {14.4}Radioactive Decay}{128}
+\contentsline {subsection}{\numberline {14.4.1}Theory}{128}
+\contentsline {subsection}{\numberline {14.4.2}Problem Statement}{128}
+\contentsline {subsection}{\numberline {14.4.3}Results}{128}
+\contentsline {chapter}{\numberline {15}Population Growth}{133}
+\contentsline {section}{\numberline {15.1}Model}{133}
+\contentsline {section}{\numberline {15.2}Problem Statement}{134}
+\contentsline {section}{\numberline {15.3}Data}{134}
+\contentsline {section}{\numberline {15.4}Example}{134}
+\contentsline {section}{\numberline {15.5}Polynomials}{134}
+\contentsline {part}{\hbox to 20pt{V}Appendices}{145}
+\contentsline {chapter}{\numberline {A}Exercises}{147}
+\contentsline {section}{\numberline {A.1}Linear systems}{147}
+\contentsline {subsection}{\numberline {A.1.1}7.1.1\hbox {}}{147}
+\contentsline {part}{\hbox to 20pt{VI}\ \ Backmatter}{149}
+\contentsline {chapter}{Bibliography}{151}
