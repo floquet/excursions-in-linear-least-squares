@@ -38,8 +38,11 @@
 \contentsline {subsection}{\numberline {3.1.2}Solution Space}{27}
 \contentsline {subsection}{\numberline {3.1.3}SVD}{28}
 \contentsline {section}{\numberline {3.2}Two Lines}{29}
-\contentsline {subsection}{\numberline {3.2.1}Intersecting Lines}{30}
-\contentsline {section}{\numberline {3.3}Three Lines}{30}
+\contentsline {subsection}{\numberline {3.2.1}Crossing Lines}{29}
+\contentsline {subsection}{\numberline {3.2.2}Overlapping Lines}{29}
+\contentsline {subsection}{\numberline {3.2.3}Parallel Lines}{29}
+\contentsline {subsection}{\numberline {3.2.4}Intersecting Lines}{29}
+\contentsline {section}{\numberline {3.3}Three Lines}{29}
 \contentsline {part}{\hbox to 20pt{II}Modal Example}{35}
 \contentsline {chapter}{\numberline {4}Solution via Calculus}{39}
 \contentsline {section}{\numberline {4.1}Modal Approximation}{39}
