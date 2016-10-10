@@ -300,9 +300,106 @@ in agreement with \eqref{eq:one line full soln}.
 
 \subsection{Crossing Lines}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
 
+  \begin{equation*}   %  =   =   =   =   =
+    \begin{split}
+      y_{1} &= m_{1}x + b_{1} \\
+      y_{2} &= m_{2}x + b_{2}
+    %\label{eq:}
+    \end{split}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    \mat{rc}{-m_{1} & 1 \\ -m_{2} & 1} \mat{c}{x\\y} = \mat{c}{b_{1} \\ b_{2}}
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    m_{1} x + b_{1} = m_{2} x + b_{2}
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    x = \frac{b_{2} - b_{1}} {m_{1} - m_{2}}
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+
+\subsubsection{A Troubling Sequence}  %    SSS    SSS    SSS    SSS    SSS    SSS    SSS    SSS    SSS
+
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    \lim_{m_{2}\to m_{1}^{+}} x_{*} \to \infty
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    \lim_{m_{2}\to m_{1}^{-}} x_{*} \to -\infty
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+
 \subsection{Overlapping Lines}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
 
+  \begin{equation*}   %  =   =   =   =   =
+    \begin{split}
+      y_{1} &= mx + b \\
+      y_{2} &= mx + b
+    %\label{eq:}
+    \end{split}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    \mat{rc}{-m & 1 \\ -m & 1} \mat{c}{x\\y} = \mat{c}{b \\ b}
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+
 \subsection{Parallel Lines}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
+
+  \begin{equation*}   %  =   =   =   =   =
+    \begin{split}
+      y_{1} &= mx + b_{1} \\
+      y_{2} &= mx + b_{2}
+    %\label{eq:}
+    \end{split}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    \mat{rc}{-m & 1 \\ -m & 1} \mat{c}{x\\y} = \mat{c}{b_{1} \\ b_{2}}
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+  
+  Sequence of lines
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    y_{k_{\pm}} = \paren{m + \pm 2^{-k}}x + b_{2}
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    x_{*} = \frac{b_{2} - b_{1}} {2^{-k}}
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    \lim_{k\to\infty} y_{k_{+}} \to \infty
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
 
 Where Do Parallel Lines Cross? The provocative question which opens this section has an obvious answer in Euclidean space. There is no such point; parallel lines never cross. Yet, if we input these lines as a linear system, we compute a least squares solution. What is the significance of the least squares solution?
 
