@@ -1,7 +1,7 @@
 \chapter{Solution via Calculus}
 
 \section{Modal Approximation}  %    S    S    S    S    S    S    S    S    S
-The following example represents a problem in linear regression. A sequence of $m$ data points $\paren{x_{k}, T_{k}}$,  $\kto{m}$  is recorded. The goal is to find the best approximation to a straight line. The \emph{trial function} is
+The following example represents a problem in linear regression. A sequence of $m$ data points $\paren{x_{k}, T_{k}}$,  $\kto{m}$  is recorded representing a temperature measurement $T$ and position $x$. The goal is to find the best approximation to a straight line. The \emph{trial function} is
   \begin{equation*}   %  =   =   =   =   =
     T(x) = a_{0} + a_{1} x .
     \label{eq:lr trial}
@@ -41,7 +41,7 @@ The solution set satisfies
 
 To provide a common reference, see the example in Bevington \cite[ch 6]{Bevington}. The data is summarized below in table \ref{tab:bevington data and results}. The problem involves temperature measurements $T_{k}$ made at position $x_{k}$ on a bar in contact with two heat baths (Dirichlet boundary conditions). A conceptualization is shown in figure \ref{fig:bar}. Arrowheads on the bottom show the nine locations where the temperature is measured.
 
-In the ideal linear case, the temperature at the endpoints matches the temperature of the baths, $T(x=0 \text{ cm}) = 0^{\circ}$C and $T(x = 10 \text{ cm}) = 100^{\circ}$C which describes a line with intercept $a_{0} = 0^{\circ}$C and slope $a_{1} = 10^{\circ}$C/cm. Such an expectation is a crude quality measure, a ``sniff test''.
+In the ideal linear case, the temperature at the endpoints matches the temperature of the baths, $T(x=0 \text{ cm}) = 0^{\circ}$C and $T(x = 10 \text{ cm}) = 100^{\circ}$C which describes a line with intercept $a_{0} = 0^{\circ}$C and slope $a_{1} = 10^{\circ}$C/cm. Comparing the results with such an expectation is a crude quality measure, a ``sniff test''.
 
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
@@ -193,7 +193,7 @@ The solution to equation \eqref{eq:modal matrix eq} is the matrix product
   \end{equation}
 The final results agree with Bevington's equations 6--17.
 
-Bevington's \S 6--5 is a succinct explanation of error propagation. In short, measurements are inexact, therefore results will be inexact. The beauty of the method of least squares is that the error in the solution parameters can be expressed in terms of the error in the data. Measurements without uncertainties are incomplete measurements.
+Bevington's \S 6--5 is a succinct explanation of error propagation. In short, measurements are inexact, therefore results will be inexact and he presents the calculus for propagating these errors through the computation. The beauty of the method of least squares is that the error in the solution parameters can be expressed in terms of the error in the data. Measurements without uncertainties are incomplete measurements.
 
 The computation chain begins with an estimate of the parent standard deviation which is based upon the total error:
 % = =  e q u a t i o n
