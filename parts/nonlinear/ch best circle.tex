@@ -1,0 +1,67 @@
+\chapter{Finding the Best Circle}
+
+Find the circle from edge points.
+
+\section{Model}  %    S    S    S    S    S    S    S    S    S    S    S    S    S    S    S    S
+
+\section{Problem Statement}  %    S    S    S    S    S    S    S    S    S    S    S    S
+  \begin{table}[h]  %  T A B L E
+    \caption{Problem statement for linear regression.}
+    \begin{center}
+      \begin{tabular}{lll}
+        %
+        \bf{trial function} & $\rho^{2} = \paren{p - O}^{T}\paren{p - O}$ & $L^{2}$ \\
+        \bf{residual error} & $r_{k} = \rho^{2} - \paren{p_{k} - O}^{T}\paren{p_{k} - O}$ & $L^{2}$ \\
+        \bf{merit function} & $M(a) = \sum_{k=1}^{m}\paren{\rho^{2} - \paren{p_{k} - O}^{T}\paren{p_{k} - O}}^{2}$  & $\paren{^{\circ}\mathrm{C}}^2$\\
+        \bf{measurements}   & $p_{k}$, $\kto{m}$ & position, $\real{n}$ \\
+        \bf{results}        & $O \pm \eps_{O}$ & origin, $\real{n}$ \\
+                            & $\rho^{2} \pm \eps_{\rho^{2}}$ & radius, $L$ \\
+                            %& \multicolumn{1}{c}{$\A{}$} & \multicolumn{1}{c}{$x$} & \multicolumn{1}{c}{$\A{}$} \\
+        \bf{\# of measurements} & $m = 9$ & rows in $\A{}$ \\
+        \bf{\# of parameters}   & $n = 2$ & columns in $\A{}$ \\
+        \bf{system matrix}  & $\A{} \in \real{9 \times 2}_{2}$ \\
+        \bf{linear system}  & $\mat{cc}{1 & x_{1}  \\ \vdots & \vdots \\ 1 & x_{m}} 
+                               \mat{c}{a_{0} \\ a_{1}} = 
+                               \mat{c}{T_{1} \\ \vdots \\ T_{m}}$ \\
+        \bf{ideal solution} & $\mat{c}{a_{0}\\a_{1}} = \mat{c}{0\\10}$ \\
+        \bf{input data}     & table \ref{tab:bevington data and results}
+        %
+      \end{tabular}
+    \end{center}
+  \label{tab:bevington inputs}
+  \end{table}%
+
+\section{Data} %    S    S    S    S    S    S    S    S    S    S    S    S
+
+\section{Example}  %    S    S    S    S    S    S    S    S    S    S    S    S    S    S    S    S
+
+    \begin{table}[t]
+    	\caption{Results for best circle}
+    	\begin{center}
+    		\begin{tabular}{ll}
+    		  %
+    		  \bf{fit parameters} & $c = \mat{r@{.}l}{0 & 010 \\ 0 & 0170 \\ 0 & 0096} \pm 
+    		                             \mat{r@{.}l}{0 & 031 \\ 0 & 0014 \\ 0 & 0020}$ \\[18pt]
+    		                      & $d = 0.056136\,\pm\,?.?$ \\[5pt]
+    		  %
+    		  $\rtr{*}$ & $55.12$\\
+		      %
+		      $\sum r_{k}$ & $-6.2 \times 10^{-14}$\\
+		      %
+		      $\sigma_{r}$ & $2.55$\\
+    		  %
+    		  $a$ & $\mat{r@{.}lr@{.}lr@{.}l}
+    		    {0 & 5397 & \mg{-0} & \mg{0188} &  \mg{0} & \mg{0165} \\
+    		    \mg{-0} & \mg{0188} &  0 & 0011 & \mg{-0} & \mg{0014} \\
+    		     \mg{0} & \mg{0165} & \mg{-0} & \mg{0014} &  0 & 0022 }$\\[15pt]
+    		  %
+    		  \bf{plots} & data vs fit: figure \ref{fig:census:data v soln} \\
+    		             & residuals: figure \ref{fig:census:scatterplot} \\
+    		             & merit function in $\brnga{*}$: figure \ref{fig:census:merit} \\[5pt]
+    		  %
+    		\end{tabular}
+    	\end{center}
+    	\label{tab:results census}
+    \end{table}%
+  
+\endinput
