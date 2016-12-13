@@ -1,0 +1,71 @@
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {0.1}{\ignorespaces Matrix manipulations for $\A {*}$ and $\A {T}$.}}{xi}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces The Fundamental Theorem of Linear Algebra}}{10}
+\contentsline {table}{\numberline {2.2}{\ignorespaces The Fundamental Theorem of Linear Algebra in pictures}}{11}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Dimensions of the fundamental subspaces for $ \A {} \in \mathbb {C}^{m \times n}_{\rho }$.}}{12}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Orthonormal spans for the invariant subspaces.}}{13}
+\contentsline {table}{\numberline {2.5}{\ignorespaces Fundamental Projectors using the pseudoinverse.}}{18}
+\contentsline {table}{\numberline {2.6}{\ignorespaces Fundamental Projectors using domain matrices.}}{19}
+\contentsline {table}{\numberline {2.7}{\ignorespaces Reflecting the data for $\A {}x - T = r$.}}{21}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Given the parameters for a line find the solution locus.}}{23}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Problem statement for least squares solution for a single line.}}{25}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Results for best line with $a_{0} = \frac {1}{2}$, $a_{1} = -\frac {1}{2}$.}}{27}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Rewriting the equations $y=mx+b$ as a linear system.}}{31}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{34}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Least squares solution for three distinct lines as the parameter $m$ varies from 0 to $\infty $.}}{35}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Problem statement for linear regression.}}{44}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Raw data and results.}}{45}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Results for linear regression.}}{46}
+\contentsline {table}{\numberline {4.4}{\ignorespaces The solution parameters expressed as normal distributions.}}{53}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Comparing samples to ideal normal distribution.}}{54}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces The column vectors of $ \mathbf {U}^{\mathrm { }} $.}}{66}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Singular value decomposition for the system matrix $\A {}$.}}{66}
+\contentsline {table}{\numberline {5.3}{\ignorespaces A summary of the residual errors and their contributions to $\left \delimiter 69645069 {\color {red} {r}} \right \delimiter 86422285 _{2}$.}}{67}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Relating the pair index $\mu $ to the indices $j$ and $k$.}}{80}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {9.1}{\ignorespaces Data sets and basic results}}{88}
+\contentsline {table}{\numberline {9.2}{\ignorespaces Problem statement for grain identification by rows (coupled linear regression).}}{91}
+\contentsline {table}{\numberline {9.3}{\ignorespaces Point membership in data sets shown in figure 9.1\hbox {}.}}{92}
+\contentsline {table}{\numberline {9.4}{\ignorespaces Excerpted data set.}}{93}
+\contentsline {table}{\numberline {9.5}{\ignorespaces Least squares results for three axes.}}{93}
+\contentsline {table}{\numberline {9.6}{\ignorespaces Intermediate results: angles for the axes.}}{93}
+\contentsline {table}{\numberline {9.7}{\ignorespaces Final results: apex angle measurements}}{93}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {11.1}{\ignorespaces The input data in continuous and discrete form.}}{100}
+\contentsline {table}{\numberline {11.2}{\ignorespaces Sample showing two zones with overlap.}}{100}
+\contentsline {table}{\numberline {11.3}{\ignorespaces Measurements displaying the connection between overlap bands in figure 11.3\hbox {}.}}{103}
+\contentsline {table}{\numberline {11.4}{\ignorespaces Computation of the zone shift values.}}{103}
+\contentsline {table}{\numberline {11.5}{\ignorespaces Computation of the zone shift values.}}{104}
+\contentsline {table}{\numberline {11.6}{\ignorespaces Input data}}{104}
+\contentsline {table}{\numberline {11.7}{\ignorespaces Problem statement for linear regression.}}{105}
+\contentsline {table}{\numberline {11.8}{\ignorespaces Results for stitching with piston.}}{106}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {13.1}{\ignorespaces Problem statement for linear regression.}}{118}
+\contentsline {table}{\numberline {13.2}{\ignorespaces Results for best circle}}{119}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {14.1}{\ignorespaces Problem statement for learning curve.}}{124}
+\contentsline {table}{\numberline {14.2}{\ignorespaces The simultaneous conditions defining $\nabla M(a,b) = 0$.}}{124}
+\contentsline {table}{\numberline {14.3}{\ignorespaces Results for learning curve analysis.}}{127}
+\contentsline {table}{\numberline {14.4}{\ignorespaces Problem statement for radioactive decay.}}{130}
+\contentsline {table}{\numberline {14.5}{\ignorespaces Logarithmic scaling distorts errors.}}{132}
+\contentsline {table}{\numberline {14.6}{\ignorespaces Results for radioactive decay.}}{133}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {15.1}{\ignorespaces Problem statement for population model with linear and exponential growth.}}{136}
+\contentsline {table}{\numberline {15.2}{\ignorespaces Data v. prediction.}}{137}
+\contentsline {table}{\numberline {15.3}{\ignorespaces Results for census analysis}}{140}
+\contentsline {table}{\numberline {15.4}{\ignorespaces Fitting the census data with low order polynomials rb.}}{141}
+\contentsline {table}{\numberline {15.5}{\ignorespaces Fitting the census data with higher order polynomials.}}{142}
+\contentsline {table}{\numberline {15.6}{\ignorespaces Fitting the census data with low order polynomials.}}{143}
+\contentsline {table}{\numberline {15.7}{\ignorespaces Fitting the census data with higher order polynomials.}}{144}
+\contentsline {table}{\numberline {15.8}{\ignorespaces Projections, by order of fit, for population in 2010.}}{145}
+\addvspace {10\p@ }
