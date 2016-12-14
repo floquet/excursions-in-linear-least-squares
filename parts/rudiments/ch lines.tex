@@ -246,14 +246,19 @@ It's powerful to see the actual minimization that least squares delivers. To do 
 The minimum value of 0 is attained along a line, not a point. This red, dashed line represents the null space component, the homogenous solution. The blue dot represents the range space component, the particular solution. 
 
 \subsection{SVD}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
-We can construct the \asvd \ by inspection. The target matrix $\A{} = \mat{cc}{-a_{1} & 1}$ has 1 row, which implies the matrix for the codomain is
+We can construct the \asvd \ by inspection. Due to the simplicity of this problem, the domain matrices can be constructed in any order.
+
+\subsubsection{$\U{}$: codomain matrix}  %  SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS
+The target matrix $\A{} = \mat{cc}{-a_{1} & 1}$ has $m=1$ row, which implies the $\cmplx{\byy{1}}$ matrix for the codomain is
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
       \U{} = \mat{c}{1}.
    %\end{split}
    %\label{eq:}
   \end{equation*}
-There is only one vector for the row space, this describes the range space. The orthogonal compliment constitutes the null space. The matrix for the domain is then
+
+\subsubsection{$\V{}$: domain matrix}  %   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS
+With only one vector for the row space, it must describe the range space. The orthogonal compliment constitutes the null space. As the row vectors have dimension $n=2$, the $\cmplx{\byy{2}}$ matrix for the domain is then
 % = =  e q u a t i o n
   \begin{equation}
     %\begin{split}
@@ -262,8 +267,33 @@ There is only one vector for the row space, this describes the range space. The 
     %\label{eqn:}
   \end{equation}
 % = =
-Because the linear system is rank one, there will be only one singular value $\sigma_{1}$. The matrix $\sig{} = \mat{cc}{\sigma_{1} & 0}$. Of course one could compute the lone eigenvalue of the product matrix $\wx{*}$, but the inspection method is faster.
 
+\subsubsection{$\ess{}$: matrix of singular values	}  %   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS
+Because the linear system is rank $\rho=1$, there will be only one singular value $\sigma_{1}$ and the $\real{\byy{1}}$ matrix of singular values is
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    \ess{} = \mat{c}{\sigma_{1}}
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+With the sabot padding of zeros, 
+the matrix $\sig{} = \mat{cc}{\sigma_{1} & 0}$. Of course one could compute the lone eigenvalue of the product matrix $\wx{*}$, but the inspection method is faster. What value of $\sigma_{1}$ satisfies the following equation
+  \begin{equation*}   %  =   =   =   =   =
+    \begin{array}{ccccc}
+      %
+      \A{} &=& \U{} & \Sigma & \V{*} \\
+      %
+      \mat{cc}{-a_{1} & 1} &=& 
+      \mat{c}{1} & 
+      \mat{cc}{\sigma_{1} & 0} & 
+      \frac{1}{\onelensq}
+      \mat{cc}{\bl{-a_{1}} & \bl{1} \\ \rd{1} & \rd{a_{1}} } ?
+      %
+    \end{array}
+   %\label{eq:}
+  \end{equation*}
+
+\subsubsection{Assemble components}  %   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS
 The complete \asvd \ is
   \begin{equation*}   %  =   =   =   =   =
     \begin{array}{ccccc}
@@ -280,6 +310,7 @@ The complete \asvd \ is
    %\label{eq:}
   \end{equation*}
 
+\subsubsection{Construct pseudoinverse}  %   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS
 The pseudoinverse matrix is
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
@@ -287,11 +318,18 @@ The pseudoinverse matrix is
    %\end{split}
    %\label{eq:}
   \end{equation*}
-Thus, we have computed the pseudoinverse for a vector, in agreement with Laub's results .
+Thus, we have computed the pseudoinverse for a vector, in agreement with Laub's results \cite{Laub}[]. Given a vector $w\icm$:
+  \begin{equation}   %  =   =   =   =   =
+  %\begin{split}
+    w^{\sym} = \frac{w^{*}} {\norm{w}}
+    \label{eq:vectorpi}
+  %\end{split}
+  \end{equation}
 
+\subsubsection{Solve the least squares problem}  %   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS
 Using this pseudoinverse to find the particular solution for the least squares problem leaves
   \begin{equation}   %  =   =   =   =   =
-      \A{\dagger} a_{0} = \frac{a_{0}}{\onelen} \bl{\mat{c}{-a_{1} \\ 1}},
+      \bl{x_{LS}} = \bl{\A{\dagger} a_{0}} = \frac{a_{0}}{\onelen} \bl{\mat{c}{-a_{1} \\ 1}},
    \label{eq:one line soln}
   \end{equation}
 in agreement with \eqref{eq:one line full soln}.

@@ -162,7 +162,7 @@ Column vectors span the subspaces:
     \begin{center}
       \begin{tabular}{cclcccl}
         %
-        && domain &&&& codomain \\\hline
+        && $\cmplx{n}$ (domain) &&&& $\cmplx{m}$ (codomain) \\\hline
         %
         $\brnga{*}$ &=& span$\lst{\bvo, \dots, \bvrho}$ & \qquad &
         $\brnga{}$  &=& span$\lst{\buo, \dots, \burho}$ \\
@@ -214,7 +214,7 @@ The definition of the least squares problem in \eqref{eq:xlsdef} shows that the 
 \begin{equation*}
   \rtr{*} = r^{2} = \bminimum .
 \end{equation*}
-One minimization strategy invokes a unitary transformation to create a simpler problem:
+The minimization strategy invokes a unitary transformation to create a simpler problem:
 \begin{equation}
   \begin{split} 
     \bminimum 
@@ -234,14 +234,14 @@ and using the block form in \eqref{eq:svd block} leads to
 	  & = \normts{ \mat{c}{ \ess{} \bvr{*} x \\[3pt]\hline\zero  } - \mat{c}{ \bur{*} b \\[3pt]\hline \run{*} b } }.
   \end{split} 
 \end{equation*}
-The range space components are now untangled from the  \ns \ components.
+Range space components are now untangled from the  \ns \ components.
 
 \subsubsection{Pseudoinverse solution}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
-Using the Pythagorean theorem\index{Pythagorean theorem} to isolate the range and \ns \ components of the total error for the least squares problem
+Using the Pythagorean theorem\index{Pythagorean theorem} to isolate the range and \ns \ components of the total error for the least squares problem produces
 \begin{equation*}
   \bminimum = \underbrace{\normts{ \ess{} \bvr{*} x -\bur{*} b  }}_{\substack{x \text{ dependence}\\\text{under control}}} + \underbrace{\normts{ \run{*} b  }}_{\substack{\text{residual}\\\text{no control}}}
 \end{equation*}
-There are now two terms; the first depends upon the solution vector $x$, the second does not. We only have control over the first term. To minimize the total error we must drive the first term to zero. Then the total error will be given by the residual error\index{least squares!residual error!\ns\ terms} term.
+There are now two terms; the first depends upon the solution vector $x$, the second does not. We have control only over the first term. To minimize the total error we must drive the first term to zero. Then the total error will be given by the residual error\index{least squares!residual error!\ns\ terms} term.
 The error term that is controlled by the solution vector $x$ is this
 \begin{equation}
   \ess{} \bvr{*} x - \bur{*} b .
@@ -269,7 +269,7 @@ The error that can be controlled is forced to 0; but this leaves an error which 
   \end{equation*}
 The usually silent \ns \ term can be heard as it pronounces the value of the total error.
 
-To recap, the \asvd \ leads immediately to the pseudoinverse solution and residual error.
+And so we see the \asvd \ leads immediately to the pseudoinverse solution for the least squares problem and the residual error.
 
 \subsubsection{In retrospect}  %  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS  SSS
 We can reimagine the least squares problem as the challenge of resolving the data vector into range and null space components:

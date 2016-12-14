@@ -14,8 +14,8 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces The point on the line closest to the origin.}}{26}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces The least squares solution for \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 3.2\hbox {}\unskip \@@italiccorr )}} resolved into range space (blue) and null space components (red).}}{27}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces A contour plot of the merit function showing the particular solution (blue dot) and homogeneous solution (red dashes).}}{28}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Parallel lines and the least squares solution.}}{30}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Trajectory of the solution point $p(m)$ in \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 3.8\hbox {}\unskip \@@italiccorr )}} for $-\infty < m < \infty $.}}{33}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Parallel lines and the least squares solution.}}{31}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Trajectory of the solution point $p(m)$ in \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces 3.9\hbox {}\unskip \@@italiccorr )}} for $-\infty < m < \infty $.}}{33}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Measuring the temperature of a bar.}}{42}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Solution plotted against data with residual errors shown in red.}}{49}
