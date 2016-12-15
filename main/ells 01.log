@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 DEC 2016 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 DEC 2016 19:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1376,10 +1376,10 @@ Chapter 3.
 File: ../pdf/tricks/one_line/"line- y = mx + b".pdf Graphic file (type pdf)
 <use ../pdf/tricks/one_line/"line- y = mx + b".pdf>
 Package pdftex.def Info: ../pdf/tricks/one_line/"line- y = mx + b".pdf used on 
-input line 44.
+input line 43.
 (pdftex.def)             Requested size: 252.94327pt x 149.6581pt.
  [23]
-Overfull \hbox (3.3436pt too wide) in paragraph at lines 94--112
+Overfull \hbox (3.3436pt too wide) in paragraph at lines 93--111
  [] 
  []
 
@@ -1390,21 +1390,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: ../pdf/tricks/one_line/fan.pdf Graphic file (type pdf)
 
 <use ../pdf/tricks/one_line/fan.pdf>
-Package pdftex.def Info: ../pdf/tricks/one_line/fan.pdf used on input line 119.
+Package pdftex.def Info: ../pdf/tricks/one_line/fan.pdf used on input line 118.
 
 (pdftex.def)             Requested size: 252.94327pt x 162.30525pt.
-
-<../pdf/tricks/one_line/"line- circle, dot line, bracket".pdf, id=191, 361.35pt
+ [24 <../pdf/tricks/one_line/line- y = mx + b.pdf>]
+<../pdf/tricks/one_line/"line- circle, dot line, bracket".pdf, id=208, 361.35pt
  x 213.79875pt>
 File: ../pdf/tricks/one_line/"line- circle, dot line, bracket".pdf Graphic file
  (type pdf)
 
 <use ../pdf/tricks/one_line/"line- circle, dot line, bracket".pdf>
 Package pdftex.def Info: ../pdf/tricks/one_line/"line- circle, dot line, bracke
-t".pdf used on input line 135.
+t".pdf used on input line 137.
 (pdftex.def)             Requested size: 252.94327pt x 149.6581pt.
- [24 <../pdf/tricks/one_line/line- y = mx + b.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Underfull \vbox (badness 2635) has occurred while \output is active []
 
  [25 <../pdf/tricks/one_line/fan.pdf>]
 <../pdf/tricks/one_line/"line- blue dot, red line".pdf, id=226, 361.35pt x 213.
@@ -1413,117 +1413,113 @@ File: ../pdf/tricks/one_line/"line- blue dot, red line".pdf Graphic file (type
 pdf)
  <use ../pdf/tricks/one_line/"line- blue dot, red line".pdf>
 Package pdftex.def Info: ../pdf/tricks/one_line/"line- blue dot, red line".pdf 
-used on input line 188.
+used on input line 192.
 (pdftex.def)             Requested size: 252.94327pt x 149.6581pt.
 
-Overfull \hbox (24.87868pt too wide) in paragraph at lines 209--224
+Overfull \hbox (24.87868pt too wide) in paragraph at lines 213--228
  [] 
  []
 
-<../pdf/tricks/one_line/"one line merit".pdf, id=227, 361.35pt x 191.71625pt>
+[26 <../pdf/tricks/one_line/line- circle, dot line, bracket.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27 <../pdf/tricks/one_line/line- blue dot, red line.pdf>]
+<../pdf/tricks/one_line/"one line merit".pdf, id=261, 361.35pt x 200.75pt>
 File: ../pdf/tricks/one_line/"one line merit".pdf Graphic file (type pdf)
 
 <use ../pdf/tricks/one_line/"one line merit".pdf>
 Package pdftex.def Info: ../pdf/tricks/one_line/"one line merit".pdf used on in
-put line 234.
-(pdftex.def)             Requested size: 252.94327pt x 134.20045pt.
- [26 <../pdf/tricks/one_line/line- circle, dot line, bracket.pdf>]
-Underfull \vbox (badness 2181) has occurred while \output is active []
-
- [27 <../pdf/tricks/one_line/line- blue dot, red line.pdf>]
+put line 238.
+(pdftex.def)             Requested size: 252.94327pt x 140.52403pt.
 Missing character: There is no Ê in font cmr10!
- [28 <../pdf/tricks/one_line/one line merit.pdf>]
-
-LaTeX Warning: Citation `Laub' on page 29 undefined on input line 321.
-
-[29] [30]
+ [28 <../pdf/tricks/one_line/one line merit.pdf>] [29] [30]
 <../pdf/"tricks"/two_lines/"parallel point".pdf, id=287, 361.35pt x 312.16624pt
 >
 File: ../pdf/"tricks"/two_lines/"parallel point".pdf Graphic file (type pdf)
  <use ../pdf/"tricks"/two_lines/"parallel point".pdf>
 Package pdftex.def Info: ../pdf/"tricks"/two_lines/"parallel point".pdf used on
- input line 462.
+ input line 485.
 (pdftex.def)             Requested size: 216.81pt x 187.3012pt.
- [31 <../pdf/tricks/two_lines/parallel point.pdf>] [32]
-<../pdf/tricks/three_lines/"three lines m = 0".pdf, id=308, 361.35pt x 195.7312
+ [31] [32 <../pdf/tricks/two_lines/parallel point.pdf>] [33]
+<../pdf/tricks/three_lines/"three lines m = 0".pdf, id=311, 361.35pt x 195.7312
 5pt>
 File: ../pdf/tricks/three_lines/"three lines m = 0".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 0".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 0".pdf used
- on input line 630.
+ on input line 670.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
-<../pdf/tricks/three_lines/"three lines m = 1".pdf, id=309, 361.35pt x 195.7312
+<../pdf/tricks/three_lines/"three lines m = 1".pdf, id=312, 361.35pt x 195.7312
 5pt>
 File: ../pdf/tricks/three_lines/"three lines m = 1".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 1".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 1".pdf used
- on input line 633.
+ on input line 673.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
-<../pdf/tricks/three_lines/"three lines m = 5".pdf, id=310, 361.35pt x 195.7312
+<../pdf/tricks/three_lines/"three lines m = 5".pdf, id=313, 361.35pt x 195.7312
 5pt>
 File: ../pdf/tricks/three_lines/"three lines m = 5".pdf Graphic file (type pdf)
 
  <use ../pdf/tricks/three_lines/"three lines m = 5".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = 5".pdf used
- on input line 636.
+ on input line 676.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
-<../pdf/tricks/three_lines/"three lines m = inf".pdf, id=311, 361.35pt x 195.73
+<../pdf/tricks/three_lines/"three lines m = inf".pdf, id=314, 361.35pt x 195.73
 125pt>
 File: ../pdf/tricks/three_lines/"three lines m = inf".pdf Graphic file (type pd
 f)
  <use ../pdf/tricks/three_lines/"three lines m = inf".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines m = inf".pdf us
-ed on input line 639.
+ed on input line 679.
 (pdftex.def)             Requested size: 180.67499pt x 97.86537pt.
 
-<../pdf/tricks/three_lines/"merit function m = 0".pdf, id=312, 361.35pt x 185.6
+<../pdf/tricks/three_lines/"merit function m = 0".pdf, id=315, 361.35pt x 185.6
 9376pt>
 File: ../pdf/tricks/three_lines/"merit function m = 0".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 0".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 0".pdf u
-sed on input line 654.
+sed on input line 694.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
-<../pdf/tricks/three_lines/"merit function m = 1".pdf, id=313, 361.35pt x 185.6
+<../pdf/tricks/three_lines/"merit function m = 1".pdf, id=316, 361.35pt x 185.6
 9376pt>
 File: ../pdf/tricks/three_lines/"merit function m = 1".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 1".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 1".pdf u
-sed on input line 657.
+sed on input line 697.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
-<../pdf/tricks/three_lines/"merit function m = 5".pdf, id=314, 361.35pt x 185.6
+<../pdf/tricks/three_lines/"merit function m = 5".pdf, id=317, 361.35pt x 185.6
 9376pt>
 File: ../pdf/tricks/three_lines/"merit function m = 5".pdf Graphic file (type p
 df)
  <use ../pdf/tricks/three_lines/"merit function m = 5".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = 5".pdf u
-sed on input line 660.
+sed on input line 700.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
-<../pdf/tricks/three_lines/"merit function m = inf".pdf, id=315, 361.35pt x 185
+<../pdf/tricks/three_lines/"merit function m = inf".pdf, id=318, 361.35pt x 185
 .69376pt>
 File: ../pdf/tricks/three_lines/"merit function m = inf".pdf Graphic file (type
  pdf)
  <use ../pdf/tricks/three_lines/"merit function m = inf".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"merit function m = inf".pdf
- used on input line 663.
+ used on input line 703.
 (pdftex.def)             Requested size: 180.67499pt x 92.84665pt.
 
-<../pdf/tricks/three_lines/"three lines oval".pdf, id=316, 361.35pt x 216.81pt>
+<../pdf/tricks/three_lines/"three lines oval".pdf, id=319, 361.35pt x 216.81pt>
 File: ../pdf/tricks/three_lines/"three lines oval".pdf Graphic file (type pdf)
 <use ../pdf/tricks/three_lines/"three lines oval".pdf>
 Package pdftex.def Info: ../pdf/tricks/three_lines/"three lines oval".pdf used 
-on input line 718.
+on input line 758.
 (pdftex.def)             Requested size: 252.94327pt x 151.76596pt.
-) [33 <../pdf/tricks/three_lines/three lines oval.pdf>] [34 <../pdf/tricks/thre
+) [34 <../pdf/tricks/three_lines/three lines oval.pdf>] [35 <../pdf/tricks/thre
 e_lines/three lines m = 0.pdf> <../pdf/tricks/three_lines/three lines m = 1.pdf
 
 
@@ -1540,7 +1536,7 @@ a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/tricks/three_lines/th
 ree lines m = inf.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
->] [35 <../pdf/tricks/three_lines/merit function m = 0.pdf> <../pdf/tricks/thre
+>] [36 <../pdf/tricks/three_lines/merit function m = 0.pdf> <../pdf/tricks/thre
 e_lines/merit function m = 1.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/tricks/three_lines/me
@@ -1556,9 +1552,9 @@ in a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../pdf/tricks/three_lines/me
 rit function m = inf.pdf): PDF inclusion: multiple pdfs with page group include
 d in a single page
->] [36
+>] [37
 
-] [37] [38] (../parts/archetypes/ch modal calculus.tex [39] [40
+] [38] (../parts/archetypes/ch modal calculus.tex [39] [40
 
 ]
 Chapter 4.
@@ -2883,8 +2879,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  26015 strings out of 493014
- 530637 string characters out of 6133351
- 550690 words of memory out of 5000000
+ 530644 string characters out of 6133351
+ 550700 words of memory out of 5000000
  28884 multiletter control sequences out of 15000+600000
  27919 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2918,7 +2914,7 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on "ells 01.pdf" (168 pages, 4028155 bytes).
+Output written on "ells 01.pdf" (168 pages, 4005560 bytes).
 PDF statistics:
  2130 PDF objects out of 2487 (max. 8388607)
  1431 compressed objects within 15 object streams

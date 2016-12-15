@@ -13,20 +13,19 @@ The focus on this chapter is to start with a set of parameters $\paren{a_{0},a_{
 
 \begin{table}[htbp]  % + + + + T A B L E
     \caption{Given the parameters for a line find the solution locus.}
-    \begin{center}
-        \begin{tabular}{lcl}
+    		\begin{center}
+        	\begin{tabular}{lcl}
             %
             input & $\rightarrow$ & output \\\hline
             %
             parameters $a_{0}$, $a_{1}$ && set $(x, y)$\\
-      		%
-			intercept, slope && least squares solution
+      			%
+						(intercept, slope) && (least squares solution)	
             %
-        \end{tabular}
-    \end{center}
+        	\end{tabular}
+    		\end{center}
     %\label{default}
 \end{table}%
-
 
 \section{A Single Line}  %    S    S    S    S    S    S    S    S    S
 
@@ -127,8 +126,11 @@ Which point on the line is closet to the origin? One way to solve for this is us
 \end{figure}
 
 \subsection{Geometric Solution}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
-Every point on the line \eqref{eq:myline} is a point of 0 residual, therefore every point on the line is a solution point. Figure \ref{fig:one line fan} shows a sampling of points on the line. The critical insight is that each of the arrows represents a solution vector. The particular solution, the least squares solution, is the vector of minimum length. By the orthogonal projection theorem, the orthogonal projection of the origin onto the line is the point on the line closest to the origin.
+Every point on the line \eqref{eq:myline} is a point of 0 residual, therefore every point on the line is a solution point. How does the method of least squares select a special point as the solution?
 
+Figure \ref{fig:one line fan} shows a sampling of points on the line. The critical insight is that each of the arrows represents a solution vector. The particular solution, the least squares solution, is the vector of \emph{minimum length}. By the orthogonal projection theorem, the point on the line closest to the origin is the orthogonal projection of the line onto the origin. Center a circle at the origin and increase the radius until the curve first touches the line at one point. We now have an osculating circle which kisses the line at the point closest to the origin.
+
+Figure \ref{fig:one line osculate} shows the osculating circle and the full solution to the least squares problem. The particular solution is the blue dot; the homogenous solution the red, dashed line. The solution vector, in black, is orthogonal to the solution line.
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
    \begin{overpic}[ scale = \myscale ]
@@ -142,12 +144,14 @@ Every point on the line \eqref{eq:myline} is a point of 0 residual, therefore ev
    \label{fig:one line osculate}
 \end{figure}
 
-The intersection of the two lines is where the osculating circle, centered at the origin,  kisses the line, as seen in figure \ref{eq:one line osculating}. Find the intersection of the thick line and the perpendicular line requires solving 
+Solving for the blue dot is an exercise in algebra. Let $y\perp$ be the line containing the origin and the solution point, and let $y(x)$ be the solution in \eqref{eq:myline}. The intersection point solves the equation
 % = =  e q u a t i o n
   \begin{equation}
      \begin{split}
        %
          y_{\perp} &= y(x) \\
+       %
+        &\Downarrow \\
        %
          -\frac{1}{a_{1}} x &= a_{0} + a_{1}x.
        %
@@ -159,7 +163,7 @@ The intersection of the two lines is where the osculating circle, centered at th
 We now have the particular solution for the least squares problem:
   \begin{equation*}   %  =   =   =   =   =
    %\begin{split}
-      \bl{\mat{c}{x\\y}_{LS}} = \frac{a_{0}} {1 + a_{1}^{2}} \bl{\mat{c}{-a_{1}\\1}}
+      \bl{\mat{c}{x\\y}_{p}} = \frac{a_{0}} {1 + a_{1}^{2}} \bl{\mat{c}{-a_{1}\\1}}
    %\end{split}
    %\label{eq:}
   \end{equation*}
@@ -187,10 +191,10 @@ The range space decomposition for the solution is displayed in figure \ref{fig:o
    \begin{overpic}[ scale = \myscale ]
 	   {\pathgraphics tricks/one_line/"line- blue dot, red line"}
         %
-        \put(17,42) {\rd{$x_{homog}$}}
+        \put(21,42) {\rd{$x_{h}$}}
         \put(27,48) {\rd{$\pna z$}}
         %
-        \put(50,25) {\colorbox{white}{\bl{$x_{part}$}}}
+        \put(55,25) {\colorbox{white}{\bl{$x_{p}$}}}
         \put(61,31) {\bl{$\Ap a_{0}$}}
         %
     	\put(50,-3) {$x$}
@@ -233,7 +237,7 @@ It's powerful to see the actual minimization that least squares delivers. To do 
    \begin{overpic}[ scale = \myscale ]
 	   {\pathgraphics tricks/one_line/"one line merit"}
 	    %
-	    \put(25,55) {$M(a_{0},a_{1}) = \paren{y - a_{0} - a_{1}x}^{2}$}
+	    \put(25,58) {$M(a_{0},a_{1}) = \paren{y - a_{0} - a_{1}x}^{2}$}
         %
     	\put(50,-3) {$x$}
     	\put(-4,27) {$y$}
@@ -243,7 +247,7 @@ It's powerful to see the actual minimization that least squares delivers. To do 
    \label{fig:one lines merit}
 \end{figure}
 
-The minimum value of 0 is attained along a line, not a point. This red, dashed line represents the null space component, the homogenous solution. The blue dot represents the range space component, the particular solution. 
+The minimum value of 0 is attained along a line, not just at a point. This red, dashed line represents the null space component, the homogenous solution. The blue dot represents the range space component, the particular solution. 
 
 \subsection{SVD}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
 We can construct the \asvd \ by inspection. Due to the simplicity of this problem, the domain matrices can be constructed in any order.
@@ -318,7 +322,7 @@ The pseudoinverse matrix is
    %\end{split}
    %\label{eq:}
   \end{equation*}
-Thus, we have computed the pseudoinverse for a vector, in agreement with Laub's results \cite{Laub}[]. Given a vector $w\icm$:
+Thus, we have computed the pseudoinverse for a vector, in agreement with Laub's results \cite{Laub2005}[]. Given a vector $w\icm$:
   \begin{equation}   %  =   =   =   =   =
   %\begin{split}
     w^{\sym} = \frac{w^{*}} {\norm{w}}
@@ -327,17 +331,45 @@ Thus, we have computed the pseudoinverse for a vector, in agreement with Laub's 
   \end{equation}
 
 \subsubsection{Solve the least squares problem}  %   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS   SSS
-Using this pseudoinverse to find the particular solution for the least squares problem leaves
+Using this pseudoinverse to find the particular solution $\bl{x_{p}}$ for the least squares problem leaves
   \begin{equation}   %  =   =   =   =   =
-      \bl{x_{LS}} = \bl{\A{\dagger} a_{0}} = \frac{a_{0}}{\onelen} \bl{\mat{c}{-a_{1} \\ 1}},
+      \bl{x_{p}} = \bl{\A{\dagger} a_{0}} = \frac{a_{0}}{\onelen} \bl{\mat{c}{-a_{1} \\ 1}},
    \label{eq:one line soln}
   \end{equation}
-in agreement with \eqref{eq:one line full soln}.
+in agreement with \eqref{eq:one line full soln}. The full least squares solution includes the null space term for the homogenous solution $\rd{x_{h}}$:
+  \begin{equation}   %  =   =   =   =   =
+   \begin{array}{ccccccl}
+     x_{LS} 
+     	 &=& \frac{a_{0}}{\onelen} & \bl{\mat{c}{-a_{1} \\ 1}} & + & \alpha \rd{\mat{c}{1 \\ a_{1}}}, & \alpha \ic \\
+     	 &=& &\bl{x_{p}} & + & \rd{x_{h}}
+    %\label{eq:}
+   \end{array}
+  \end{equation}
 
 \section{Two Lines}  %    S    S    S    S    S    S    S    S    S
+The game is a bit more interesting when we consider two lines; there is now the classic $\paren{0,1,\infty}$ hierarchy of solutions:
+  \begin{table}[htbp]  %  T A B L E
+    \caption{Existence and uniqueness with two lines.}
+    \begin{center}
+      \begin{tabular}{clcc}
+        %
+        number of solutions & placement of lines & existence & uniqueness \\\hline
+        %
+        0 & parallel, not coincident  & no & yes \\
+        %
+        1 & crossing & yes & yes \\
+        %
+        $\infty$ & coincident & yes & no
+        %
+      \end{tabular}
+    \end{center}
+  %\label{tab:?}
+  \end{table}%
+
+The exploration begins with the simplest case: intersecting lines.
 
 \subsection{Crossing Lines}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
-
+Our first exposure to the algebra of linear systems involves simultaneous ratification of two criteria. These criteria are expressed as two lines,
   \begin{equation*}   %  =   =   =   =   =
     \begin{split}
       y_{1} &= m_{1}x + b_{1} \\
@@ -345,100 +377,91 @@ in agreement with \eqref{eq:one line full soln}.
     %\label{eq:}
     \end{split}
   \end{equation*}
+and the demand is both be true simultaneously.
 
+Elementary means produces the solution
+  \begin{equation}   %  =   =   =   =   =
+  %\begin{split}
+    x_{p} = \frac{b_{2} - b_{1}} {m_{1} - m_{2}}.
+    \label{eq:crossing}
+  %\end{split}
+  \end{equation}
+The denominator signals distress when the lines are parallel, that is when $m_{1} = m_{2}$. What happens when the difference in the slope of the lines is small?
+
+\subsubsection{Troubling Sequences}  %    SSS    SSS    SSS    SSS    SSS    SSS    SSS    SSS    SSS
+Let $k\in\mathbb{N}$ and add a perturbation by letting $m_{2} = m_{1} + 2^{-k}$? This is the case where $m_{2}$ approaches $m_{1}$ from above. What happens in the limit $k\to \infty?$
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
-    \mat{rc}{-m_{1} & 1 \\ -m_{2} & 1} \mat{c}{x\\y} = \mat{c}{b_{1} \\ b_{2}}
+    \lim_{m_{2}\to m_{1}^{+}} x_{p} = \frac{b_{2} - b_{1}} {2^{-k}} \to \infty
     %\label{eq:}
   %\end{split}
   \end{equation*}
-
+But what happens when $m_{2}$ approaches $m_{1}$ from below? 
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
-    m_{1} x + b_{1} = m_{2} x + b_{2}
-    %\label{eq:}
-  %\end{split}
-  \end{equation*}
-
-  \begin{equation*}   %  =   =   =   =   =
-  %\begin{split}
-    x = \frac{b_{2} - b_{1}} {m_{1} - m_{2}}
-    %\label{eq:}
-  %\end{split}
-  \end{equation*}
-
-\subsubsection{A Troubling Sequence}  %    SSS    SSS    SSS    SSS    SSS    SSS    SSS    SSS    SSS
-
-  \begin{equation*}   %  =   =   =   =   =
-  %\begin{split}
-    \lim_{m_{2}\to m_{1}^{+}} x_{*} \to \infty
-    %\label{eq:}
-  %\end{split}
-  \end{equation*}
-
-  \begin{equation*}   %  =   =   =   =   =
-  %\begin{split}
-    \lim_{m_{2}\to m_{1}^{-}} x_{*} \to -\infty
-    %\label{eq:}
-  %\end{split}
-  \end{equation*}
-
-\subsection{Overlapping Lines}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
-
-  \begin{equation*}   %  =   =   =   =   =
-    \begin{split}
-      y_{1} &= mx + b \\
-      y_{2} &= mx + b
-    %\label{eq:}
-    \end{split}
-  \end{equation*}
-
-  \begin{equation*}   %  =   =   =   =   =
-  %\begin{split}
-    \mat{rc}{-m & 1 \\ -m & 1} \mat{c}{x\\y} = \mat{c}{b \\ b}
-    %\label{eq:}
-  %\end{split}
-  \end{equation*}
-
-\subsection{Parallel Lines}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
-
-  \begin{equation*}   %  =   =   =   =   =
-    \begin{split}
-      y_{1} &= mx + b_{1} \\
-      y_{2} &= mx + b_{2}
-    %\label{eq:}
-    \end{split}
-  \end{equation*}
-
-  \begin{equation*}   %  =   =   =   =   =
-  %\begin{split}
-    \mat{rc}{-m & 1 \\ -m & 1} \mat{c}{x\\y} = \mat{c}{b_{1} \\ b_{2}}
+    \lim_{m_{2}\to m_{1}^{-}} x_{p} = \frac{b_{2} - b_{1}} {-2^{-k}}  \to -\infty
     %\label{eq:}
   %\end{split}
   \end{equation*}
   
-  Sequence of lines
+These machinations demonstrate that \eqref{eq:crossing} is not suitable for computing a solution when the lines are parallel. The method of least squares provides a solution.
+
+\subsection{Parallel Lines}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
+For parallel lines there is but a single slope parameter $m$:
+  \begin{equation*}   %  =   =   =   =   =
+    \begin{split}
+      y_{1} &= mx + b_{1} \\
+      y_{2} &= mx + b_{2},
+    %\label{eq:}
+    \end{split}
+  \end{equation*}
+which is equivalent to the following linear system:
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
-    y_{k_{\pm}} = \paren{m + \pm 2^{-k}}x + b_{2}
+    \mat{rc}{-m & 1 \\ -m & 1} \mat{c}{x\\y} = \mat{c}{b_{1} \\ b_{2}}.
     %\label{eq:}
   %\end{split}
   \end{equation*}
-
+The task is to compute the \asvd \ of the matrix.
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
-    x_{*} = \frac{b_{2} - b_{1}} {2^{-k}}
+    \A{} = \mat{rc}{-m & 1 \\ -m & 1}
     %\label{eq:}
   %\end{split}
   \end{equation*}
-
+%
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
-    \lim_{k\to\infty} y_{k_{+}} \to \infty
+    \A{*}\A{} = 2 \mat{rr}{m^{2} & -m \\ -m & 1}
     %\label{eq:}
   %\end{split}
   \end{equation*}
-
+%
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    \lambda \paren{\A{*}\A{}} = \paren{2\paren{1+m^{2}},0}
+    %\label{eq:}
+  %\end{split}
+  \end{equation*}
+%
+%
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+  	\sigma = \paren{\sqrt{2\paren{1+m^{2}}}}
+      %\label{eq:}
+  %\end{split}
+  \end{equation*}
+The \asvd \ is
+%
+  \begin{equation*}   %  =   =   =   =   =
+    \begin{array}{ccccc}
+      \A{} & = & \U{} & \Sigma & \V{*} \\
+        & = & \frac{1} {\sqrt{2}} \mat{cr}{1 & -1 \\ 1 & 1} 
+            & \mat{cc}{\sqrt{2(1 + m^{2})} & 0}
+            & \frac{1} {\sqrt{1 + m^{2}}} \mat{rc}{-m & 1 \\ 1 & m}
+    %\label{eq:}
+    \end{array}
+  \end{equation*}
 Where Do Parallel Lines Cross? The provocative question which opens this section has an obvious answer in Euclidean space. There is no such point; parallel lines never cross. Yet, if we input these lines as a linear system, we compute a least squares solution. What is the significance of the least squares solution?
 
 Consider this tantalizing example. The two lines,
@@ -478,6 +501,23 @@ What is so special about this point?
       \mat{rr}{0 & 1 \\ -1 & 1 }\mat{c}{x\\y} = \mat{c}{1\\0}
    %\end{split}
    %\label{eq:}
+  \end{equation*}
+
+\subsection{Overlapping Lines}  %    SS    SS    SS    SS    SS    SS    SS    SS    SS
+
+  \begin{equation*}   %  =   =   =   =   =
+    \begin{split}
+      y_{1} &= mx + b \\
+      y_{2} &= mx + b
+    %\label{eq:}
+    \end{split}
+  \end{equation*}
+
+  \begin{equation*}   %  =   =   =   =   =
+  %\begin{split}
+    \mat{rc}{-m & 1 \\ -m & 1} \mat{c}{x\\y} = \mat{c}{b \\ b}
+    %\label{eq:}
+  %\end{split}
   \end{equation*}
 
 
