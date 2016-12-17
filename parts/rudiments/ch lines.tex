@@ -19,8 +19,8 @@ The focus on this chapter is to start with a set of parameters $\paren{a_{0},a_{
             input & $\rightarrow$ & output \\\hline
             %
             parameters $a_{0}$, $a_{1}$ && set $(x, y)$\\
-      			%
-						(intercept, slope) && (least squares solution)	
+      	   %
+	(intercept, slope) && (least squares solution)	
             %
         	\end{tabular}
     		\end{center}
@@ -351,15 +351,15 @@ The game is a bit more interesting when we consider two lines; there is now the 
   \begin{table}[htbp]  %  T A B L E
     \caption{Existence and uniqueness with two lines.}
     \begin{center}
-      \begin{tabular}{clcc}
+      \begin{tabular}{clccc}
         %
-        number of solutions & placement of lines & existence & uniqueness \\\hline
+        number of solutions & placement of lines & solution & existence & uniqueness \\\hline
         %
-        0 & parallel, not coincident  & no & yes \\
+        0 & parallel, not coincident  & $\nexists$ & no \\
         %
-        1 & crossing & yes & yes \\
+        1 & crossing  & $\exists!$ & yes & yes \\
         %
-        $\infty$ & coincident & yes & no
+        $\infty$ & coincident  & $\exists$ & yes & no
         %
       \end{tabular}
     \end{center}
@@ -416,12 +416,12 @@ For parallel lines there is but a single slope parameter $m$:
     \end{split}
   \end{equation*}
 which is equivalent to the following linear system:
-  \begin{equation*}   %  =   =   =   =   =
+  \begin{equation}   %  =   =   =   =   =
   %\begin{split}
     \mat{rc}{-m & 1 \\ -m & 1} \mat{c}{x\\y} = \mat{c}{b_{1} \\ b_{2}}.
-    %\label{eq:}
+    \label{eq:parallel lines}
   %\end{split}
-  \end{equation*}
+  \end{equation}
 The task is to compute the \asvd \ of the matrix.
   \begin{equation*}   %  =   =   =   =   =
   %\begin{split}
