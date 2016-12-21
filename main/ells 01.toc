@@ -32,9 +32,9 @@
 \contentsline {subsection}{\numberline {2.3.2}Fundamental Projectors}{18}
 \contentsline {section}{\numberline {2.4}Least Squares Solution - Again}{19}
 \contentsline {section}{\numberline {2.5}Reflection Invariance}{20}
-\contentsline {part}{\hbox to 20pt{II}Eseential Examples}{23}
+\contentsline {part}{\hbox to 20pt{II}Essential Examples}{23}
 \contentsline {chapter}{\numberline {3}The Mean}{25}
-\contentsline {section}{\numberline {3.1}A Single Line}{25}
+\contentsline {section}{\numberline {3.1}Linear System}{25}
 \contentsline {section}{\numberline {3.2}Data}{25}
 \contentsline {section}{\numberline {3.3}Solution Methods}{25}
 \contentsline {subsection}{\numberline {3.3.1}Solution via Linear Algebra}{25}
@@ -74,12 +74,13 @@
 \contentsline {subsection}{\numberline {5.4.2}Seeing the Uncertainty}{55}
 \contentsline {subsection}{\numberline {5.4.3}Digging Deeper}{56}
 \contentsline {chapter}{\numberline {6}Solution via SVD}{61}
-\contentsline {section}{\numberline {6.1}Computing the SVD}{61}
-\contentsline {subsection}{\numberline {6.1.1}Singular values}{62}
-\contentsline {subsection}{\numberline {6.1.2}Matrix for the domain}{62}
-\contentsline {subsection}{\numberline {6.1.3}Matrix for the codomain}{63}
-\contentsline {subsection}{\numberline {6.1.4}Error terms}{64}
-\contentsline {section}{\numberline {6.2}Visualization}{65}
+\contentsline {section}{\numberline {6.1}Matrix Formulation}{61}
+\contentsline {section}{\numberline {6.2}Computing the SVD}{61}
+\contentsline {subsection}{\numberline {6.2.1}Singular values}{62}
+\contentsline {subsection}{\numberline {6.2.2}Matrix for the domain}{63}
+\contentsline {subsection}{\numberline {6.2.3}Matrix for the codomain}{64}
+\contentsline {subsection}{\numberline {6.2.4}Error terms}{65}
+\contentsline {section}{\numberline {6.3}Visualization}{65}
 \contentsline {chapter}{\numberline {7}Solution Via Other Methods}{73}
 \contentsline {section}{\numberline {7.1}Normal Equations from Vectors}{73}
 \contentsline {subsection}{\numberline {7.1.1}Composing the normal equations}{74}

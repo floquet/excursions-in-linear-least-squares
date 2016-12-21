@@ -9,6 +9,7 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Data vector resolved as $b + {\color {red} {b_{ \mathcal {N} }}} = {\color {blue} {b_{ \mathcal {R} }}}$.}}{20}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Reflecting the data points through the solution curve.}}{21}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces default}}{26}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces A sample line.}}{28}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Every point on the line satisfies the least squares criterion; the particular solution is the vector of minimum length.}}{29}
@@ -31,7 +32,7 @@
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Measurement space for the Bevington example}}{68}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Minimization occurs in the codomain.}}{69}
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Data vector $T = {{\color {blue} {T_{ \mathcal {R} }}}} + {{\color {red} {T_{ \mathcal {N} }}}}$ resolved into range and null space components as in figure 2.3\hbox {}.}}{69}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Decomposing $\left \delimiter 69645069 {\color {red} {r}} = {\color {red} {T_{ \mathcal {N} }}} \right \delimiter 86422285 _{2}^{2}$ into residual error terms $r_{k}^2$ of table 6.3\hbox {}.}}{69}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Decomposing $\left \delimiter 69645069 {\color {red} {r}} = {\color {red} {T_{ \mathcal {N} }}} \right \delimiter 86422285 _{2}^{2}$ into residual error terms $r_{k}^2$ of table 6.3\hbox {}.}}{71}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces Solution after translation along $x$ axis: the slope is invariant.}}{81}

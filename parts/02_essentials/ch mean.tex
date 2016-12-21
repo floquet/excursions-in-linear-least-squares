@@ -2,9 +2,15 @@
 
 The simplest example for least squares, the mean.
 
-\section{A Single Line}  %    S    S    S    S    S    S    S    S    S
+\section{Linear System}  %    S    S    S    S    S    S    S    S    S
 Given a sequence of numbers $\lst{x_{k}}_{k=1}^{m}$, which number $\mu$ best characterizes the sequence?
-
+  \begin{equation*}   %  =   =   =   =   =
+     \begin{array}{cccc}
+         \A{} & \mu & = & T \\
+         \ones{} & \mu & = & \Tbev
+    %\label{eq:}
+    \end{array}
+  \end{equation*}
 \section{Data}  %    SS   SS   SS   SS   SS   SS   SS   SS   SS
 
 \section{Solution Methods}  %    SS   SS   SS   SS   SS   SS   SS   SS   SS
@@ -16,10 +22,16 @@ Given a sequence of numbers $\lst{x_{k}}_{k=1}^{m}$, which number $\mu$ best cha
     M(\mu) = \sum_{k}^{m} \paren{ x_{k} - \mu }^2
 \end{equation}
 %
-
+Shorthand
+  \begin{equation}   %  =   =   =   =   =
+  %\begin{split}
+    \pd{M(\mu)}{\mu} \equiv \partial_{\mu} M
+    %\label{eq:}
+  %\end{split}
+  \end{equation}
 %
 \begin{equation}
-    \partial M_{\mu} = 0
+    \partial_{\mu} M = 0
 \end{equation}
 %
 
@@ -33,4 +45,12 @@ Given a sequence of numbers $\lst{x_{k}}_{k=1}^{m}$, which number $\mu$ best cha
     \mu = \frac{\sum_{k=1}^{2}} {m}
 \end{equation}
 %
+\begin{figure}[htbp]
+  \begin{center}
+      \includegraphics[ width = 4in ]{\pathgraphics tricks/mean/"mean merit"}
+    \caption{default}
+    \label{default}
+  \end{center}
+\end{figure}
+
 \endinput   %   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =

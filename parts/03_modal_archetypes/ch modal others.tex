@@ -5,7 +5,7 @@ For comparison, other solution methods are applied to the Bevington data. These 
 \section{\label{sec:normal II}Normal Equations from Vectors}  %    S    S    S    S    S    S    S    S    S
 In \S \ref{sec:normal I}, the normal equations appeared from the linear system resulting from the two partial differential equations in \eqref{eq:bev pde}. Another approach starts with the linear equation $\axeb$ and uses column vectors. The data is posed in terms of the column vectors in table \ref{tab:bevington data and results}. These, plus a constant vector, are the elements of composition:
   \begin{equation*}   %  =   =   =   =   =
-    {\bf{1}} = \mat{c}{1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1}, \quad
+    {\bf{1}} = \ones, \quad
     x        = \mat{c}{1 \\ 2 \\ 3 \\ 4 \\ 5 \\ 6 \\ 7 \\ 8 \\ 9}, \quad
     T        = \frac{1}{10} \mat{c}{156 \\ 175 \\ 366 \\ 438 \\ 582 \\ 616 \\ 642 \\ 704 \\ 988}.
     %\label{eq:}
@@ -20,16 +20,17 @@ In the service of a crisp mental image, the linear system is written explicitly:
   \begin{equation}   %  =   =   =   =   =
   \begin{array}{cccc}
       \A{} & a & = & T \\
-      \mat{cc}{
-         1 & 1 \\
-         1 & 2 \\
-         1 & 3 \\
-         1 & 4 \\
-         1 & 5 \\
-         1 & 6 \\
-         1 & 7 \\
-         1 & 8 \\
-         1 & 9 } &
+      \Abev &
+%      \mat{cc}{
+%         1 & 1 \\
+%         1 & 2 \\
+%         1 & 3 \\
+%         1 & 4 \\
+%         1 & 5 \\
+%         1 & 6 \\
+%         1 & 7 \\
+%         1 & 8 \\
+%         1 & 9 } &
       \mat{c}{ a_{0} \\ a_{1} } & = &
          \frac{1}{10} \mat{c}{156 \\ 175 \\ 366 \\ 438 \\ 582 \\ 616 \\ 642 \\ 704 \\ 988} .
     \label{eq:bevington axeb}
@@ -152,7 +153,7 @@ The norm of the first column vector:
   \end{equation}
 Normalized column vector
   \begin{equation}
-        q_{1} = \frac{a_{1}} {r_{11}} = \frac{1}{3}\mat{c}{1\\1\\1\\1\\1\\1\\1\\1\\1}
+        q_{1} = \frac{a_{1}} {r_{11}} = \frac{1}{3}\ones
     %\end{split}
     %\label{eqn:}
   \end{equation}
@@ -173,7 +174,7 @@ Next scale factor in row 1:
   \begin{equation*}   %  =   =   =   =   =
     \Q{} = 
        \mat{cc}{ \frac{1}{3} 
-       \mat{c}{1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1} &  \frac{1}{2\sqrt{15}}
+       \ones &  \frac{1}{2\sqrt{15}}
        \mat{r}{ -4 \\ -3 \\ -2 \\ -1 \\ 0 \\ 1 \\ 2 \\ 3 \\ 4 } }
   \end{equation*}
   \begin{equation*}   %  =   =   =   =   =
@@ -190,7 +191,7 @@ Next scale factor in row 1:
          1 & 8 \\
          1 & 9 } & = &
        \mat{cc}{ \frac{1}{3} 
-       \mat{c}{1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1 \\ 1} &  \frac{1}{2\sqrt{15}}
+       \ones &  \frac{1}{2\sqrt{15}}
        \mat{r}{ -4 \\ -3 \\ -2 \\ -1 \\ 0 \\ 1 \\ 2 \\ 3 \\ 4 } } &
        \mat{cc}{ 3 & 15 \\ 0 & 2\sqrt{15} }         
     %\label{eq:}
